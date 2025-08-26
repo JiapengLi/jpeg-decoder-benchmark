@@ -329,7 +329,7 @@ int main(int argc, char **argv)
     printf("zjpgd %ux%u decode time: %u us, %u pixels processed\n", zjd.width, zjd.height, zjd_cost_us, (uint32_t)img.ofile.pixels);
     save_bmp("output_zjpgd.bmp", &img, zjd.width, zjd.height);
 
-    printf("\nfile %s, %u rounds, tjpgd: %u us, zjpgd: %u us\n", argv[1], rounds, tjd_cost_us, zjd_cost_us);
+    printf("\nfile %s,%u,%u,%u\n", argv[1], rounds, tjd_cost_us, zjd_cost_us);
 
     free(img.ifile.data);
     free(img.ofile.data);
