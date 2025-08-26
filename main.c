@@ -160,7 +160,7 @@ int tjd_ofunc(JDEC *tjd, void *bitmap, JRECT *rect) {
     return 1;
 }
 
-int tjd_test(JDEC *tjd, void *work, size_t worksize, image_t *img, uint32_t us)
+int tjd_test(JDEC *tjd, void *work, size_t worksize, image_t *img)
 {
     JRESULT res;
 
@@ -178,7 +178,6 @@ int tjd_test(JDEC *tjd, void *work, size_t worksize, image_t *img, uint32_t us)
         free(img->ofile.data);
         return 1;
     }
-    // printf("tjpgd %ux%u decode time: %u us, %u pixels processed\n", tjd->width, tjd->height, micros() - us, (uint32_t)img->ofile.pixels);
 
     return 0;
 }
@@ -225,6 +224,34 @@ int zjd_ofunc(zjd_t *zjd, zjd_rect_t *rect, void *pixels)
     return 1;
 }
 
+int zjd_test(zjd_t *zjd, void *work, size_t worksize, image_t *img)
+{
+    zjd_res_t res;
+
+    res = zjd_init(zjd, &(zjd_cfg_t){
+        .ifunc = zjd_ifunc,
+        .ofunc = zjd_ofunc,
+        .buf = work,
+        .buflen = worksize,
+        .arg = (void *)img
+    }, ZJD_RGB888);
+    if (res != ZJD_OK) {
+        printf("Failed to initialize zjpgd %d\n", res);
+        free(img->ifile.data);
+        free(img->ofile.data);
+        return 1;
+    }
+    res = zjd_scan(zjd, NULL, NULL);
+    if (res != ZJD_OK) {
+        printf("Failed to decode JPEG image %d\n", res);
+        free(img->ifile.data);
+        free(img->ofile.data);
+        return 1;
+    }
+
+    return 0;
+}
+
 uint32_t micros() {
     struct timespec ts;
     clock_gettime(CLOCK_REALTIME, &ts);  // or CLOCK_MONOTONIC for relative time
@@ -234,16 +261,18 @@ uint32_t micros() {
 int main(int argc, char **argv)
 {
     image_t img;
-    int ret;
+    int ret, i, rounds;
     uint32_t us;
 
     uint8_t work[4096];
 
     JDEC tjd;
     JRESULT tjd_res;
+    uint32_t tjd_cost_us;
 
     zjd_t zjd;
     zjd_res_t zjd_res;
+    uint32_t zjd_cost_us;
 
     if (argc < 2) {
         printf("Usage: %s <jpg_file>\n", argv[0]);
@@ -256,61 +285,54 @@ int main(int argc, char **argv)
         return 1;
     }
 
-    us = micros();
-    tjd_res = jd_prepare(&tjd, tjd_ifunc, work, sizeof(work), &img);
-    if (tjd_res != JDR_OK) {
-        printf("Failed to prepare JPEG decoder %u\n", tjd_res);
-        free(img.ifile.data);
-        free(img.ofile.data);
-        return 1;
+    if (argc > 2) {
+        rounds = atoi(argv[2]);
+        if (rounds < 1) rounds = 1;
+    } else {
+        rounds = 100;
     }
-    tjd_res = jd_decomp(&tjd, tjd_ofunc, 0);
-    if (tjd_res != JDR_OK) {
-        printf("Failed to decode JPEG image %u\n", tjd_res);
-        free(img.ifile.data);
-        free(img.ofile.data);
-        return 1;
-    }
-    printf("tjpgd %ux%u decode time: %u us, %u pixels processed\n", tjd.width, tjd.height, micros() - us, (uint32_t)img.ofile.pixels);
+    printf("Decoding %s for %d rounds\n", argv[1], rounds);
 
+    us = micros();
+    for (i = 0; i < rounds; i++) {
+        img.ifile.offset = 0;
+        img.ofile.offset = 0;
+        img.ofile.pixels = 0;
+        memset(img.ofile.data, 0, img.ofile.size);
+        ret = tjd_test(&tjd, work, sizeof(work), &img);
+        if (ret != 0) {
+            printf("tjd_test failed with error code %d\n", ret);
+            free(img.ifile.data);
+            free(img.ofile.data);
+            return 1;
+        }
+    }
+    tjd_cost_us = (micros() - us) / rounds;
+    printf("tjpgd %ux%u decode time: %u us, %u pixels processed\n", tjd.width, tjd.height, tjd_cost_us, (uint32_t)img.ofile.pixels);
     save_bmp("output_tjpgd.bmp", &img, tjd.width, tjd.height);
 
-    img.ifile.offset = 0;
-    img.ofile.offset = 0;
-    img.ofile.pixels = 0;
-    memset(img.ofile.data, 0, img.ofile.size);
-
     us = micros();
-    zjd_res = zjd_init(&zjd, &(zjd_cfg_t){
-        .ifunc = zjd_ifunc,
-        .ofunc = zjd_ofunc,
-        .buf = work,
-        .buflen = sizeof(work),
-        .arg = (void *)&img
-    }, ZJD_RGB888);
-    if (zjd_res != ZJD_OK) {
-        printf("Failed to initialize zjpgd %d\n", zjd_res);
-        free(img.ifile.data);
-        free(img.ofile.data);
-        return 1;
+    for (i = 0; i < rounds; i++) {
+        img.ifile.offset = 0;
+        img.ofile.offset = 0;
+        img.ofile.pixels = 0;
+        memset(img.ofile.data, 0, img.ofile.size);
+        ret = zjd_test(&zjd, work, sizeof(work), &img);
+        if (ret != 0) {
+            printf("zjd_test failed with error code %d\n", ret);
+            free(img.ifile.data);
+            free(img.ofile.data);
+            return 1;
+        }
     }
-    zjd_res = zjd_scan(&zjd, NULL, NULL);
-    if (zjd_res != ZJD_OK) {
-        printf("Failed to decode JPEG image %d\n", zjd_res);
-        free(img.ifile.data);
-        free(img.ofile.data);
-        return 1;
-    }
-    printf("zjpgd %ux%u decode time: %u us, %u pixels processed\n", zjd.width, zjd.height, micros() - us, (uint32_t)img.ofile.pixels);
-
+    zjd_cost_us = (micros() - us) / rounds;
+    printf("zjpgd %ux%u decode time: %u us, %u pixels processed\n", zjd.width, zjd.height, zjd_cost_us, (uint32_t)img.ofile.pixels);
     save_bmp("output_zjpgd.bmp", &img, zjd.width, zjd.height);
 
+    printf("\nfile %s, %u rounds, tjpgd: %u us, zjpgd: %u us\n", argv[1], rounds, tjd_cost_us, zjd_cost_us);
 
     free(img.ifile.data);
     free(img.ofile.data);
 
     return 0;
 }
-
-
-
