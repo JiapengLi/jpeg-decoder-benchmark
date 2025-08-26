@@ -1,1006 +1,1006 @@
 Darwin jps-MacBook-Pro.local 24.3.0 Darwin Kernel Version 24.3.0: Thu Jan  2 20:22:00 PST 2025; root:xnu-11215.81.4~3/RELEASE_X86_64 x86_64
 Decoding samples/noise_320x240_420.jpg for 100 rounds
-tjpgd 320x240 decode time: 9867 us, 76800 pixels processed
-zjpgd 320x240 decode time: 9084 us, 76800 pixels processed
+tjpgd 320x240 decode time: 8874 us, 76800 pixels processed
+zjpgd 320x240 decode time: 7844 us, 76800 pixels processed
 
-file samples/noise_320x240_420.jpg,100,9867,9084
+file samples/noise_320x240_420.jpg,100,8874,7844
 Decoding samples/rgbw_105x110_400.jpg for 100 rounds
-tjpgd 105x110 decode time: 337 us, 11550 pixels processed
-zjpgd 105x110 decode time: 527 us, 11550 pixels processed
+tjpgd 105x110 decode time: 294 us, 11550 pixels processed
+zjpgd 105x110 decode time: 376 us, 11550 pixels processed
 
-file samples/rgbw_105x110_400.jpg,100,337,527
+file samples/rgbw_105x110_400.jpg,100,294,376
 Decoding samples/rgbw_105x110_420.jpg for 100 rounds
-tjpgd 105x110 decode time: 339 us, 11550 pixels processed
-zjpgd 105x110 decode time: 1044 us, 11550 pixels processed
+tjpgd 105x110 decode time: 310 us, 11550 pixels processed
+zjpgd 105x110 decode time: 503 us, 11550 pixels processed
 
-file samples/rgbw_105x110_420.jpg,100,339,1044
+file samples/rgbw_105x110_420.jpg,100,310,503
 Decoding samples/rgbw_105x110_422.jpg for 100 rounds
-tjpgd 105x110 decode time: 382 us, 11550 pixels processed
-zjpgd 105x110 decode time: 638 us, 11550 pixels processed
+tjpgd 105x110 decode time: 334 us, 11550 pixels processed
+zjpgd 105x110 decode time: 538 us, 11550 pixels processed
 
-file samples/rgbw_105x110_422.jpg,100,382,638
+file samples/rgbw_105x110_422.jpg,100,334,538
 Decoding samples/rgbw_105x110_444.jpg for 100 rounds
-tjpgd 105x110 decode time: 369 us, 11550 pixels processed
-zjpgd 105x110 decode time: 675 us, 11550 pixels processed
+tjpgd 105x110 decode time: 336 us, 11550 pixels processed
+zjpgd 105x110 decode time: 620 us, 11550 pixels processed
 
-file samples/rgbw_105x110_444.jpg,100,369,675
+file samples/rgbw_105x110_444.jpg,100,336,620
 Decoding samples/rgbw_125x120_400.jpg for 100 rounds
-tjpgd 125x120 decode time: 373 us, 15000 pixels processed
-zjpgd 125x120 decode time: 611 us, 15000 pixels processed
+tjpgd 125x120 decode time: 358 us, 15000 pixels processed
+zjpgd 125x120 decode time: 475 us, 15000 pixels processed
 
-file samples/rgbw_125x120_400.jpg,100,373,611
+file samples/rgbw_125x120_400.jpg,100,358,475
 Decoding samples/rgbw_125x120_420.jpg for 100 rounds
-tjpgd 125x120 decode time: 916 us, 15000 pixels processed
-zjpgd 125x120 decode time: 863 us, 15000 pixels processed
+tjpgd 125x120 decode time: 364 us, 15000 pixels processed
+zjpgd 125x120 decode time: 613 us, 15000 pixels processed
 
-file samples/rgbw_125x120_420.jpg,100,916,863
+file samples/rgbw_125x120_420.jpg,100,364,613
 Decoding samples/rgbw_125x120_422.jpg for 100 rounds
-tjpgd 125x120 decode time: 1237 us, 15000 pixels processed
-zjpgd 125x120 decode time: 1075 us, 15000 pixels processed
+tjpgd 125x120 decode time: 388 us, 15000 pixels processed
+zjpgd 125x120 decode time: 661 us, 15000 pixels processed
 
-file samples/rgbw_125x120_422.jpg,100,1237,1075
+file samples/rgbw_125x120_422.jpg,100,388,661
 Decoding samples/rgbw_125x120_444.jpg for 100 rounds
-tjpgd 125x120 decode time: 598 us, 15000 pixels processed
-zjpgd 125x120 decode time: 1093 us, 15000 pixels processed
+tjpgd 125x120 decode time: 404 us, 15000 pixels processed
+zjpgd 125x120 decode time: 769 us, 15000 pixels processed
 
-file samples/rgbw_125x120_444.jpg,100,598,1093
+file samples/rgbw_125x120_444.jpg,100,404,769
 Decoding samples/rgbw_128x165_400.jpg for 100 rounds
-tjpgd 128x165 decode time: 746 us, 21120 pixels processed
-zjpgd 128x165 decode time: 923 us, 21120 pixels processed
+tjpgd 128x165 decode time: 506 us, 21120 pixels processed
+zjpgd 128x165 decode time: 684 us, 21120 pixels processed
 
-file samples/rgbw_128x165_400.jpg,100,746,923
+file samples/rgbw_128x165_400.jpg,100,506,684
 Decoding samples/rgbw_128x165_420.jpg for 100 rounds
-tjpgd 128x165 decode time: 660 us, 21120 pixels processed
-zjpgd 128x165 decode time: 1159 us, 21120 pixels processed
+tjpgd 128x165 decode time: 474 us, 21120 pixels processed
+zjpgd 128x165 decode time: 834 us, 21120 pixels processed
 
-file samples/rgbw_128x165_420.jpg,100,660,1159
+file samples/rgbw_128x165_420.jpg,100,474,834
 Decoding samples/rgbw_128x165_422.jpg for 100 rounds
-tjpgd 128x165 decode time: 573 us, 21120 pixels processed
-zjpgd 128x165 decode time: 1074 us, 21120 pixels processed
+tjpgd 128x165 decode time: 451 us, 21120 pixels processed
+zjpgd 128x165 decode time: 952 us, 21120 pixels processed
 
-file samples/rgbw_128x165_422.jpg,100,573,1074
+file samples/rgbw_128x165_422.jpg,100,451,952
 Decoding samples/rgbw_128x165_444.jpg for 100 rounds
-tjpgd 128x165 decode time: 493 us, 21120 pixels processed
-zjpgd 128x165 decode time: 1147 us, 21120 pixels processed
+tjpgd 128x165 decode time: 481 us, 21120 pixels processed
+zjpgd 128x165 decode time: 1115 us, 21120 pixels processed
 
-file samples/rgbw_128x165_444.jpg,100,493,1147
+file samples/rgbw_128x165_444.jpg,100,481,1115
 Decoding samples/rgbw_129x139_400.jpg for 100 rounds
-tjpgd 129x139 decode time: 451 us, 17931 pixels processed
-zjpgd 129x139 decode time: 631 us, 17931 pixels processed
+tjpgd 129x139 decode time: 455 us, 17931 pixels processed
+zjpgd 129x139 decode time: 577 us, 17931 pixels processed
 
-file samples/rgbw_129x139_400.jpg,100,451,631
+file samples/rgbw_129x139_400.jpg,100,455,577
 Decoding samples/rgbw_129x139_420.jpg for 100 rounds
-tjpgd 129x139 decode time: 417 us, 17931 pixels processed
-zjpgd 129x139 decode time: 815 us, 17931 pixels processed
+tjpgd 129x139 decode time: 379 us, 17931 pixels processed
+zjpgd 129x139 decode time: 747 us, 17931 pixels processed
 
-file samples/rgbw_129x139_420.jpg,100,417,815
+file samples/rgbw_129x139_420.jpg,100,379,747
 Decoding samples/rgbw_129x139_422.jpg for 100 rounds
-tjpgd 129x139 decode time: 451 us, 17931 pixels processed
-zjpgd 129x139 decode time: 896 us, 17931 pixels processed
+tjpgd 129x139 decode time: 405 us, 17931 pixels processed
+zjpgd 129x139 decode time: 794 us, 17931 pixels processed
 
-file samples/rgbw_129x139_422.jpg,100,451,896
+file samples/rgbw_129x139_422.jpg,100,405,794
 Decoding samples/rgbw_129x139_444.jpg for 100 rounds
-tjpgd 129x139 decode time: 442 us, 17931 pixels processed
-zjpgd 129x139 decode time: 949 us, 17931 pixels processed
+tjpgd 129x139 decode time: 408 us, 17931 pixels processed
+zjpgd 129x139 decode time: 963 us, 17931 pixels processed
 
-file samples/rgbw_129x139_444.jpg,100,442,949
+file samples/rgbw_129x139_444.jpg,100,408,963
 Decoding samples/rgbw_132x72_400.jpg for 100 rounds
-tjpgd 132x72 decode time: 245 us, 9504 pixels processed
-zjpgd 132x72 decode time: 359 us, 9504 pixels processed
+tjpgd 132x72 decode time: 252 us, 9504 pixels processed
+zjpgd 132x72 decode time: 341 us, 9504 pixels processed
 
-file samples/rgbw_132x72_400.jpg,100,245,359
+file samples/rgbw_132x72_400.jpg,100,252,341
 Decoding samples/rgbw_132x72_420.jpg for 100 rounds
-tjpgd 132x72 decode time: 311 us, 9504 pixels processed
-zjpgd 132x72 decode time: 462 us, 9504 pixels processed
+tjpgd 132x72 decode time: 274 us, 9504 pixels processed
+zjpgd 132x72 decode time: 458 us, 9504 pixels processed
 
-file samples/rgbw_132x72_420.jpg,100,311,462
+file samples/rgbw_132x72_420.jpg,100,274,458
 Decoding samples/rgbw_132x72_422.jpg for 100 rounds
-tjpgd 132x72 decode time: 283 us, 9504 pixels processed
-zjpgd 132x72 decode time: 487 us, 9504 pixels processed
+tjpgd 132x72 decode time: 295 us, 9504 pixels processed
+zjpgd 132x72 decode time: 471 us, 9504 pixels processed
 
-file samples/rgbw_132x72_422.jpg,100,283,487
+file samples/rgbw_132x72_422.jpg,100,295,471
 Decoding samples/rgbw_132x72_444.jpg for 100 rounds
-tjpgd 132x72 decode time: 285 us, 9504 pixels processed
-zjpgd 132x72 decode time: 506 us, 9504 pixels processed
+tjpgd 132x72 decode time: 278 us, 9504 pixels processed
+zjpgd 132x72 decode time: 513 us, 9504 pixels processed
 
-file samples/rgbw_132x72_444.jpg,100,285,506
+file samples/rgbw_132x72_444.jpg,100,278,513
 Decoding samples/rgbw_137x237_400.jpg for 100 rounds
-tjpgd 137x237 decode time: 749 us, 32469 pixels processed
-zjpgd 137x237 decode time: 1028 us, 32469 pixels processed
+tjpgd 137x237 decode time: 715 us, 32469 pixels processed
+zjpgd 137x237 decode time: 1067 us, 32469 pixels processed
 
-file samples/rgbw_137x237_400.jpg,100,749,1028
+file samples/rgbw_137x237_400.jpg,100,715,1067
 Decoding samples/rgbw_137x237_420.jpg for 100 rounds
-tjpgd 137x237 decode time: 751 us, 32469 pixels processed
-zjpgd 137x237 decode time: 1291 us, 32469 pixels processed
+tjpgd 137x237 decode time: 778 us, 32469 pixels processed
+zjpgd 137x237 decode time: 1389 us, 32469 pixels processed
 
-file samples/rgbw_137x237_420.jpg,100,751,1291
+file samples/rgbw_137x237_420.jpg,100,778,1389
 Decoding samples/rgbw_137x237_422.jpg for 100 rounds
-tjpgd 137x237 decode time: 764 us, 32469 pixels processed
-zjpgd 137x237 decode time: 1565 us, 32469 pixels processed
+tjpgd 137x237 decode time: 763 us, 32469 pixels processed
+zjpgd 137x237 decode time: 1546 us, 32469 pixels processed
 
-file samples/rgbw_137x237_422.jpg,100,764,1565
+file samples/rgbw_137x237_422.jpg,100,763,1546
 Decoding samples/rgbw_137x237_444.jpg for 100 rounds
-tjpgd 137x237 decode time: 742 us, 32469 pixels processed
-zjpgd 137x237 decode time: 1653 us, 32469 pixels processed
+tjpgd 137x237 decode time: 728 us, 32469 pixels processed
+zjpgd 137x237 decode time: 1669 us, 32469 pixels processed
 
-file samples/rgbw_137x237_444.jpg,100,742,1653
+file samples/rgbw_137x237_444.jpg,100,728,1669
 Decoding samples/rgbw_150x166_400.jpg for 100 rounds
-tjpgd 150x166 decode time: 566 us, 24900 pixels processed
-zjpgd 150x166 decode time: 745 us, 24900 pixels processed
+tjpgd 150x166 decode time: 593 us, 24900 pixels processed
+zjpgd 150x166 decode time: 826 us, 24900 pixels processed
 
-file samples/rgbw_150x166_400.jpg,100,566,745
+file samples/rgbw_150x166_400.jpg,100,593,826
 Decoding samples/rgbw_150x166_420.jpg for 100 rounds
-tjpgd 150x166 decode time: 567 us, 24900 pixels processed
-zjpgd 150x166 decode time: 1112 us, 24900 pixels processed
+tjpgd 150x166 decode time: 580 us, 24900 pixels processed
+zjpgd 150x166 decode time: 1016 us, 24900 pixels processed
 
-file samples/rgbw_150x166_420.jpg,100,567,1112
+file samples/rgbw_150x166_420.jpg,100,580,1016
 Decoding samples/rgbw_150x166_422.jpg for 100 rounds
-tjpgd 150x166 decode time: 601 us, 24900 pixels processed
-zjpgd 150x166 decode time: 1165 us, 24900 pixels processed
+tjpgd 150x166 decode time: 606 us, 24900 pixels processed
+zjpgd 150x166 decode time: 1163 us, 24900 pixels processed
 
-file samples/rgbw_150x166_422.jpg,100,601,1165
+file samples/rgbw_150x166_422.jpg,100,606,1163
 Decoding samples/rgbw_150x166_444.jpg for 100 rounds
-tjpgd 150x166 decode time: 652 us, 24900 pixels processed
-zjpgd 150x166 decode time: 1269 us, 24900 pixels processed
+tjpgd 150x166 decode time: 640 us, 24900 pixels processed
+zjpgd 150x166 decode time: 1266 us, 24900 pixels processed
 
-file samples/rgbw_150x166_444.jpg,100,652,1269
+file samples/rgbw_150x166_444.jpg,100,640,1266
 Decoding samples/rgbw_152x27_400.jpg for 100 rounds
-tjpgd 152x27 decode time: 153 us, 4104 pixels processed
-zjpgd 152x27 decode time: 164 us, 4104 pixels processed
+tjpgd 152x27 decode time: 152 us, 4104 pixels processed
+zjpgd 152x27 decode time: 183 us, 4104 pixels processed
 
-file samples/rgbw_152x27_400.jpg,100,153,164
+file samples/rgbw_152x27_400.jpg,100,152,183
 Decoding samples/rgbw_152x27_420.jpg for 100 rounds
-tjpgd 152x27 decode time: 153 us, 4104 pixels processed
-zjpgd 152x27 decode time: 213 us, 4104 pixels processed
+tjpgd 152x27 decode time: 176 us, 4104 pixels processed
+zjpgd 152x27 decode time: 243 us, 4104 pixels processed
 
-file samples/rgbw_152x27_420.jpg,100,153,213
+file samples/rgbw_152x27_420.jpg,100,176,243
 Decoding samples/rgbw_152x27_422.jpg for 100 rounds
-tjpgd 152x27 decode time: 160 us, 4104 pixels processed
-zjpgd 152x27 decode time: 267 us, 4104 pixels processed
+tjpgd 152x27 decode time: 175 us, 4104 pixels processed
+zjpgd 152x27 decode time: 265 us, 4104 pixels processed
 
-file samples/rgbw_152x27_422.jpg,100,160,267
+file samples/rgbw_152x27_422.jpg,100,175,265
 Decoding samples/rgbw_152x27_444.jpg for 100 rounds
-tjpgd 152x27 decode time: 202 us, 4104 pixels processed
-zjpgd 152x27 decode time: 293 us, 4104 pixels processed
+tjpgd 152x27 decode time: 196 us, 4104 pixels processed
+zjpgd 152x27 decode time: 268 us, 4104 pixels processed
 
-file samples/rgbw_152x27_444.jpg,100,202,293
+file samples/rgbw_152x27_444.jpg,100,196,268
 Decoding samples/rgbw_153x36_400.jpg for 100 rounds
-tjpgd 153x36 decode time: 173 us, 5508 pixels processed
-zjpgd 153x36 decode time: 240 us, 5508 pixels processed
+tjpgd 153x36 decode time: 182 us, 5508 pixels processed
+zjpgd 153x36 decode time: 208 us, 5508 pixels processed
 
-file samples/rgbw_153x36_400.jpg,100,173,240
+file samples/rgbw_153x36_400.jpg,100,182,208
 Decoding samples/rgbw_153x36_420.jpg for 100 rounds
-tjpgd 153x36 decode time: 225 us, 5508 pixels processed
-zjpgd 153x36 decode time: 310 us, 5508 pixels processed
+tjpgd 153x36 decode time: 209 us, 5508 pixels processed
+zjpgd 153x36 decode time: 314 us, 5508 pixels processed
 
-file samples/rgbw_153x36_420.jpg,100,225,310
+file samples/rgbw_153x36_420.jpg,100,209,314
 Decoding samples/rgbw_153x36_422.jpg for 100 rounds
-tjpgd 153x36 decode time: 195 us, 5508 pixels processed
-zjpgd 153x36 decode time: 300 us, 5508 pixels processed
+tjpgd 153x36 decode time: 207 us, 5508 pixels processed
+zjpgd 153x36 decode time: 322 us, 5508 pixels processed
 
-file samples/rgbw_153x36_422.jpg,100,195,300
+file samples/rgbw_153x36_422.jpg,100,207,322
 Decoding samples/rgbw_153x36_444.jpg for 100 rounds
-tjpgd 153x36 decode time: 202 us, 5508 pixels processed
-zjpgd 153x36 decode time: 328 us, 5508 pixels processed
+tjpgd 153x36 decode time: 217 us, 5508 pixels processed
+zjpgd 153x36 decode time: 337 us, 5508 pixels processed
 
-file samples/rgbw_153x36_444.jpg,100,202,328
+file samples/rgbw_153x36_444.jpg,100,217,337
 Decoding samples/rgbw_158x79_400.jpg for 100 rounds
-tjpgd 158x79 decode time: 310 us, 12482 pixels processed
-zjpgd 158x79 decode time: 444 us, 12482 pixels processed
+tjpgd 158x79 decode time: 292 us, 12482 pixels processed
+zjpgd 158x79 decode time: 380 us, 12482 pixels processed
 
-file samples/rgbw_158x79_400.jpg,100,310,444
+file samples/rgbw_158x79_400.jpg,100,292,380
 Decoding samples/rgbw_158x79_420.jpg for 100 rounds
-tjpgd 158x79 decode time: 351 us, 12482 pixels processed
-zjpgd 158x79 decode time: 558 us, 12482 pixels processed
+tjpgd 158x79 decode time: 337 us, 12482 pixels processed
+zjpgd 158x79 decode time: 579 us, 12482 pixels processed
 
-file samples/rgbw_158x79_420.jpg,100,351,558
+file samples/rgbw_158x79_420.jpg,100,337,579
 Decoding samples/rgbw_158x79_422.jpg for 100 rounds
-tjpgd 158x79 decode time: 380 us, 12482 pixels processed
-zjpgd 158x79 decode time: 578 us, 12482 pixels processed
+tjpgd 158x79 decode time: 338 us, 12482 pixels processed
+zjpgd 158x79 decode time: 577 us, 12482 pixels processed
 
-file samples/rgbw_158x79_422.jpg,100,380,578
+file samples/rgbw_158x79_422.jpg,100,338,577
 Decoding samples/rgbw_158x79_444.jpg for 100 rounds
-tjpgd 158x79 decode time: 366 us, 12482 pixels processed
-zjpgd 158x79 decode time: 712 us, 12482 pixels processed
+tjpgd 158x79 decode time: 353 us, 12482 pixels processed
+zjpgd 158x79 decode time: 690 us, 12482 pixels processed
 
-file samples/rgbw_158x79_444.jpg,100,366,712
+file samples/rgbw_158x79_444.jpg,100,353,690
 Decoding samples/rgbw_166x167_400.jpg for 100 rounds
-tjpgd 166x167 decode time: 645 us, 27722 pixels processed
-zjpgd 166x167 decode time: 909 us, 27722 pixels processed
+tjpgd 166x167 decode time: 620 us, 27722 pixels processed
+zjpgd 166x167 decode time: 857 us, 27722 pixels processed
 
-file samples/rgbw_166x167_400.jpg,100,645,909
+file samples/rgbw_166x167_400.jpg,100,620,857
 Decoding samples/rgbw_166x167_420.jpg for 100 rounds
-tjpgd 166x167 decode time: 678 us, 27722 pixels processed
-zjpgd 166x167 decode time: 1162 us, 27722 pixels processed
+tjpgd 166x167 decode time: 607 us, 27722 pixels processed
+zjpgd 166x167 decode time: 1149 us, 27722 pixels processed
 
-file samples/rgbw_166x167_420.jpg,100,678,1162
+file samples/rgbw_166x167_420.jpg,100,607,1149
 Decoding samples/rgbw_166x167_422.jpg for 100 rounds
-tjpgd 166x167 decode time: 683 us, 27722 pixels processed
-zjpgd 166x167 decode time: 1306 us, 27722 pixels processed
+tjpgd 166x167 decode time: 654 us, 27722 pixels processed
+zjpgd 166x167 decode time: 1260 us, 27722 pixels processed
 
-file samples/rgbw_166x167_422.jpg,100,683,1306
+file samples/rgbw_166x167_422.jpg,100,654,1260
 Decoding samples/rgbw_166x167_444.jpg for 100 rounds
-tjpgd 166x167 decode time: 651 us, 27722 pixels processed
-zjpgd 166x167 decode time: 1420 us, 27722 pixels processed
+tjpgd 166x167 decode time: 719 us, 27722 pixels processed
+zjpgd 166x167 decode time: 1443 us, 27722 pixels processed
 
-file samples/rgbw_166x167_444.jpg,100,651,1420
+file samples/rgbw_166x167_444.jpg,100,719,1443
 Decoding samples/rgbw_166x2_400.jpg for 100 rounds
-tjpgd 166x2 decode time: 73 us, 332 pixels processed
-zjpgd 166x2 decode time: 67 us, 332 pixels processed
+tjpgd 166x2 decode time: 76 us, 332 pixels processed
+zjpgd 166x2 decode time: 75 us, 332 pixels processed
 
-file samples/rgbw_166x2_400.jpg,100,73,67
+file samples/rgbw_166x2_400.jpg,100,76,75
 Decoding samples/rgbw_166x2_420.jpg for 100 rounds
-tjpgd 166x2 decode time: 79 us, 332 pixels processed
-zjpgd 166x2 decode time: 130 us, 332 pixels processed
+tjpgd 166x2 decode time: 86 us, 332 pixels processed
+zjpgd 166x2 decode time: 122 us, 332 pixels processed
 
-file samples/rgbw_166x2_420.jpg,100,79,130
+file samples/rgbw_166x2_420.jpg,100,86,122
 Decoding samples/rgbw_166x2_422.jpg for 100 rounds
-tjpgd 166x2 decode time: 91 us, 332 pixels processed
+tjpgd 166x2 decode time: 95 us, 332 pixels processed
 zjpgd 166x2 decode time: 98 us, 332 pixels processed
 
-file samples/rgbw_166x2_422.jpg,100,91,98
+file samples/rgbw_166x2_422.jpg,100,95,98
 Decoding samples/rgbw_166x2_444.jpg for 100 rounds
-tjpgd 166x2 decode time: 113 us, 332 pixels processed
-zjpgd 166x2 decode time: 126 us, 332 pixels processed
+tjpgd 166x2 decode time: 107 us, 332 pixels processed
+zjpgd 166x2 decode time: 114 us, 332 pixels processed
 
-file samples/rgbw_166x2_444.jpg,100,113,126
+file samples/rgbw_166x2_444.jpg,100,107,114
 Decoding samples/rgbw_172x224_400.jpg for 100 rounds
-tjpgd 172x224 decode time: 935 us, 38528 pixels processed
-zjpgd 172x224 decode time: 1226 us, 38528 pixels processed
+tjpgd 172x224 decode time: 877 us, 38528 pixels processed
+zjpgd 172x224 decode time: 1162 us, 38528 pixels processed
 
-file samples/rgbw_172x224_400.jpg,100,935,1226
+file samples/rgbw_172x224_400.jpg,100,877,1162
 Decoding samples/rgbw_172x224_420.jpg for 100 rounds
-tjpgd 172x224 decode time: 771 us, 38528 pixels processed
-zjpgd 172x224 decode time: 1480 us, 38528 pixels processed
+tjpgd 172x224 decode time: 817 us, 38528 pixels processed
+zjpgd 172x224 decode time: 1455 us, 38528 pixels processed
 
-file samples/rgbw_172x224_420.jpg,100,771,1480
+file samples/rgbw_172x224_420.jpg,100,817,1455
 Decoding samples/rgbw_172x224_422.jpg for 100 rounds
-tjpgd 172x224 decode time: 845 us, 38528 pixels processed
-zjpgd 172x224 decode time: 1730 us, 38528 pixels processed
+tjpgd 172x224 decode time: 823 us, 38528 pixels processed
+zjpgd 172x224 decode time: 1700 us, 38528 pixels processed
 
-file samples/rgbw_172x224_422.jpg,100,845,1730
+file samples/rgbw_172x224_422.jpg,100,823,1700
 Decoding samples/rgbw_172x224_444.jpg for 100 rounds
-tjpgd 172x224 decode time: 792 us, 38528 pixels processed
-zjpgd 172x224 decode time: 1868 us, 38528 pixels processed
+tjpgd 172x224 decode time: 870 us, 38528 pixels processed
+zjpgd 172x224 decode time: 1911 us, 38528 pixels processed
 
-file samples/rgbw_172x224_444.jpg,100,792,1868
+file samples/rgbw_172x224_444.jpg,100,870,1911
 Decoding samples/rgbw_17x132_400.jpg for 100 rounds
-tjpgd 17x132 decode time: 90 us, 2244 pixels processed
-zjpgd 17x132 decode time: 110 us, 2244 pixels processed
+tjpgd 17x132 decode time: 93 us, 2244 pixels processed
+zjpgd 17x132 decode time: 124 us, 2244 pixels processed
 
-file samples/rgbw_17x132_400.jpg,100,90,110
+file samples/rgbw_17x132_400.jpg,100,93,124
 Decoding samples/rgbw_17x132_420.jpg for 100 rounds
-tjpgd 17x132 decode time: 120 us, 2244 pixels processed
-zjpgd 17x132 decode time: 192 us, 2244 pixels processed
+tjpgd 17x132 decode time: 128 us, 2244 pixels processed
+zjpgd 17x132 decode time: 188 us, 2244 pixels processed
 
-file samples/rgbw_17x132_420.jpg,100,120,192
+file samples/rgbw_17x132_420.jpg,100,128,188
 Decoding samples/rgbw_17x132_422.jpg for 100 rounds
-tjpgd 17x132 decode time: 143 us, 2244 pixels processed
-zjpgd 17x132 decode time: 223 us, 2244 pixels processed
+tjpgd 17x132 decode time: 147 us, 2244 pixels processed
+zjpgd 17x132 decode time: 209 us, 2244 pixels processed
 
-file samples/rgbw_17x132_422.jpg,100,143,223
+file samples/rgbw_17x132_422.jpg,100,147,209
 Decoding samples/rgbw_17x132_444.jpg for 100 rounds
-tjpgd 17x132 decode time: 87 us, 2244 pixels processed
-zjpgd 17x132 decode time: 172 us, 2244 pixels processed
+tjpgd 17x132 decode time: 97 us, 2244 pixels processed
+zjpgd 17x132 decode time: 185 us, 2244 pixels processed
 
-file samples/rgbw_17x132_444.jpg,100,87,172
+file samples/rgbw_17x132_444.jpg,100,97,185
 Decoding samples/rgbw_187x106_400.jpg for 100 rounds
-tjpgd 187x106 decode time: 471 us, 19822 pixels processed
-zjpgd 187x106 decode time: 671 us, 19822 pixels processed
+tjpgd 187x106 decode time: 503 us, 19822 pixels processed
+zjpgd 187x106 decode time: 682 us, 19822 pixels processed
 
-file samples/rgbw_187x106_400.jpg,100,471,671
+file samples/rgbw_187x106_400.jpg,100,503,682
 Decoding samples/rgbw_187x106_420.jpg for 100 rounds
-tjpgd 187x106 decode time: 515 us, 19822 pixels processed
-zjpgd 187x106 decode time: 875 us, 19822 pixels processed
+tjpgd 187x106 decode time: 476 us, 19822 pixels processed
+zjpgd 187x106 decode time: 861 us, 19822 pixels processed
 
-file samples/rgbw_187x106_420.jpg,100,515,875
+file samples/rgbw_187x106_420.jpg,100,476,861
 Decoding samples/rgbw_187x106_422.jpg for 100 rounds
-tjpgd 187x106 decode time: 507 us, 19822 pixels processed
-zjpgd 187x106 decode time: 937 us, 19822 pixels processed
+tjpgd 187x106 decode time: 539 us, 19822 pixels processed
+zjpgd 187x106 decode time: 1065 us, 19822 pixels processed
 
-file samples/rgbw_187x106_422.jpg,100,507,937
+file samples/rgbw_187x106_422.jpg,100,539,1065
 Decoding samples/rgbw_187x106_444.jpg for 100 rounds
-tjpgd 187x106 decode time: 518 us, 19822 pixels processed
-zjpgd 187x106 decode time: 1175 us, 19822 pixels processed
+tjpgd 187x106 decode time: 605 us, 19822 pixels processed
+zjpgd 187x106 decode time: 1131 us, 19822 pixels processed
 
-file samples/rgbw_187x106_444.jpg,100,518,1175
+file samples/rgbw_187x106_444.jpg,100,605,1131
 Decoding samples/rgbw_196x237_400.jpg for 100 rounds
-tjpgd 196x237 decode time: 1144 us, 46452 pixels processed
-zjpgd 196x237 decode time: 1725 us, 46452 pixels processed
+tjpgd 196x237 decode time: 1037 us, 46452 pixels processed
+zjpgd 196x237 decode time: 1430 us, 46452 pixels processed
 
-file samples/rgbw_196x237_400.jpg,100,1144,1725
+file samples/rgbw_196x237_400.jpg,100,1037,1430
 Decoding samples/rgbw_196x237_420.jpg for 100 rounds
-tjpgd 196x237 decode time: 1117 us, 46452 pixels processed
-zjpgd 196x237 decode time: 1849 us, 46452 pixels processed
+tjpgd 196x237 decode time: 1036 us, 46452 pixels processed
+zjpgd 196x237 decode time: 1949 us, 46452 pixels processed
 
-file samples/rgbw_196x237_420.jpg,100,1117,1849
+file samples/rgbw_196x237_420.jpg,100,1036,1949
 Decoding samples/rgbw_196x237_422.jpg for 100 rounds
-tjpgd 196x237 decode time: 1104 us, 46452 pixels processed
-zjpgd 196x237 decode time: 2219 us, 46452 pixels processed
+tjpgd 196x237 decode time: 1059 us, 46452 pixels processed
+zjpgd 196x237 decode time: 2113 us, 46452 pixels processed
 
-file samples/rgbw_196x237_422.jpg,100,1104,2219
+file samples/rgbw_196x237_422.jpg,100,1059,2113
 Decoding samples/rgbw_196x237_444.jpg for 100 rounds
-tjpgd 196x237 decode time: 1031 us, 46452 pixels processed
-zjpgd 196x237 decode time: 2355 us, 46452 pixels processed
+tjpgd 196x237 decode time: 1129 us, 46452 pixels processed
+zjpgd 196x237 decode time: 2221 us, 46452 pixels processed
 
-file samples/rgbw_196x237_444.jpg,100,1031,2355
+file samples/rgbw_196x237_444.jpg,100,1129,2221
 Decoding samples/rgbw_19x11_400.jpg for 100 rounds
-tjpgd 19x11 decode time: 48 us, 209 pixels processed
-zjpgd 19x11 decode time: 46 us, 209 pixels processed
+tjpgd 19x11 decode time: 42 us, 209 pixels processed
+zjpgd 19x11 decode time: 38 us, 209 pixels processed
 
-file samples/rgbw_19x11_400.jpg,100,48,46
+file samples/rgbw_19x11_400.jpg,100,42,38
 Decoding samples/rgbw_19x11_420.jpg for 100 rounds
-tjpgd 19x11 decode time: 49 us, 209 pixels processed
-zjpgd 19x11 decode time: 50 us, 209 pixels processed
+tjpgd 19x11 decode time: 47 us, 209 pixels processed
+zjpgd 19x11 decode time: 48 us, 209 pixels processed
 
-file samples/rgbw_19x11_420.jpg,100,49,50
+file samples/rgbw_19x11_420.jpg,100,47,48
 Decoding samples/rgbw_19x11_422.jpg for 100 rounds
-tjpgd 19x11 decode time: 56 us, 209 pixels processed
+tjpgd 19x11 decode time: 55 us, 209 pixels processed
 zjpgd 19x11 decode time: 55 us, 209 pixels processed
 
-file samples/rgbw_19x11_422.jpg,100,56,55
+file samples/rgbw_19x11_422.jpg,100,55,55
 Decoding samples/rgbw_19x11_444.jpg for 100 rounds
-tjpgd 19x11 decode time: 52 us, 209 pixels processed
-zjpgd 19x11 decode time: 51 us, 209 pixels processed
+tjpgd 19x11 decode time: 56 us, 209 pixels processed
+zjpgd 19x11 decode time: 58 us, 209 pixels processed
 
-file samples/rgbw_19x11_444.jpg,100,52,51
+file samples/rgbw_19x11_444.jpg,100,56,58
 Decoding samples/rgbw_211x238_400.jpg for 100 rounds
-tjpgd 211x238 decode time: 1113 us, 50218 pixels processed
-zjpgd 211x238 decode time: 1519 us, 50218 pixels processed
+tjpgd 211x238 decode time: 1158 us, 50218 pixels processed
+zjpgd 211x238 decode time: 1660 us, 50218 pixels processed
 
-file samples/rgbw_211x238_400.jpg,100,1113,1519
+file samples/rgbw_211x238_400.jpg,100,1158,1660
 Decoding samples/rgbw_211x238_420.jpg for 100 rounds
-tjpgd 211x238 decode time: 1073 us, 50218 pixels processed
-zjpgd 211x238 decode time: 2142 us, 50218 pixels processed
+tjpgd 211x238 decode time: 1090 us, 50218 pixels processed
+zjpgd 211x238 decode time: 1945 us, 50218 pixels processed
 
-file samples/rgbw_211x238_420.jpg,100,1073,2142
+file samples/rgbw_211x238_420.jpg,100,1090,1945
 Decoding samples/rgbw_211x238_422.jpg for 100 rounds
-tjpgd 211x238 decode time: 1194 us, 50218 pixels processed
-zjpgd 211x238 decode time: 2369 us, 50218 pixels processed
+tjpgd 211x238 decode time: 1163 us, 50218 pixels processed
+zjpgd 211x238 decode time: 2229 us, 50218 pixels processed
 
-file samples/rgbw_211x238_422.jpg,100,1194,2369
+file samples/rgbw_211x238_422.jpg,100,1163,2229
 Decoding samples/rgbw_211x238_444.jpg for 100 rounds
-tjpgd 211x238 decode time: 1255 us, 50218 pixels processed
-zjpgd 211x238 decode time: 2475 us, 50218 pixels processed
+tjpgd 211x238 decode time: 1117 us, 50218 pixels processed
+zjpgd 211x238 decode time: 2504 us, 50218 pixels processed
 
-file samples/rgbw_211x238_444.jpg,100,1255,2475
+file samples/rgbw_211x238_444.jpg,100,1117,2504
 Decoding samples/rgbw_214x33_400.jpg for 100 rounds
-tjpgd 214x33 decode time: 204 us, 7062 pixels processed
-zjpgd 214x33 decode time: 274 us, 7062 pixels processed
+tjpgd 214x33 decode time: 211 us, 7062 pixels processed
+zjpgd 214x33 decode time: 280 us, 7062 pixels processed
 
-file samples/rgbw_214x33_400.jpg,100,204,274
+file samples/rgbw_214x33_400.jpg,100,211,280
 Decoding samples/rgbw_214x33_420.jpg for 100 rounds
-tjpgd 214x33 decode time: 199 us, 7062 pixels processed
-zjpgd 214x33 decode time: 397 us, 7062 pixels processed
+tjpgd 214x33 decode time: 210 us, 7062 pixels processed
+zjpgd 214x33 decode time: 425 us, 7062 pixels processed
 
-file samples/rgbw_214x33_420.jpg,100,199,397
+file samples/rgbw_214x33_420.jpg,100,210,425
 Decoding samples/rgbw_214x33_422.jpg for 100 rounds
-tjpgd 214x33 decode time: 220 us, 7062 pixels processed
-zjpgd 214x33 decode time: 381 us, 7062 pixels processed
+tjpgd 214x33 decode time: 197 us, 7062 pixels processed
+zjpgd 214x33 decode time: 372 us, 7062 pixels processed
 
-file samples/rgbw_214x33_422.jpg,100,220,381
+file samples/rgbw_214x33_422.jpg,100,197,372
 Decoding samples/rgbw_214x33_444.jpg for 100 rounds
-tjpgd 214x33 decode time: 203 us, 7062 pixels processed
-zjpgd 214x33 decode time: 470 us, 7062 pixels processed
+tjpgd 214x33 decode time: 187 us, 7062 pixels processed
+zjpgd 214x33 decode time: 439 us, 7062 pixels processed
 
-file samples/rgbw_214x33_444.jpg,100,203,470
+file samples/rgbw_214x33_444.jpg,100,187,439
 Decoding samples/rgbw_22x3_400.jpg for 100 rounds
-tjpgd 22x3 decode time: 44 us, 66 pixels processed
-zjpgd 22x3 decode time: 33 us, 66 pixels processed
+tjpgd 22x3 decode time: 43 us, 66 pixels processed
+zjpgd 22x3 decode time: 38 us, 66 pixels processed
 
-file samples/rgbw_22x3_400.jpg,100,44,33
+file samples/rgbw_22x3_400.jpg,100,43,38
 Decoding samples/rgbw_22x3_420.jpg for 100 rounds
-tjpgd 22x3 decode time: 46 us, 66 pixels processed
-zjpgd 22x3 decode time: 54 us, 66 pixels processed
+tjpgd 22x3 decode time: 52 us, 66 pixels processed
+zjpgd 22x3 decode time: 51 us, 66 pixels processed
 
-file samples/rgbw_22x3_420.jpg,100,46,54
+file samples/rgbw_22x3_420.jpg,100,52,51
 Decoding samples/rgbw_22x3_422.jpg for 100 rounds
-tjpgd 22x3 decode time: 46 us, 66 pixels processed
-zjpgd 22x3 decode time: 48 us, 66 pixels processed
+tjpgd 22x3 decode time: 43 us, 66 pixels processed
+zjpgd 22x3 decode time: 43 us, 66 pixels processed
 
-file samples/rgbw_22x3_422.jpg,100,46,48
+file samples/rgbw_22x3_422.jpg,100,43,43
 Decoding samples/rgbw_22x3_444.jpg for 100 rounds
-tjpgd 22x3 decode time: 53 us, 66 pixels processed
-zjpgd 22x3 decode time: 50 us, 66 pixels processed
+tjpgd 22x3 decode time: 46 us, 66 pixels processed
+zjpgd 22x3 decode time: 41 us, 66 pixels processed
 
-file samples/rgbw_22x3_444.jpg,100,53,50
+file samples/rgbw_22x3_444.jpg,100,46,41
 Decoding samples/rgbw_233x16_400.jpg for 100 rounds
-tjpgd 233x16 decode time: 103 us, 3728 pixels processed
-zjpgd 233x16 decode time: 132 us, 3728 pixels processed
+tjpgd 233x16 decode time: 101 us, 3728 pixels processed
+zjpgd 233x16 decode time: 139 us, 3728 pixels processed
 
-file samples/rgbw_233x16_400.jpg,100,103,132
+file samples/rgbw_233x16_400.jpg,100,101,139
 Decoding samples/rgbw_233x16_420.jpg for 100 rounds
-tjpgd 233x16 decode time: 116 us, 3728 pixels processed
-zjpgd 233x16 decode time: 168 us, 3728 pixels processed
+tjpgd 233x16 decode time: 122 us, 3728 pixels processed
+zjpgd 233x16 decode time: 186 us, 3728 pixels processed
 
-file samples/rgbw_233x16_420.jpg,100,116,168
+file samples/rgbw_233x16_420.jpg,100,122,186
 Decoding samples/rgbw_233x16_422.jpg for 100 rounds
-tjpgd 233x16 decode time: 104 us, 3728 pixels processed
-zjpgd 233x16 decode time: 197 us, 3728 pixels processed
+tjpgd 233x16 decode time: 102 us, 3728 pixels processed
+zjpgd 233x16 decode time: 166 us, 3728 pixels processed
 
-file samples/rgbw_233x16_422.jpg,100,104,197
+file samples/rgbw_233x16_422.jpg,100,102,166
 Decoding samples/rgbw_233x16_444.jpg for 100 rounds
-tjpgd 233x16 decode time: 127 us, 3728 pixels processed
-zjpgd 233x16 decode time: 199 us, 3728 pixels processed
+tjpgd 233x16 decode time: 99 us, 3728 pixels processed
+zjpgd 233x16 decode time: 215 us, 3728 pixels processed
 
-file samples/rgbw_233x16_444.jpg,100,127,199
+file samples/rgbw_233x16_444.jpg,100,99,215
 Decoding samples/rgbw_236x166_400.jpg for 100 rounds
-tjpgd 236x166 decode time: 1013 us, 39176 pixels processed
-zjpgd 236x166 decode time: 1354 us, 39176 pixels processed
+tjpgd 236x166 decode time: 940 us, 39176 pixels processed
+zjpgd 236x166 decode time: 1207 us, 39176 pixels processed
 
-file samples/rgbw_236x166_400.jpg,100,1013,1354
+file samples/rgbw_236x166_400.jpg,100,940,1207
 Decoding samples/rgbw_236x166_420.jpg for 100 rounds
-tjpgd 236x166 decode time: 893 us, 39176 pixels processed
-zjpgd 236x166 decode time: 1675 us, 39176 pixels processed
+tjpgd 236x166 decode time: 863 us, 39176 pixels processed
+zjpgd 236x166 decode time: 1644 us, 39176 pixels processed
 
-file samples/rgbw_236x166_420.jpg,100,893,1675
+file samples/rgbw_236x166_420.jpg,100,863,1644
 Decoding samples/rgbw_236x166_422.jpg for 100 rounds
-tjpgd 236x166 decode time: 882 us, 39176 pixels processed
-zjpgd 236x166 decode time: 1775 us, 39176 pixels processed
+tjpgd 236x166 decode time: 861 us, 39176 pixels processed
+zjpgd 236x166 decode time: 1761 us, 39176 pixels processed
 
-file samples/rgbw_236x166_422.jpg,100,882,1775
+file samples/rgbw_236x166_422.jpg,100,861,1761
 Decoding samples/rgbw_236x166_444.jpg for 100 rounds
-tjpgd 236x166 decode time: 874 us, 39176 pixels processed
-zjpgd 236x166 decode time: 1956 us, 39176 pixels processed
+tjpgd 236x166 decode time: 1006 us, 39176 pixels processed
+zjpgd 236x166 decode time: 1993 us, 39176 pixels processed
 
-file samples/rgbw_236x166_444.jpg,100,874,1956
+file samples/rgbw_236x166_444.jpg,100,1006,1993
 Decoding samples/rgbw_247x117_400.jpg for 100 rounds
-tjpgd 247x117 decode time: 693 us, 28899 pixels processed
-zjpgd 247x117 decode time: 931 us, 28899 pixels processed
+tjpgd 247x117 decode time: 664 us, 28899 pixels processed
+zjpgd 247x117 decode time: 925 us, 28899 pixels processed
 
-file samples/rgbw_247x117_400.jpg,100,693,931
+file samples/rgbw_247x117_400.jpg,100,664,925
 Decoding samples/rgbw_247x117_420.jpg for 100 rounds
-tjpgd 247x117 decode time: 740 us, 28899 pixels processed
-zjpgd 247x117 decode time: 1283 us, 28899 pixels processed
+tjpgd 247x117 decode time: 672 us, 28899 pixels processed
+zjpgd 247x117 decode time: 1323 us, 28899 pixels processed
 
-file samples/rgbw_247x117_420.jpg,100,740,1283
+file samples/rgbw_247x117_420.jpg,100,672,1323
 Decoding samples/rgbw_247x117_422.jpg for 100 rounds
-tjpgd 247x117 decode time: 701 us, 28899 pixels processed
-zjpgd 247x117 decode time: 1451 us, 28899 pixels processed
+tjpgd 247x117 decode time: 722 us, 28899 pixels processed
+zjpgd 247x117 decode time: 1307 us, 28899 pixels processed
 
-file samples/rgbw_247x117_422.jpg,100,701,1451
+file samples/rgbw_247x117_422.jpg,100,722,1307
 Decoding samples/rgbw_247x117_444.jpg for 100 rounds
-tjpgd 247x117 decode time: 757 us, 28899 pixels processed
-zjpgd 247x117 decode time: 1474 us, 28899 pixels processed
+tjpgd 247x117 decode time: 663 us, 28899 pixels processed
+zjpgd 247x117 decode time: 1503 us, 28899 pixels processed
 
-file samples/rgbw_247x117_444.jpg,100,757,1474
+file samples/rgbw_247x117_444.jpg,100,663,1503
 Decoding samples/rgbw_255x104_400.jpg for 100 rounds
-tjpgd 255x104 decode time: 562 us, 26520 pixels processed
-zjpgd 255x104 decode time: 815 us, 26520 pixels processed
+tjpgd 255x104 decode time: 620 us, 26520 pixels processed
+zjpgd 255x104 decode time: 777 us, 26520 pixels processed
 
-file samples/rgbw_255x104_400.jpg,100,562,815
+file samples/rgbw_255x104_400.jpg,100,620,777
 Decoding samples/rgbw_255x104_420.jpg for 100 rounds
-tjpgd 255x104 decode time: 595 us, 26520 pixels processed
-zjpgd 255x104 decode time: 1067 us, 26520 pixels processed
+tjpgd 255x104 decode time: 651 us, 26520 pixels processed
+zjpgd 255x104 decode time: 1178 us, 26520 pixels processed
 
-file samples/rgbw_255x104_420.jpg,100,595,1067
+file samples/rgbw_255x104_420.jpg,100,651,1178
 Decoding samples/rgbw_255x104_422.jpg for 100 rounds
-tjpgd 255x104 decode time: 597 us, 26520 pixels processed
-zjpgd 255x104 decode time: 1113 us, 26520 pixels processed
+tjpgd 255x104 decode time: 576 us, 26520 pixels processed
+zjpgd 255x104 decode time: 1154 us, 26520 pixels processed
 
-file samples/rgbw_255x104_422.jpg,100,597,1113
+file samples/rgbw_255x104_422.jpg,100,576,1154
 Decoding samples/rgbw_255x104_444.jpg for 100 rounds
-tjpgd 255x104 decode time: 593 us, 26520 pixels processed
-zjpgd 255x104 decode time: 1296 us, 26520 pixels processed
+tjpgd 255x104 decode time: 640 us, 26520 pixels processed
+zjpgd 255x104 decode time: 1408 us, 26520 pixels processed
 
-file samples/rgbw_255x104_444.jpg,100,593,1296
+file samples/rgbw_255x104_444.jpg,100,640,1408
 Decoding samples/rgbw_265x130_400.jpg for 100 rounds
-tjpgd 265x130 decode time: 813 us, 34450 pixels processed
-zjpgd 265x130 decode time: 1164 us, 34450 pixels processed
+tjpgd 265x130 decode time: 872 us, 34450 pixels processed
+zjpgd 265x130 decode time: 1121 us, 34450 pixels processed
 
-file samples/rgbw_265x130_400.jpg,100,813,1164
+file samples/rgbw_265x130_400.jpg,100,872,1121
 Decoding samples/rgbw_265x130_420.jpg for 100 rounds
-tjpgd 265x130 decode time: 779 us, 34450 pixels processed
-zjpgd 265x130 decode time: 1578 us, 34450 pixels processed
+tjpgd 265x130 decode time: 818 us, 34450 pixels processed
+zjpgd 265x130 decode time: 1576 us, 34450 pixels processed
 
-file samples/rgbw_265x130_420.jpg,100,779,1578
+file samples/rgbw_265x130_420.jpg,100,818,1576
 Decoding samples/rgbw_265x130_422.jpg for 100 rounds
-tjpgd 265x130 decode time: 817 us, 34450 pixels processed
-zjpgd 265x130 decode time: 1583 us, 34450 pixels processed
+tjpgd 265x130 decode time: 796 us, 34450 pixels processed
+zjpgd 265x130 decode time: 1617 us, 34450 pixels processed
 
-file samples/rgbw_265x130_422.jpg,100,817,1583
+file samples/rgbw_265x130_422.jpg,100,796,1617
 Decoding samples/rgbw_265x130_444.jpg for 100 rounds
-tjpgd 265x130 decode time: 977 us, 34450 pixels processed
-zjpgd 265x130 decode time: 1874 us, 34450 pixels processed
+tjpgd 265x130 decode time: 788 us, 34450 pixels processed
+zjpgd 265x130 decode time: 1803 us, 34450 pixels processed
 
-file samples/rgbw_265x130_444.jpg,100,977,1874
+file samples/rgbw_265x130_444.jpg,100,788,1803
 Decoding samples/rgbw_278x12_400.jpg for 100 rounds
-tjpgd 278x12 decode time: 152 us, 3336 pixels processed
-zjpgd 278x12 decode time: 158 us, 3336 pixels processed
+tjpgd 278x12 decode time: 142 us, 3336 pixels processed
+zjpgd 278x12 decode time: 165 us, 3336 pixels processed
 
-file samples/rgbw_278x12_400.jpg,100,152,158
+file samples/rgbw_278x12_400.jpg,100,142,165
 Decoding samples/rgbw_278x12_420.jpg for 100 rounds
-tjpgd 278x12 decode time: 155 us, 3336 pixels processed
-zjpgd 278x12 decode time: 229 us, 3336 pixels processed
+tjpgd 278x12 decode time: 162 us, 3336 pixels processed
+zjpgd 278x12 decode time: 218 us, 3336 pixels processed
 
-file samples/rgbw_278x12_420.jpg,100,155,229
+file samples/rgbw_278x12_420.jpg,100,162,218
 Decoding samples/rgbw_278x12_422.jpg for 100 rounds
-tjpgd 278x12 decode time: 175 us, 3336 pixels processed
-zjpgd 278x12 decode time: 242 us, 3336 pixels processed
+tjpgd 278x12 decode time: 164 us, 3336 pixels processed
+zjpgd 278x12 decode time: 259 us, 3336 pixels processed
 
-file samples/rgbw_278x12_422.jpg,100,175,242
+file samples/rgbw_278x12_422.jpg,100,164,259
 Decoding samples/rgbw_278x12_444.jpg for 100 rounds
-tjpgd 278x12 decode time: 192 us, 3336 pixels processed
-zjpgd 278x12 decode time: 256 us, 3336 pixels processed
+tjpgd 278x12 decode time: 198 us, 3336 pixels processed
+zjpgd 278x12 decode time: 303 us, 3336 pixels processed
 
-file samples/rgbw_278x12_444.jpg,100,192,256
+file samples/rgbw_278x12_444.jpg,100,198,303
 Decoding samples/rgbw_278x49_400.jpg for 100 rounds
-tjpgd 278x49 decode time: 350 us, 13622 pixels processed
-zjpgd 278x49 decode time: 479 us, 13622 pixels processed
+tjpgd 278x49 decode time: 358 us, 13622 pixels processed
+zjpgd 278x49 decode time: 459 us, 13622 pixels processed
 
-file samples/rgbw_278x49_400.jpg,100,350,479
+file samples/rgbw_278x49_400.jpg,100,358,459
 Decoding samples/rgbw_278x49_420.jpg for 100 rounds
 tjpgd 278x49 decode time: 375 us, 13622 pixels processed
-zjpgd 278x49 decode time: 697 us, 13622 pixels processed
+zjpgd 278x49 decode time: 706 us, 13622 pixels processed
 
-file samples/rgbw_278x49_420.jpg,100,375,697
+file samples/rgbw_278x49_420.jpg,100,375,706
 Decoding samples/rgbw_278x49_422.jpg for 100 rounds
-tjpgd 278x49 decode time: 346 us, 13622 pixels processed
-zjpgd 278x49 decode time: 654 us, 13622 pixels processed
+tjpgd 278x49 decode time: 330 us, 13622 pixels processed
+zjpgd 278x49 decode time: 1234 us, 13622 pixels processed
 
-file samples/rgbw_278x49_422.jpg,100,346,654
+file samples/rgbw_278x49_422.jpg,100,330,1234
 Decoding samples/rgbw_278x49_444.jpg for 100 rounds
-tjpgd 278x49 decode time: 297 us, 13622 pixels processed
-zjpgd 278x49 decode time: 728 us, 13622 pixels processed
+tjpgd 278x49 decode time: 318 us, 13622 pixels processed
+zjpgd 278x49 decode time: 786 us, 13622 pixels processed
 
-file samples/rgbw_278x49_444.jpg,100,297,728
+file samples/rgbw_278x49_444.jpg,100,318,786
 Decoding samples/rgbw_285x223_400.jpg for 100 rounds
-tjpgd 285x223 decode time: 1423 us, 63555 pixels processed
-zjpgd 285x223 decode time: 1954 us, 63555 pixels processed
+tjpgd 285x223 decode time: 1518 us, 63555 pixels processed
+zjpgd 285x223 decode time: 2191 us, 63555 pixels processed
 
-file samples/rgbw_285x223_400.jpg,100,1423,1954
+file samples/rgbw_285x223_400.jpg,100,1518,2191
 Decoding samples/rgbw_285x223_420.jpg for 100 rounds
-tjpgd 285x223 decode time: 1334 us, 63555 pixels processed
-zjpgd 285x223 decode time: 2442 us, 63555 pixels processed
+tjpgd 285x223 decode time: 1361 us, 63555 pixels processed
+zjpgd 285x223 decode time: 2425 us, 63555 pixels processed
 
-file samples/rgbw_285x223_420.jpg,100,1334,2442
+file samples/rgbw_285x223_420.jpg,100,1361,2425
 Decoding samples/rgbw_285x223_422.jpg for 100 rounds
-tjpgd 285x223 decode time: 1415 us, 63555 pixels processed
-zjpgd 285x223 decode time: 2679 us, 63555 pixels processed
+tjpgd 285x223 decode time: 1364 us, 63555 pixels processed
+zjpgd 285x223 decode time: 2693 us, 63555 pixels processed
 
-file samples/rgbw_285x223_422.jpg,100,1415,2679
+file samples/rgbw_285x223_422.jpg,100,1364,2693
 Decoding samples/rgbw_285x223_444.jpg for 100 rounds
-tjpgd 285x223 decode time: 1472 us, 63555 pixels processed
-zjpgd 285x223 decode time: 3176 us, 63555 pixels processed
+tjpgd 285x223 decode time: 1372 us, 63555 pixels processed
+zjpgd 285x223 decode time: 3107 us, 63555 pixels processed
 
-file samples/rgbw_285x223_444.jpg,100,1472,3176
+file samples/rgbw_285x223_444.jpg,100,1372,3107
 Decoding samples/rgbw_285x73_400.jpg for 100 rounds
-tjpgd 285x73 decode time: 521 us, 20805 pixels processed
-zjpgd 285x73 decode time: 783 us, 20805 pixels processed
+tjpgd 285x73 decode time: 543 us, 20805 pixels processed
+zjpgd 285x73 decode time: 685 us, 20805 pixels processed
 
-file samples/rgbw_285x73_400.jpg,100,521,783
+file samples/rgbw_285x73_400.jpg,100,543,685
 Decoding samples/rgbw_285x73_420.jpg for 100 rounds
-tjpgd 285x73 decode time: 480 us, 20805 pixels processed
-zjpgd 285x73 decode time: 890 us, 20805 pixels processed
+tjpgd 285x73 decode time: 501 us, 20805 pixels processed
+zjpgd 285x73 decode time: 845 us, 20805 pixels processed
 
-file samples/rgbw_285x73_420.jpg,100,480,890
+file samples/rgbw_285x73_420.jpg,100,501,845
 Decoding samples/rgbw_285x73_422.jpg for 100 rounds
-tjpgd 285x73 decode time: 515 us, 20805 pixels processed
-zjpgd 285x73 decode time: 1024 us, 20805 pixels processed
+tjpgd 285x73 decode time: 508 us, 20805 pixels processed
+zjpgd 285x73 decode time: 1066 us, 20805 pixels processed
 
-file samples/rgbw_285x73_422.jpg,100,515,1024
+file samples/rgbw_285x73_422.jpg,100,508,1066
 Decoding samples/rgbw_285x73_444.jpg for 100 rounds
-tjpgd 285x73 decode time: 529 us, 20805 pixels processed
-zjpgd 285x73 decode time: 1161 us, 20805 pixels processed
+tjpgd 285x73 decode time: 581 us, 20805 pixels processed
+zjpgd 285x73 decode time: 1290 us, 20805 pixels processed
 
-file samples/rgbw_285x73_444.jpg,100,529,1161
+file samples/rgbw_285x73_444.jpg,100,581,1290
 Decoding samples/rgbw_2x78_400.jpg for 100 rounds
 tjpgd 2x78 decode time: 51 us, 156 pixels processed
 zjpgd 2x78 decode time: 47 us, 156 pixels processed
 
 file samples/rgbw_2x78_400.jpg,100,51,47
 Decoding samples/rgbw_2x78_420.jpg for 100 rounds
-tjpgd 2x78 decode time: 107 us, 156 pixels processed
-zjpgd 2x78 decode time: 86 us, 156 pixels processed
+tjpgd 2x78 decode time: 73 us, 156 pixels processed
+zjpgd 2x78 decode time: 79 us, 156 pixels processed
 
-file samples/rgbw_2x78_420.jpg,100,107,86
+file samples/rgbw_2x78_420.jpg,100,73,79
 Decoding samples/rgbw_2x78_422.jpg for 100 rounds
-tjpgd 2x78 decode time: 82 us, 156 pixels processed
-zjpgd 2x78 decode time: 83 us, 156 pixels processed
+tjpgd 2x78 decode time: 75 us, 156 pixels processed
+zjpgd 2x78 decode time: 88 us, 156 pixels processed
 
-file samples/rgbw_2x78_422.jpg,100,82,83
+file samples/rgbw_2x78_422.jpg,100,75,88
 Decoding samples/rgbw_2x78_444.jpg for 100 rounds
-tjpgd 2x78 decode time: 69 us, 156 pixels processed
-zjpgd 2x78 decode time: 68 us, 156 pixels processed
+tjpgd 2x78 decode time: 75 us, 156 pixels processed
+zjpgd 2x78 decode time: 85 us, 156 pixels processed
 
-file samples/rgbw_2x78_444.jpg,100,69,68
+file samples/rgbw_2x78_444.jpg,100,75,85
 Decoding samples/rgbw_300x15_400.jpg for 100 rounds
-tjpgd 300x15 decode time: 158 us, 4500 pixels processed
-zjpgd 300x15 decode time: 164 us, 4500 pixels processed
+tjpgd 300x15 decode time: 170 us, 4500 pixels processed
+zjpgd 300x15 decode time: 209 us, 4500 pixels processed
 
-file samples/rgbw_300x15_400.jpg,100,158,164
+file samples/rgbw_300x15_400.jpg,100,170,209
 Decoding samples/rgbw_300x15_420.jpg for 100 rounds
 tjpgd 300x15 decode time: 185 us, 4500 pixels processed
-zjpgd 300x15 decode time: 258 us, 4500 pixels processed
+zjpgd 300x15 decode time: 208 us, 4500 pixels processed
 
-file samples/rgbw_300x15_420.jpg,100,185,258
+file samples/rgbw_300x15_420.jpg,100,185,208
 Decoding samples/rgbw_300x15_422.jpg for 100 rounds
-tjpgd 300x15 decode time: 210 us, 4500 pixels processed
-zjpgd 300x15 decode time: 264 us, 4500 pixels processed
+tjpgd 300x15 decode time: 200 us, 4500 pixels processed
+zjpgd 300x15 decode time: 284 us, 4500 pixels processed
 
-file samples/rgbw_300x15_422.jpg,100,210,264
+file samples/rgbw_300x15_422.jpg,100,200,284
 Decoding samples/rgbw_300x15_444.jpg for 100 rounds
-tjpgd 300x15 decode time: 238 us, 4500 pixels processed
-zjpgd 300x15 decode time: 320 us, 4500 pixels processed
+tjpgd 300x15 decode time: 218 us, 4500 pixels processed
+zjpgd 300x15 decode time: 307 us, 4500 pixels processed
 
-file samples/rgbw_300x15_444.jpg,100,238,320
+file samples/rgbw_300x15_444.jpg,100,218,307
 Decoding samples/rgbw_306x143_400.jpg for 100 rounds
-tjpgd 306x143 decode time: 1015 us, 43758 pixels processed
-zjpgd 306x143 decode time: 1504 us, 43758 pixels processed
+tjpgd 306x143 decode time: 1007 us, 43758 pixels processed
+zjpgd 306x143 decode time: 1459 us, 43758 pixels processed
 
-file samples/rgbw_306x143_400.jpg,100,1015,1504
+file samples/rgbw_306x143_400.jpg,100,1007,1459
 Decoding samples/rgbw_306x143_420.jpg for 100 rounds
-tjpgd 306x143 decode time: 1018 us, 43758 pixels processed
-zjpgd 306x143 decode time: 1815 us, 43758 pixels processed
+tjpgd 306x143 decode time: 939 us, 43758 pixels processed
+zjpgd 306x143 decode time: 1699 us, 43758 pixels processed
 
-file samples/rgbw_306x143_420.jpg,100,1018,1815
+file samples/rgbw_306x143_420.jpg,100,939,1699
 Decoding samples/rgbw_306x143_422.jpg for 100 rounds
-tjpgd 306x143 decode time: 1029 us, 43758 pixels processed
-zjpgd 306x143 decode time: 2059 us, 43758 pixels processed
+tjpgd 306x143 decode time: 1010 us, 43758 pixels processed
+zjpgd 306x143 decode time: 1991 us, 43758 pixels processed
 
-file samples/rgbw_306x143_422.jpg,100,1029,2059
+file samples/rgbw_306x143_422.jpg,100,1010,1991
 Decoding samples/rgbw_306x143_444.jpg for 100 rounds
-tjpgd 306x143 decode time: 1049 us, 43758 pixels processed
-zjpgd 306x143 decode time: 2240 us, 43758 pixels processed
+tjpgd 306x143 decode time: 1112 us, 43758 pixels processed
+zjpgd 306x143 decode time: 2255 us, 43758 pixels processed
 
-file samples/rgbw_306x143_444.jpg,100,1049,2240
+file samples/rgbw_306x143_444.jpg,100,1112,2255
 Decoding samples/rgbw_312x36_400.jpg for 100 rounds
-tjpgd 312x36 decode time: 311 us, 11232 pixels processed
-zjpgd 312x36 decode time: 428 us, 11232 pixels processed
+tjpgd 312x36 decode time: 299 us, 11232 pixels processed
+zjpgd 312x36 decode time: 384 us, 11232 pixels processed
 
-file samples/rgbw_312x36_400.jpg,100,311,428
+file samples/rgbw_312x36_400.jpg,100,299,384
 Decoding samples/rgbw_312x36_420.jpg for 100 rounds
-tjpgd 312x36 decode time: 394 us, 11232 pixels processed
-zjpgd 312x36 decode time: 592 us, 11232 pixels processed
+tjpgd 312x36 decode time: 373 us, 11232 pixels processed
+zjpgd 312x36 decode time: 584 us, 11232 pixels processed
 
-file samples/rgbw_312x36_420.jpg,100,394,592
+file samples/rgbw_312x36_420.jpg,100,373,584
 Decoding samples/rgbw_312x36_422.jpg for 100 rounds
-tjpgd 312x36 decode time: 329 us, 11232 pixels processed
-zjpgd 312x36 decode time: 578 us, 11232 pixels processed
+tjpgd 312x36 decode time: 346 us, 11232 pixels processed
+zjpgd 312x36 decode time: 559 us, 11232 pixels processed
 
-file samples/rgbw_312x36_422.jpg,100,329,578
+file samples/rgbw_312x36_422.jpg,100,346,559
 Decoding samples/rgbw_312x36_444.jpg for 100 rounds
-tjpgd 312x36 decode time: 349 us, 11232 pixels processed
-zjpgd 312x36 decode time: 679 us, 11232 pixels processed
+tjpgd 312x36 decode time: 371 us, 11232 pixels processed
+zjpgd 312x36 decode time: 666 us, 11232 pixels processed
 
-file samples/rgbw_312x36_444.jpg,100,349,679
+file samples/rgbw_312x36_444.jpg,100,371,666
 Decoding samples/rgbw_314x209_400.jpg for 100 rounds
-tjpgd 314x209 decode time: 1386 us, 65626 pixels processed
-zjpgd 314x209 decode time: 2142 us, 65626 pixels processed
+tjpgd 314x209 decode time: 1495 us, 65626 pixels processed
+zjpgd 314x209 decode time: 2045 us, 65626 pixels processed
 
-file samples/rgbw_314x209_400.jpg,100,1386,2142
+file samples/rgbw_314x209_400.jpg,100,1495,2045
 Decoding samples/rgbw_314x209_420.jpg for 100 rounds
-tjpgd 314x209 decode time: 1383 us, 65626 pixels processed
-zjpgd 314x209 decode time: 2654 us, 65626 pixels processed
+tjpgd 314x209 decode time: 1475 us, 65626 pixels processed
+zjpgd 314x209 decode time: 2595 us, 65626 pixels processed
 
-file samples/rgbw_314x209_420.jpg,100,1383,2654
+file samples/rgbw_314x209_420.jpg,100,1475,2595
 Decoding samples/rgbw_314x209_422.jpg for 100 rounds
-tjpgd 314x209 decode time: 1362 us, 65626 pixels processed
-zjpgd 314x209 decode time: 2976 us, 65626 pixels processed
+tjpgd 314x209 decode time: 1334 us, 65626 pixels processed
+zjpgd 314x209 decode time: 2795 us, 65626 pixels processed
 
-file samples/rgbw_314x209_422.jpg,100,1362,2976
+file samples/rgbw_314x209_422.jpg,100,1334,2795
 Decoding samples/rgbw_314x209_444.jpg for 100 rounds
-tjpgd 314x209 decode time: 1351 us, 65626 pixels processed
-zjpgd 314x209 decode time: 3456 us, 65626 pixels processed
+tjpgd 314x209 decode time: 1296 us, 65626 pixels processed
+zjpgd 314x209 decode time: 3336 us, 65626 pixels processed
 
-file samples/rgbw_314x209_444.jpg,100,1351,3456
+file samples/rgbw_314x209_444.jpg,100,1296,3336
 Decoding samples/rgbw_32x32_400.jpg for 100 rounds
 tjpgd 32x32 decode time: 59 us, 1024 pixels processed
 zjpgd 32x32 decode time: 64 us, 1024 pixels processed
 
 file samples/rgbw_32x32_400.jpg,100,59,64
 Decoding samples/rgbw_32x32_420.jpg for 100 rounds
-tjpgd 32x32 decode time: 51 us, 1024 pixels processed
+tjpgd 32x32 decode time: 48 us, 1024 pixels processed
 zjpgd 32x32 decode time: 60 us, 1024 pixels processed
 
-file samples/rgbw_32x32_420.jpg,100,51,60
+file samples/rgbw_32x32_420.jpg,100,48,60
 Decoding samples/rgbw_32x32_422.jpg for 100 rounds
-tjpgd 32x32 decode time: 53 us, 1024 pixels processed
-zjpgd 32x32 decode time: 67 us, 1024 pixels processed
+tjpgd 32x32 decode time: 56 us, 1024 pixels processed
+zjpgd 32x32 decode time: 75 us, 1024 pixels processed
 
-file samples/rgbw_32x32_422.jpg,100,53,67
+file samples/rgbw_32x32_422.jpg,100,56,75
 Decoding samples/rgbw_32x32_444.jpg for 100 rounds
-tjpgd 32x32 decode time: 49 us, 1024 pixels processed
-zjpgd 32x32 decode time: 69 us, 1024 pixels processed
+tjpgd 32x32 decode time: 55 us, 1024 pixels processed
+zjpgd 32x32 decode time: 74 us, 1024 pixels processed
 
-file samples/rgbw_32x32_444.jpg,100,49,69
+file samples/rgbw_32x32_444.jpg,100,55,74
 Decoding samples/rgbw_33x32_400.jpg for 100 rounds
 tjpgd 33x32 decode time: 59 us, 1056 pixels processed
-zjpgd 33x32 decode time: 61 us, 1056 pixels processed
+zjpgd 33x32 decode time: 68 us, 1056 pixels processed
 
-file samples/rgbw_33x32_400.jpg,100,59,61
+file samples/rgbw_33x32_400.jpg,100,59,68
 Decoding samples/rgbw_33x32_420.jpg for 100 rounds
-tjpgd 33x32 decode time: 58 us, 1056 pixels processed
-zjpgd 33x32 decode time: 77 us, 1056 pixels processed
+tjpgd 33x32 decode time: 61 us, 1056 pixels processed
+zjpgd 33x32 decode time: 91 us, 1056 pixels processed
 
-file samples/rgbw_33x32_420.jpg,100,58,77
+file samples/rgbw_33x32_420.jpg,100,61,91
 Decoding samples/rgbw_33x32_422.jpg for 100 rounds
-tjpgd 33x32 decode time: 55 us, 1056 pixels processed
-zjpgd 33x32 decode time: 84 us, 1056 pixels processed
+tjpgd 33x32 decode time: 63 us, 1056 pixels processed
+zjpgd 33x32 decode time: 98 us, 1056 pixels processed
 
-file samples/rgbw_33x32_422.jpg,100,55,84
+file samples/rgbw_33x32_422.jpg,100,63,98
 Decoding samples/rgbw_33x32_444.jpg for 100 rounds
-tjpgd 33x32 decode time: 54 us, 1056 pixels processed
+tjpgd 33x32 decode time: 59 us, 1056 pixels processed
 zjpgd 33x32 decode time: 90 us, 1056 pixels processed
 
-file samples/rgbw_33x32_444.jpg,100,54,90
+file samples/rgbw_33x32_444.jpg,100,59,90
 Decoding samples/rgbw_39x32_400.jpg for 100 rounds
-tjpgd 39x32 decode time: 65 us, 1248 pixels processed
-zjpgd 39x32 decode time: 71 us, 1248 pixels processed
+tjpgd 39x32 decode time: 66 us, 1248 pixels processed
+zjpgd 39x32 decode time: 69 us, 1248 pixels processed
 
-file samples/rgbw_39x32_400.jpg,100,65,71
+file samples/rgbw_39x32_400.jpg,100,66,69
 Decoding samples/rgbw_39x32_420.jpg for 100 rounds
-tjpgd 39x32 decode time: 60 us, 1248 pixels processed
-zjpgd 39x32 decode time: 78 us, 1248 pixels processed
+tjpgd 39x32 decode time: 64 us, 1248 pixels processed
+zjpgd 39x32 decode time: 83 us, 1248 pixels processed
 
-file samples/rgbw_39x32_420.jpg,100,60,78
+file samples/rgbw_39x32_420.jpg,100,64,83
 Decoding samples/rgbw_39x32_422.jpg for 100 rounds
-tjpgd 39x32 decode time: 71 us, 1248 pixels processed
-zjpgd 39x32 decode time: 93 us, 1248 pixels processed
+tjpgd 39x32 decode time: 68 us, 1248 pixels processed
+zjpgd 39x32 decode time: 85 us, 1248 pixels processed
 
-file samples/rgbw_39x32_422.jpg,100,71,93
+file samples/rgbw_39x32_422.jpg,100,68,85
 Decoding samples/rgbw_39x32_444.jpg for 100 rounds
-tjpgd 39x32 decode time: 69 us, 1248 pixels processed
-zjpgd 39x32 decode time: 86 us, 1248 pixels processed
+tjpgd 39x32 decode time: 70 us, 1248 pixels processed
+zjpgd 39x32 decode time: 92 us, 1248 pixels processed
 
-file samples/rgbw_39x32_444.jpg,100,69,86
+file samples/rgbw_39x32_444.jpg,100,70,92
 Decoding samples/rgbw_40x32_400.jpg for 100 rounds
 tjpgd 40x32 decode time: 58 us, 1280 pixels processed
-zjpgd 40x32 decode time: 64 us, 1280 pixels processed
+zjpgd 40x32 decode time: 72 us, 1280 pixels processed
 
-file samples/rgbw_40x32_400.jpg,100,58,64
+file samples/rgbw_40x32_400.jpg,100,58,72
 Decoding samples/rgbw_40x32_420.jpg for 100 rounds
-tjpgd 40x32 decode time: 68 us, 1280 pixels processed
-zjpgd 40x32 decode time: 89 us, 1280 pixels processed
-
-file samples/rgbw_40x32_420.jpg,100,68,89
-Decoding samples/rgbw_40x32_422.jpg for 100 rounds
 tjpgd 40x32 decode time: 73 us, 1280 pixels processed
-zjpgd 40x32 decode time: 100 us, 1280 pixels processed
-
-file samples/rgbw_40x32_422.jpg,100,73,100
-Decoding samples/rgbw_40x32_444.jpg for 100 rounds
-tjpgd 40x32 decode time: 67 us, 1280 pixels processed
 zjpgd 40x32 decode time: 101 us, 1280 pixels processed
 
-file samples/rgbw_40x32_444.jpg,100,67,101
+file samples/rgbw_40x32_420.jpg,100,73,101
+Decoding samples/rgbw_40x32_422.jpg for 100 rounds
+tjpgd 40x32 decode time: 77 us, 1280 pixels processed
+zjpgd 40x32 decode time: 107 us, 1280 pixels processed
+
+file samples/rgbw_40x32_422.jpg,100,77,107
+Decoding samples/rgbw_40x32_444.jpg for 100 rounds
+tjpgd 40x32 decode time: 71 us, 1280 pixels processed
+zjpgd 40x32 decode time: 104 us, 1280 pixels processed
+
+file samples/rgbw_40x32_444.jpg,100,71,104
 Decoding samples/rgbw_40x79_400.jpg for 100 rounds
-tjpgd 40x79 decode time: 125 us, 3160 pixels processed
-zjpgd 40x79 decode time: 136 us, 3160 pixels processed
+tjpgd 40x79 decode time: 126 us, 3160 pixels processed
+zjpgd 40x79 decode time: 150 us, 3160 pixels processed
 
-file samples/rgbw_40x79_400.jpg,100,125,136
+file samples/rgbw_40x79_400.jpg,100,126,150
 Decoding samples/rgbw_40x79_420.jpg for 100 rounds
-tjpgd 40x79 decode time: 130 us, 3160 pixels processed
-zjpgd 40x79 decode time: 189 us, 3160 pixels processed
+tjpgd 40x79 decode time: 146 us, 3160 pixels processed
+zjpgd 40x79 decode time: 206 us, 3160 pixels processed
 
-file samples/rgbw_40x79_420.jpg,100,130,189
+file samples/rgbw_40x79_420.jpg,100,146,206
 Decoding samples/rgbw_40x79_422.jpg for 100 rounds
-tjpgd 40x79 decode time: 151 us, 3160 pixels processed
-zjpgd 40x79 decode time: 216 us, 3160 pixels processed
+tjpgd 40x79 decode time: 157 us, 3160 pixels processed
+zjpgd 40x79 decode time: 228 us, 3160 pixels processed
 
-file samples/rgbw_40x79_422.jpg,100,151,216
+file samples/rgbw_40x79_422.jpg,100,157,228
 Decoding samples/rgbw_40x79_444.jpg for 100 rounds
-tjpgd 40x79 decode time: 143 us, 3160 pixels processed
-zjpgd 40x79 decode time: 195 us, 3160 pixels processed
+tjpgd 40x79 decode time: 149 us, 3160 pixels processed
+zjpgd 40x79 decode time: 229 us, 3160 pixels processed
 
-file samples/rgbw_40x79_444.jpg,100,143,195
+file samples/rgbw_40x79_444.jpg,100,149,229
 Decoding samples/rgbw_49x26_400.jpg for 100 rounds
-tjpgd 49x26 decode time: 77 us, 1274 pixels processed
-zjpgd 49x26 decode time: 83 us, 1274 pixels processed
+tjpgd 49x26 decode time: 67 us, 1274 pixels processed
+zjpgd 49x26 decode time: 73 us, 1274 pixels processed
 
-file samples/rgbw_49x26_400.jpg,100,77,83
+file samples/rgbw_49x26_400.jpg,100,67,73
 Decoding samples/rgbw_49x26_420.jpg for 100 rounds
-tjpgd 49x26 decode time: 77 us, 1274 pixels processed
-zjpgd 49x26 decode time: 111 us, 1274 pixels processed
+tjpgd 49x26 decode time: 72 us, 1274 pixels processed
+zjpgd 49x26 decode time: 108 us, 1274 pixels processed
 
-file samples/rgbw_49x26_420.jpg,100,77,111
+file samples/rgbw_49x26_420.jpg,100,72,108
 Decoding samples/rgbw_49x26_422.jpg for 100 rounds
-tjpgd 49x26 decode time: 92 us, 1274 pixels processed
-zjpgd 49x26 decode time: 125 us, 1274 pixels processed
+tjpgd 49x26 decode time: 90 us, 1274 pixels processed
+zjpgd 49x26 decode time: 130 us, 1274 pixels processed
 
-file samples/rgbw_49x26_422.jpg,100,92,125
+file samples/rgbw_49x26_422.jpg,100,90,130
 Decoding samples/rgbw_49x26_444.jpg for 100 rounds
-tjpgd 49x26 decode time: 89 us, 1274 pixels processed
-zjpgd 49x26 decode time: 112 us, 1274 pixels processed
+tjpgd 49x26 decode time: 73 us, 1274 pixels processed
+zjpgd 49x26 decode time: 105 us, 1274 pixels processed
 
-file samples/rgbw_49x26_444.jpg,100,89,112
+file samples/rgbw_49x26_444.jpg,100,73,105
 Decoding samples/rgbw_51x129_400.jpg for 100 rounds
-tjpgd 51x129 decode time: 195 us, 6579 pixels processed
-zjpgd 51x129 decode time: 268 us, 6579 pixels processed
+tjpgd 51x129 decode time: 191 us, 6579 pixels processed
+zjpgd 51x129 decode time: 283 us, 6579 pixels processed
 
-file samples/rgbw_51x129_400.jpg,100,195,268
+file samples/rgbw_51x129_400.jpg,100,191,283
 Decoding samples/rgbw_51x129_420.jpg for 100 rounds
-tjpgd 51x129 decode time: 204 us, 6579 pixels processed
-zjpgd 51x129 decode time: 379 us, 6579 pixels processed
+tjpgd 51x129 decode time: 235 us, 6579 pixels processed
+zjpgd 51x129 decode time: 408 us, 6579 pixels processed
 
-file samples/rgbw_51x129_420.jpg,100,204,379
+file samples/rgbw_51x129_420.jpg,100,235,408
 Decoding samples/rgbw_51x129_422.jpg for 100 rounds
 tjpgd 51x129 decode time: 231 us, 6579 pixels processed
-zjpgd 51x129 decode time: 443 us, 6579 pixels processed
+zjpgd 51x129 decode time: 387 us, 6579 pixels processed
 
-file samples/rgbw_51x129_422.jpg,100,231,443
+file samples/rgbw_51x129_422.jpg,100,231,387
 Decoding samples/rgbw_51x129_444.jpg for 100 rounds
-tjpgd 51x129 decode time: 236 us, 6579 pixels processed
-zjpgd 51x129 decode time: 412 us, 6579 pixels processed
+tjpgd 51x129 decode time: 221 us, 6579 pixels processed
+zjpgd 51x129 decode time: 433 us, 6579 pixels processed
 
-file samples/rgbw_51x129_444.jpg,100,236,412
+file samples/rgbw_51x129_444.jpg,100,221,433
 Decoding samples/rgbw_51x198_400.jpg for 100 rounds
-tjpgd 51x198 decode time: 291 us, 10098 pixels processed
-zjpgd 51x198 decode time: 370 us, 10098 pixels processed
+tjpgd 51x198 decode time: 279 us, 10098 pixels processed
+zjpgd 51x198 decode time: 379 us, 10098 pixels processed
 
-file samples/rgbw_51x198_400.jpg,100,291,370
+file samples/rgbw_51x198_400.jpg,100,279,379
 Decoding samples/rgbw_51x198_420.jpg for 100 rounds
-tjpgd 51x198 decode time: 369 us, 10098 pixels processed
-zjpgd 51x198 decode time: 606 us, 10098 pixels processed
+tjpgd 51x198 decode time: 334 us, 10098 pixels processed
+zjpgd 51x198 decode time: 538 us, 10098 pixels processed
 
-file samples/rgbw_51x198_420.jpg,100,369,606
+file samples/rgbw_51x198_420.jpg,100,334,538
 Decoding samples/rgbw_51x198_422.jpg for 100 rounds
-tjpgd 51x198 decode time: 355 us, 10098 pixels processed
+tjpgd 51x198 decode time: 367 us, 10098 pixels processed
+zjpgd 51x198 decode time: 588 us, 10098 pixels processed
+
+file samples/rgbw_51x198_422.jpg,100,367,588
+Decoding samples/rgbw_51x198_444.jpg for 100 rounds
+tjpgd 51x198 decode time: 365 us, 10098 pixels processed
 zjpgd 51x198 decode time: 605 us, 10098 pixels processed
 
-file samples/rgbw_51x198_422.jpg,100,355,605
-Decoding samples/rgbw_51x198_444.jpg for 100 rounds
-tjpgd 51x198 decode time: 384 us, 10098 pixels processed
-zjpgd 51x198 decode time: 614 us, 10098 pixels processed
-
-file samples/rgbw_51x198_444.jpg,100,384,614
+file samples/rgbw_51x198_444.jpg,100,365,605
 Decoding samples/rgbw_55x66_400.jpg for 100 rounds
-tjpgd 55x66 decode time: 128 us, 3630 pixels processed
+tjpgd 55x66 decode time: 119 us, 3630 pixels processed
 zjpgd 55x66 decode time: 157 us, 3630 pixels processed
 
-file samples/rgbw_55x66_400.jpg,100,128,157
+file samples/rgbw_55x66_400.jpg,100,119,157
 Decoding samples/rgbw_55x66_420.jpg for 100 rounds
-tjpgd 55x66 decode time: 161 us, 3630 pixels processed
+tjpgd 55x66 decode time: 162 us, 3630 pixels processed
+zjpgd 55x66 decode time: 227 us, 3630 pixels processed
+
+file samples/rgbw_55x66_420.jpg,100,162,227
+Decoding samples/rgbw_55x66_422.jpg for 100 rounds
+tjpgd 55x66 decode time: 155 us, 3630 pixels processed
 zjpgd 55x66 decode time: 239 us, 3630 pixels processed
 
-file samples/rgbw_55x66_420.jpg,100,161,239
-Decoding samples/rgbw_55x66_422.jpg for 100 rounds
-tjpgd 55x66 decode time: 177 us, 3630 pixels processed
-zjpgd 55x66 decode time: 266 us, 3630 pixels processed
-
-file samples/rgbw_55x66_422.jpg,100,177,266
+file samples/rgbw_55x66_422.jpg,100,155,239
 Decoding samples/rgbw_55x66_444.jpg for 100 rounds
-tjpgd 55x66 decode time: 200 us, 3630 pixels processed
-zjpgd 55x66 decode time: 275 us, 3630 pixels processed
+tjpgd 55x66 decode time: 164 us, 3630 pixels processed
+zjpgd 55x66 decode time: 263 us, 3630 pixels processed
 
-file samples/rgbw_55x66_444.jpg,100,200,275
+file samples/rgbw_55x66_444.jpg,100,164,263
 Decoding samples/rgbw_57x179_400.jpg for 100 rounds
 tjpgd 57x179 decode time: 309 us, 10203 pixels processed
-zjpgd 57x179 decode time: 408 us, 10203 pixels processed
+zjpgd 57x179 decode time: 420 us, 10203 pixels processed
 
-file samples/rgbw_57x179_400.jpg,100,309,408
+file samples/rgbw_57x179_400.jpg,100,309,420
 Decoding samples/rgbw_57x179_420.jpg for 100 rounds
-tjpgd 57x179 decode time: 344 us, 10203 pixels processed
-zjpgd 57x179 decode time: 529 us, 10203 pixels processed
+tjpgd 57x179 decode time: 347 us, 10203 pixels processed
+zjpgd 57x179 decode time: 488 us, 10203 pixels processed
 
-file samples/rgbw_57x179_420.jpg,100,344,529
+file samples/rgbw_57x179_420.jpg,100,347,488
 Decoding samples/rgbw_57x179_422.jpg for 100 rounds
-tjpgd 57x179 decode time: 372 us, 10203 pixels processed
-zjpgd 57x179 decode time: 606 us, 10203 pixels processed
+tjpgd 57x179 decode time: 341 us, 10203 pixels processed
+zjpgd 57x179 decode time: 527 us, 10203 pixels processed
 
-file samples/rgbw_57x179_422.jpg,100,372,606
+file samples/rgbw_57x179_422.jpg,100,341,527
 Decoding samples/rgbw_57x179_444.jpg for 100 rounds
-tjpgd 57x179 decode time: 364 us, 10203 pixels processed
-zjpgd 57x179 decode time: 676 us, 10203 pixels processed
+tjpgd 57x179 decode time: 313 us, 10203 pixels processed
+zjpgd 57x179 decode time: 624 us, 10203 pixels processed
 
-file samples/rgbw_57x179_444.jpg,100,364,676
+file samples/rgbw_57x179_444.jpg,100,313,624
 Decoding samples/rgbw_63x102_400.jpg for 100 rounds
-tjpgd 63x102 decode time: 232 us, 6426 pixels processed
-zjpgd 63x102 decode time: 302 us, 6426 pixels processed
+tjpgd 63x102 decode time: 197 us, 6426 pixels processed
+zjpgd 63x102 decode time: 242 us, 6426 pixels processed
 
-file samples/rgbw_63x102_400.jpg,100,232,302
+file samples/rgbw_63x102_400.jpg,100,197,242
 Decoding samples/rgbw_63x102_420.jpg for 100 rounds
-tjpgd 63x102 decode time: 222 us, 6426 pixels processed
-zjpgd 63x102 decode time: 321 us, 6426 pixels processed
+tjpgd 63x102 decode time: 204 us, 6426 pixels processed
+zjpgd 63x102 decode time: 285 us, 6426 pixels processed
 
-file samples/rgbw_63x102_420.jpg,100,222,321
+file samples/rgbw_63x102_420.jpg,100,204,285
 Decoding samples/rgbw_63x102_422.jpg for 100 rounds
-tjpgd 63x102 decode time: 230 us, 6426 pixels processed
-zjpgd 63x102 decode time: 329 us, 6426 pixels processed
+tjpgd 63x102 decode time: 210 us, 6426 pixels processed
+zjpgd 63x102 decode time: 335 us, 6426 pixels processed
 
-file samples/rgbw_63x102_422.jpg,100,230,329
+file samples/rgbw_63x102_422.jpg,100,210,335
 Decoding samples/rgbw_63x102_444.jpg for 100 rounds
-tjpgd 63x102 decode time: 253 us, 6426 pixels processed
-zjpgd 63x102 decode time: 389 us, 6426 pixels processed
+tjpgd 63x102 decode time: 254 us, 6426 pixels processed
+zjpgd 63x102 decode time: 417 us, 6426 pixels processed
 
-file samples/rgbw_63x102_444.jpg,100,253,389
+file samples/rgbw_63x102_444.jpg,100,254,417
 Decoding samples/rgbw_64x29_400.jpg for 100 rounds
-tjpgd 64x29 decode time: 86 us, 1856 pixels processed
-zjpgd 64x29 decode time: 90 us, 1856 pixels processed
+tjpgd 64x29 decode time: 74 us, 1856 pixels processed
+zjpgd 64x29 decode time: 84 us, 1856 pixels processed
 
-file samples/rgbw_64x29_400.jpg,100,86,90
+file samples/rgbw_64x29_400.jpg,100,74,84
 Decoding samples/rgbw_64x29_420.jpg for 100 rounds
-tjpgd 64x29 decode time: 78 us, 1856 pixels processed
+tjpgd 64x29 decode time: 75 us, 1856 pixels processed
+zjpgd 64x29 decode time: 102 us, 1856 pixels processed
+
+file samples/rgbw_64x29_420.jpg,100,75,102
+Decoding samples/rgbw_64x29_422.jpg for 100 rounds
+tjpgd 64x29 decode time: 82 us, 1856 pixels processed
 zjpgd 64x29 decode time: 111 us, 1856 pixels processed
 
-file samples/rgbw_64x29_420.jpg,100,78,111
-Decoding samples/rgbw_64x29_422.jpg for 100 rounds
-tjpgd 64x29 decode time: 80 us, 1856 pixels processed
-zjpgd 64x29 decode time: 121 us, 1856 pixels processed
-
-file samples/rgbw_64x29_422.jpg,100,80,121
+file samples/rgbw_64x29_422.jpg,100,82,111
 Decoding samples/rgbw_64x29_444.jpg for 100 rounds
-tjpgd 64x29 decode time: 90 us, 1856 pixels processed
-zjpgd 64x29 decode time: 151 us, 1856 pixels processed
+tjpgd 64x29 decode time: 89 us, 1856 pixels processed
+zjpgd 64x29 decode time: 131 us, 1856 pixels processed
 
-file samples/rgbw_64x29_444.jpg,100,90,151
+file samples/rgbw_64x29_444.jpg,100,89,131
 Decoding samples/rgbw_64x30_400.jpg for 100 rounds
-tjpgd 64x30 decode time: 94 us, 1920 pixels processed
-zjpgd 64x30 decode time: 94 us, 1920 pixels processed
+tjpgd 64x30 decode time: 78 us, 1920 pixels processed
+zjpgd 64x30 decode time: 98 us, 1920 pixels processed
 
-file samples/rgbw_64x30_400.jpg,100,94,94
+file samples/rgbw_64x30_400.jpg,100,78,98
 Decoding samples/rgbw_64x30_420.jpg for 100 rounds
-tjpgd 64x30 decode time: 81 us, 1920 pixels processed
-zjpgd 64x30 decode time: 144 us, 1920 pixels processed
+tjpgd 64x30 decode time: 85 us, 1920 pixels processed
+zjpgd 64x30 decode time: 118 us, 1920 pixels processed
 
-file samples/rgbw_64x30_420.jpg,100,81,144
+file samples/rgbw_64x30_420.jpg,100,85,118
 Decoding samples/rgbw_64x30_422.jpg for 100 rounds
 tjpgd 64x30 decode time: 83 us, 1920 pixels processed
-zjpgd 64x30 decode time: 153 us, 1920 pixels processed
+zjpgd 64x30 decode time: 109 us, 1920 pixels processed
 
-file samples/rgbw_64x30_422.jpg,100,83,153
+file samples/rgbw_64x30_422.jpg,100,83,109
 Decoding samples/rgbw_64x30_444.jpg for 100 rounds
-tjpgd 64x30 decode time: 92 us, 1920 pixels processed
-zjpgd 64x30 decode time: 141 us, 1920 pixels processed
+tjpgd 64x30 decode time: 85 us, 1920 pixels processed
+zjpgd 64x30 decode time: 125 us, 1920 pixels processed
 
-file samples/rgbw_64x30_444.jpg,100,92,141
+file samples/rgbw_64x30_444.jpg,100,85,125
 Decoding samples/rgbw_72x34_400.jpg for 100 rounds
-tjpgd 72x34 decode time: 109 us, 2448 pixels processed
-zjpgd 72x34 decode time: 123 us, 2448 pixels processed
+tjpgd 72x34 decode time: 105 us, 2448 pixels processed
+zjpgd 72x34 decode time: 131 us, 2448 pixels processed
 
-file samples/rgbw_72x34_400.jpg,100,109,123
+file samples/rgbw_72x34_400.jpg,100,105,131
 Decoding samples/rgbw_72x34_420.jpg for 100 rounds
-tjpgd 72x34 decode time: 155 us, 2448 pixels processed
-zjpgd 72x34 decode time: 215 us, 2448 pixels processed
-
-file samples/rgbw_72x34_420.jpg,100,155,215
-Decoding samples/rgbw_72x34_422.jpg for 100 rounds
-tjpgd 72x34 decode time: 139 us, 2448 pixels processed
-zjpgd 72x34 decode time: 185 us, 2448 pixels processed
-
-file samples/rgbw_72x34_422.jpg,100,139,185
-Decoding samples/rgbw_72x34_444.jpg for 100 rounds
-tjpgd 72x34 decode time: 138 us, 2448 pixels processed
+tjpgd 72x34 decode time: 136 us, 2448 pixels processed
 zjpgd 72x34 decode time: 198 us, 2448 pixels processed
 
-file samples/rgbw_72x34_444.jpg,100,138,198
+file samples/rgbw_72x34_420.jpg,100,136,198
+Decoding samples/rgbw_72x34_422.jpg for 100 rounds
+tjpgd 72x34 decode time: 135 us, 2448 pixels processed
+zjpgd 72x34 decode time: 193 us, 2448 pixels processed
+
+file samples/rgbw_72x34_422.jpg,100,135,193
+Decoding samples/rgbw_72x34_444.jpg for 100 rounds
+tjpgd 72x34 decode time: 135 us, 2448 pixels processed
+zjpgd 72x34 decode time: 202 us, 2448 pixels processed
+
+file samples/rgbw_72x34_444.jpg,100,135,202
 Decoding samples/rgbw_89x164_400.jpg for 100 rounds
-tjpgd 89x164 decode time: 400 us, 14596 pixels processed
-zjpgd 89x164 decode time: 503 us, 14596 pixels processed
+tjpgd 89x164 decode time: 372 us, 14596 pixels processed
+zjpgd 89x164 decode time: 557 us, 14596 pixels processed
 
-file samples/rgbw_89x164_400.jpg,100,400,503
+file samples/rgbw_89x164_400.jpg,100,372,557
 Decoding samples/rgbw_89x164_420.jpg for 100 rounds
-tjpgd 89x164 decode time: 399 us, 14596 pixels processed
-zjpgd 89x164 decode time: 662 us, 14596 pixels processed
+tjpgd 89x164 decode time: 411 us, 14596 pixels processed
+zjpgd 89x164 decode time: 736 us, 14596 pixels processed
 
-file samples/rgbw_89x164_420.jpg,100,399,662
+file samples/rgbw_89x164_420.jpg,100,411,736
 Decoding samples/rgbw_89x164_422.jpg for 100 rounds
-tjpgd 89x164 decode time: 458 us, 14596 pixels processed
-zjpgd 89x164 decode time: 769 us, 14596 pixels processed
+tjpgd 89x164 decode time: 470 us, 14596 pixels processed
+zjpgd 89x164 decode time: 736 us, 14596 pixels processed
 
-file samples/rgbw_89x164_422.jpg,100,458,769
+file samples/rgbw_89x164_422.jpg,100,470,736
 Decoding samples/rgbw_89x164_444.jpg for 100 rounds
-tjpgd 89x164 decode time: 450 us, 14596 pixels processed
-zjpgd 89x164 decode time: 832 us, 14596 pixels processed
+tjpgd 89x164 decode time: 427 us, 14596 pixels processed
+zjpgd 89x164 decode time: 868 us, 14596 pixels processed
 
-file samples/rgbw_89x164_444.jpg,100,450,832
+file samples/rgbw_89x164_444.jpg,100,427,868
 Decoding samples/rgbw_98x48_400.jpg for 100 rounds
-tjpgd 98x48 decode time: 133 us, 4704 pixels processed
-zjpgd 98x48 decode time: 171 us, 4704 pixels processed
+tjpgd 98x48 decode time: 124 us, 4704 pixels processed
+zjpgd 98x48 decode time: 169 us, 4704 pixels processed
 
-file samples/rgbw_98x48_400.jpg,100,133,171
+file samples/rgbw_98x48_400.jpg,100,124,169
 Decoding samples/rgbw_98x48_420.jpg for 100 rounds
-tjpgd 98x48 decode time: 142 us, 4704 pixels processed
-zjpgd 98x48 decode time: 238 us, 4704 pixels processed
+tjpgd 98x48 decode time: 147 us, 4704 pixels processed
+zjpgd 98x48 decode time: 235 us, 4704 pixels processed
 
-file samples/rgbw_98x48_420.jpg,100,142,238
+file samples/rgbw_98x48_420.jpg,100,147,235
 Decoding samples/rgbw_98x48_422.jpg for 100 rounds
-tjpgd 98x48 decode time: 141 us, 4704 pixels processed
-zjpgd 98x48 decode time: 244 us, 4704 pixels processed
+tjpgd 98x48 decode time: 145 us, 4704 pixels processed
+zjpgd 98x48 decode time: 273 us, 4704 pixels processed
 
-file samples/rgbw_98x48_422.jpg,100,141,244
+file samples/rgbw_98x48_422.jpg,100,145,273
 Decoding samples/rgbw_98x48_444.jpg for 100 rounds
-tjpgd 98x48 decode time: 135 us, 4704 pixels processed
-zjpgd 98x48 decode time: 305 us, 4704 pixels processed
+tjpgd 98x48 decode time: 132 us, 4704 pixels processed
+zjpgd 98x48 decode time: 254 us, 4704 pixels processed
 
-file samples/rgbw_98x48_444.jpg,100,135,305
+file samples/rgbw_98x48_444.jpg,100,132,254
