@@ -1,0 +1,6 @@
+[submodule "zjpgd"]
+	path = zjpgd
+	url = https://github.com/JiapengLi/zjpgd.git
+[submodule "tjpgd"]
+	path = tjpgd
+	url = https://github.com/JiapengLi/TJpgDec.git
