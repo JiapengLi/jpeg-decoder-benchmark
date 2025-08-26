@@ -1,0 +1,316 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdarg.h>
+#include <time.h>
+
+#include "tjpgd.h"
+#include "zjpgd.h"
+
+typedef struct {
+    struct {
+        uint8_t *data;  // Pointer to JPEG data
+        size_t size;         // Size of JPEG data
+        size_t offset;       // Current offset in the data
+    } ifile;
+    struct {
+        uint8_t *data;  // Pointer to JPEG data
+        size_t size;         // Size of JPEG data
+        size_t offset;       // Current offset in the data
+        size_t pixels;
+    } ofile;
+} image_t;
+
+int load_jpeg(const char *filename, image_t *img) {
+    FILE *file = fopen(filename, "rb");
+    if (!file) {
+        perror("Failed to open file");
+        return -1;
+    }
+
+    fseek(file, 0, SEEK_END);
+    img->ifile.size = ftell(file);
+    fseek(file, 0, SEEK_SET);
+
+    img->ifile.data = (uint8_t *)malloc(img->ifile.size);
+    if (!img->ifile.data) {
+        perror("Failed to allocate memory");
+        fclose(file);
+        return -1;
+    }
+
+    fread((void *)img->ifile.data, 1, img->ifile.size, file);
+    fclose(file);
+    img->ifile.offset = 0;
+
+    img->ofile.pixels = 0;
+    img->ofile.size = 800 * 600 * 3;
+    img->ofile.data = (uint8_t *)malloc(img->ofile.size);
+    if (!img->ofile.data) {
+        perror("Failed to allocate memory for output");
+        free(img->ifile.data);
+        return -1;
+    }
+
+    return 0;
+}
+
+int save_bmp(const char *filename, image_t *img, int width, int height) {
+    FILE *file = fopen(filename, "wb");
+    if (!file) {
+        perror("Failed to open file for writing");
+        return -1;
+    }
+
+    // BMP Header
+    uint8_t bmp_header[54] = {
+        0x42, 0x4D,             // Signature 'BM'
+        0, 0, 0, 0,             // File size in bytes
+        0, 0,                   // Reserved
+        0, 0,                   // Reserved
+        54, 0, 0, 0,            // Offset to pixel data
+        40, 0, 0, 0,            // Info header size
+        0, 0, 0, 0,             // Width
+        0, 0, 0, 0,             // Height
+        1, 0,                   // Planes
+        24, 0,                  // Bits per pixel
+        0, 0, 0, 0,             // Compression (none)
+        0, 0, 0, 0,             // Image size (can be zero for uncompressed)
+        0x13, 0x0B, 0, 0,       // Horizontal resolution (pixels per meter)
+        0x13, 0x0B, 0, 0,       // Vertical resolution (pixels per meter)
+        0, 0, 0, 0,             // Number of colors in palette (none)
+        0, 0, 0, 0              // Important colors (all)
+    };
+
+    int row_size = (width * 3 + 3) & ~3; // Row size aligned to multiple of 4 bytes
+    int pixel_data_size = row_size * height;
+    int file_size = pixel_data_size + sizeof(bmp_header);
+
+    // Fill in file size
+    bmp_header[2] = (uint8_t)(file_size & 0xFF);
+    bmp_header[3] = (uint8_t)((file_size >> 8) & 0xFF);
+    bmp_header[4] = (uint8_t)((file_size >> 16) & 0xFF);
+    bmp_header[5] = (uint8_t)((file_size >> 24) & 0xFF);
+    // Fill in width
+    bmp_header[18] = (uint8_t)(width & 0xFF);
+    bmp_header[19] = (uint8_t)((width >> 8) & 0xFF);
+    bmp_header[20] = (uint8_t)((width >> 16) & 0xFF);
+    bmp_header[21] = (uint8_t)((width >> 24) & 0xFF);
+    // Fill in height
+    bmp_header[22] = (uint8_t)(height & 0xFF);
+    bmp_header[23] = (uint8_t)((height >> 8) & 0xFF);
+    bmp_header[24] = (uint8_t)((height >> 16) & 0xFF);
+    bmp_header[25] = (uint8_t)((height >> 24) & 0xFF);
+    // Fill in image size
+    bmp_header[34] = (uint8_t)(pixel_data_size & 0xFF);
+
+    fwrite(bmp_header, sizeof(bmp_header), 1, file);
+    // Write pixel data (BMP stores pixels in BGR format and bottom-up)
+    for (int y = height - 1; y >= 0; y--) {
+        for (int x = 0; x < width; x++) {
+            int index = (x + y * width) * 3;
+            uint8_t bgr[3] = {
+                img->ofile.data[index + 2], // Blue
+                img->ofile.data[index + 1], // Green
+                img->ofile.data[index + 0]  // Red
+            };
+            fwrite(bgr, sizeof(bgr), 1, file);
+        }
+        // Padding for 4-byte alignment
+        uint8_t padding[3] = {0, 0, 0};
+        fwrite(padding, row_size - width * 3, 1, file);
+    }
+    fclose(file);
+    return 0;
+}
+
+
+size_t tjd_ifunc(JDEC *tjd, uint8_t *buf, size_t len) {
+    image_t *img = (image_t *)tjd->device;
+    size_t remaining = img->ifile.size - img->ifile.offset;
+
+    if (len > remaining) {
+        len = remaining;
+    }
+
+    if (buf) {
+        memcpy(buf, img->ifile.data + img->ifile.offset, len);
+        img->ifile.offset += len;
+    } else {
+        img->ifile.offset += len;
+    }
+
+    return len;
+}
+
+int tjd_ofunc(JDEC *tjd, void *bitmap, JRECT *rect) {
+    image_t *img = (image_t *)tjd->device;
+    uint8_t *pix = (uint8_t *)bitmap;
+    int x, y, index;
+
+    for (y = rect->top; y <= rect->bottom; y++) {
+        for (x = rect->left; x <= rect->right; x++) {
+            index = x + y * tjd->width;
+            img->ofile.data[index * 3 + 0] = *pix++;
+            img->ofile.data[index * 3 + 1] = *pix++;
+            img->ofile.data[index * 3 + 2] = *pix++;
+
+            img->ofile.pixels++;
+        }
+    }
+    return 1;
+}
+
+int tjd_test(JDEC *tjd, void *work, size_t worksize, image_t *img, uint32_t us)
+{
+    JRESULT res;
+
+    res = jd_prepare(tjd, tjd_ifunc, work, worksize, img);
+    if (res != JDR_OK) {
+        printf("Failed to prepare JPEG decoder %u\n", res);
+        free(img->ifile.data);
+        free(img->ofile.data);
+        return 1;
+    }
+    res = jd_decomp(tjd, tjd_ofunc, 0);
+    if (res != JDR_OK) {
+        printf("Failed to decode JPEG image %u\n", res);
+        free(img->ifile.data);
+        free(img->ofile.data);
+        return 1;
+    }
+    // printf("tjpgd %ux%u decode time: %u us, %u pixels processed\n", tjd->width, tjd->height, micros() - us, (uint32_t)img->ofile.pixels);
+
+    return 0;
+}
+
+int zjd_ifunc(zjd_t *zjd, uint8_t *buf, uint32_t addr, int len)
+{
+    image_t *img = (image_t *)zjd->arg;
+
+    size_t remaining = img->ifile.size - addr;
+
+    if (len > remaining) {
+        len = remaining;
+    }
+
+    if (buf) {
+        memcpy(buf, img->ifile.data + addr, len);
+    }
+
+    return len;
+}
+
+int zjd_ofunc(zjd_t *zjd, zjd_rect_t *rect, void *pixels)
+{
+    image_t *img = (image_t *)zjd->arg;
+    uint8_t *pix = (uint8_t *)pixels;
+    int x, y, index;
+
+    for (y = rect->y; y < rect->y + rect->h; y++) {
+        for (x = rect->x; x < rect->x + rect->w; x++) {
+            if (x >= zjd->width || y >= zjd->height) {
+                // Out of bounds, skip
+                pix += 3;
+                continue;
+            }
+            index = x + y * zjd->width;
+            img->ofile.data[index * 3 + 0] = *pix++;
+            img->ofile.data[index * 3 + 1] = *pix++;
+            img->ofile.data[index * 3 + 2] = *pix++;
+
+            img->ofile.pixels++;
+        }
+    }
+
+    return 1;
+}
+
+uint32_t micros() {
+    struct timespec ts;
+    clock_gettime(CLOCK_REALTIME, &ts);  // or CLOCK_MONOTONIC for relative time
+    return (uint32_t)((long long)ts.tv_sec * 1000000LL + ts.tv_nsec / 1000);
+}
+
+int main(int argc, char **argv)
+{
+    image_t img;
+    int ret;
+    uint32_t us;
+
+    uint8_t work[4096];
+
+    JDEC tjd;
+    JRESULT tjd_res;
+
+    zjd_t zjd;
+    zjd_res_t zjd_res;
+
+    if (argc < 2) {
+        printf("Usage: %s <jpg_file>\n", argv[0]);
+        return 1;
+    }
+
+    ret = load_jpeg(argv[1], &img);
+    if (ret != 0) {
+        printf("Failed to load JPEG file\n");
+        return 1;
+    }
+
+    us = micros();
+    tjd_res = jd_prepare(&tjd, tjd_ifunc, work, sizeof(work), &img);
+    if (tjd_res != JDR_OK) {
+        printf("Failed to prepare JPEG decoder %u\n", tjd_res);
+        free(img.ifile.data);
+        free(img.ofile.data);
+        return 1;
+    }
+    tjd_res = jd_decomp(&tjd, tjd_ofunc, 0);
+    if (tjd_res != JDR_OK) {
+        printf("Failed to decode JPEG image %u\n", tjd_res);
+        free(img.ifile.data);
+        free(img.ofile.data);
+        return 1;
+    }
+    printf("tjpgd %ux%u decode time: %u us, %u pixels processed\n", tjd.width, tjd.height, micros() - us, (uint32_t)img.ofile.pixels);
+
+    save_bmp("output_tjpgd.bmp", &img, tjd.width, tjd.height);
+
+    img.ifile.offset = 0;
+    img.ofile.offset = 0;
+    img.ofile.pixels = 0;
+    memset(img.ofile.data, 0, img.ofile.size);
+
+    us = micros();
+    zjd_res = zjd_init(&zjd, &(zjd_cfg_t){
+        .ifunc = zjd_ifunc,
+        .ofunc = zjd_ofunc,
+        .buf = work,
+        .buflen = sizeof(work),
+        .arg = (void *)&img
+    }, ZJD_RGB888);
+    if (zjd_res != ZJD_OK) {
+        printf("Failed to initialize zjpgd %d\n", zjd_res);
+        free(img.ifile.data);
+        free(img.ofile.data);
+        return 1;
+    }
+    zjd_res = zjd_scan(&zjd, NULL, NULL);
+    if (zjd_res != ZJD_OK) {
+        printf("Failed to decode JPEG image %d\n", zjd_res);
+        free(img.ifile.data);
+        free(img.ofile.data);
+        return 1;
+    }
+    printf("zjpgd %ux%u decode time: %u us, %u pixels processed\n", zjd.width, zjd.height, micros() - us, (uint32_t)img.ofile.pixels);
+
+    save_bmp("output_zjpgd.bmp", &img, zjd.width, zjd.height);
+
+
+    free(img.ifile.data);
+    free(img.ofile.data);
+
+    return 0;
+}
+
+
+
