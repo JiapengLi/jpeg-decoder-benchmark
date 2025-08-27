@@ -6,6 +6,13 @@
 #include "tjpgd.h"
 #include "zjpgd.h"
 
+
+typedef struct {
+    uint16_t x;
+    uint16_t y;
+    zjd_ctx_t snapshot;
+} image_roi_t;
+
 typedef struct {
     struct {
         uint8_t *data;  // Pointer to JPEG data
@@ -18,6 +25,7 @@ typedef struct {
         size_t offset;       // Current offset in the data
         size_t pixels;
     } ofile;
+    image_roi_t rois[3];
 } image_t;
 
 int load_jpeg(const char *filename, image_t *img) {
@@ -224,6 +232,37 @@ int zjd_ofunc(zjd_t *zjd, zjd_rect_t *rect, void *pixels)
     return 1;
 }
 
+int zjd_ofunc_snapshot(zjd_t *zjd, zjd_rect_t *rect, void *pixels)
+{
+    int i, cnt = 0;
+    image_t *img = (image_t *)zjd->arg;
+    image_roi_t *roi;
+
+
+    for (i = 0; i < sizeof(img->rois) / sizeof(img->rois[0]); i++) {
+        roi = &img->rois[i];
+        if (roi->snapshot.offset != 0) {
+            cnt++;
+            continue;
+        }
+
+        if (roi->snapshot.offset == 0) {
+            /* roi in x,y,w,h */
+            if (roi->x >= rect->x && roi->x < rect->x + rect->w &&
+                roi->y >= rect->y && roi->y < rect->y + rect->h) {
+                zjd_save(zjd, &roi->snapshot);
+            }
+        }
+    }
+
+    // All snapshots taken, stop further processing
+    if (cnt == sizeof(img->rois) / sizeof(img->rois[0])) {
+        return 0;
+    }
+
+    return 1;
+}
+
 int zjd_test(zjd_t *zjd, void *work, size_t worksize, image_t *img)
 {
     zjd_res_t res;
@@ -256,6 +295,139 @@ int zjd_test(zjd_t *zjd, void *work, size_t worksize, image_t *img)
     return 0;
 }
 
+int zjd_roi_test(zjd_t *zjd, void *work, size_t worksize, image_t *img)
+{
+    zjd_res_t res;
+    zjd_ctx_t snapshot;
+
+    snapshot.offset = zjd->imgoft;
+    snapshot.dreg = 0;
+    snapshot.dbit = 0;
+    snapshot.mcu_x = 0;
+    snapshot.mcu_y = 0;
+    snapshot.dcv[0] = 0;
+    snapshot.dcv[1] = 0;
+    snapshot.dcv[2] = 0;
+
+    res = zjd_init(
+        zjd,
+        &(zjd_cfg_t){
+            .outfmt = ZJD_RGB888,
+            .ifunc = zjd_ifunc,
+            .ofunc = zjd_ofunc,
+            .buf = work,
+            .buflen = worksize,
+            .arg = (void *)img
+        }
+    );
+    if (res != ZJD_OK) {
+        printf("Failed to initialize zjpgd %d\n", res);
+        free(img->ifile.data);
+        free(img->ofile.data);
+        return 1;
+    }
+    res = zjd_scan(zjd, &snapshot, NULL);
+    if (res != ZJD_OK) {
+        printf("Failed to decode JPEG image %d\n", res);
+        free(img->ifile.data);
+        free(img->ofile.data);
+        return 1;
+    }
+
+    return 0;
+}
+
+int zjd_roi_test_init(zjd_t *zjd, void *work, size_t worksize, image_t *img)
+{
+    zjd_res_t res;
+
+    res = zjd_init(
+        zjd,
+        &(zjd_cfg_t){
+            .outfmt = ZJD_RGB888,
+            .ifunc = zjd_ifunc,
+            .ofunc = zjd_ofunc,
+            .buf = work,
+            .buflen = worksize,
+            .arg = (void *)img
+        }
+    );
+    if (res != ZJD_OK) {
+        printf("Failed to initialize zjpgd %d\n", res);
+        free(img->ifile.data);
+        free(img->ofile.data);
+        return 1;
+    }
+
+    return 0;
+}
+
+int zjd_roi_1_4_test(zjd_t *zjd, void *work, size_t worksize, image_t *img, zjd_ctx_t *snapshot, zjd_rect_t *roi)
+{
+    zjd_res_t res;
+
+    // res = zjd_init(
+    //     zjd,
+    //     &(zjd_cfg_t){
+    //         .outfmt = ZJD_RGB888,
+    //         .ifunc = zjd_ifunc,
+    //         .ofunc = zjd_ofunc,
+    //         .buf = work,
+    //         .buflen = worksize,
+    //         .arg = (void *)img
+    //     }
+    // );
+    // if (res != ZJD_OK) {
+    //     printf("Failed to initialize zjpgd %d\n", res);
+    //     free(img->ifile.data);
+    //     free(img->ofile.data);
+    //     return 1;
+    // }
+    res = zjd_scan(zjd, snapshot, roi);
+    if (res != ZJD_OK) {
+        printf("Failed to decode JPEG image %d\n", res);
+        free(img->ifile.data);
+        free(img->ofile.data);
+        return 1;
+    }
+
+    return 0;
+}
+
+int zjd_get_snapshots(zjd_t *zjd, void *work, size_t worksize, image_t *img)
+{
+    zjd_res_t res;
+
+    res = zjd_init(
+        zjd,
+        &(zjd_cfg_t){
+            .outfmt = ZJD_RGB888,
+            .ifunc = zjd_ifunc,
+            .ofunc = zjd_ofunc_snapshot,
+            .buf = work,
+            .buflen = worksize,
+            .arg = (void *)img
+        }
+    );
+    if (res != ZJD_OK) {
+        printf("Failed to initialize zjpgd %d\n", res);
+        free(img->ifile.data);
+        free(img->ofile.data);
+        return 1;
+    }
+
+    /* scan with zjd_ofunc_snapshot to get all snapshots */
+    res = zjd_scan(zjd, NULL, NULL);
+    if (res != ZJD_OK) {
+        printf("Failed to decode JPEG image %d\n", res);
+        free(img->ifile.data);
+        free(img->ofile.data);
+        return 1;
+    }
+
+    return 0;
+}
+
 uint32_t micros() {
     struct timespec ts;
     clock_gettime(CLOCK_REALTIME, &ts);  // or CLOCK_MONOTONIC for relative time
@@ -265,7 +437,7 @@ uint32_t micros() {
 int main(int argc, char **argv)
 {
     image_t img;
-    int ret, i, rounds;
+    int ret, i, j, rounds;
     uint32_t us;
 
     uint8_t work[4096];
@@ -277,6 +449,9 @@ int main(int argc, char **argv)
     zjd_t zjd;
     zjd_res_t zjd_res;
     uint32_t zjd_cost_us;
+    uint32_t zjd_roi_cost_us;
+    uint32_t zjd_roi_1_4_cost_us[3];
+    zjd_rect_t roi_rect[3];
 
     if (argc < 2) {
         printf("Usage: %s <jpg_file>\n", argv[0]);
@@ -295,7 +470,7 @@ int main(int argc, char **argv)
     } else {
         rounds = 100;
     }
-    printf("Decoding %s for %d rounds\n", argv[1], rounds);
+    printf("\nDecoding %s for %d rounds\n", argv[1], rounds);
 
     us = micros();
     for (i = 0; i < rounds; i++) {
@@ -333,7 +508,94 @@ int main(int argc, char **argv)
     printf("zjpgd %ux%u decode time: %u us, %u pixels processed\n", zjd.width, zjd.height, zjd_cost_us, (uint32_t)img.ofile.pixels);
     save_bmp("output_zjpgd.bmp", &img, zjd.width, zjd.height);
 
-    printf("\nfile %s,%u,%u,%u,\n", argv[1], rounds, tjd_cost_us, zjd_cost_us);
+    us = micros();
+    for (i = 0; i < rounds; i++) {
+        img.ifile.offset = 0;
+        img.ofile.offset = 0;
+        img.ofile.pixels = 0;
+        memset(img.ofile.data, 0, img.ofile.size);
+        ret = zjd_roi_test(&zjd, work, sizeof(work), &img);
+        if (ret != 0) {
+            printf("zjd_roi_test failed with error code %d\n", ret);
+            free(img.ifile.data);
+            free(img.ofile.data);
+            return 1;
+        }
+    }
+    zjd_roi_cost_us = (micros() - us) / rounds;
+    printf("zjpgd_roi %ux%u decode time: %u us, %u pixels processed\n", zjd.width, zjd.height, zjd_roi_cost_us, (uint32_t)img.ofile.pixels);
+    save_bmp("output_zjpgd_roi.bmp", &img, zjd.width, zjd.height);
+
+    /* central 1/4 */
+    roi_rect[0].x = zjd.width / 4;
+    roi_rect[0].y = zjd.height / 4;
+    roi_rect[0].w = zjd.width / 2;
+    roi_rect[0].h = zjd.height / 2;
+    img.rois[0].x = roi_rect[0].x;
+    img.rois[0].y = roi_rect[0].y;
+
+    /* top left corner */
+    roi_rect[1].x = 0;
+    roi_rect[1].y = 0;
+    roi_rect[1].w = zjd.width / 2;
+    roi_rect[1].h = zjd.height / 2;
+    img.rois[1].x = roi_rect[1].x;
+    img.rois[1].y = roi_rect[1].y;
+
+    /* bottom right corner */
+    roi_rect[2].x = zjd.width / 2;
+    roi_rect[2].y = zjd.height / 2;
+    roi_rect[2].w = zjd.width / 2;
+    roi_rect[2].h = zjd.height / 2;
+    img.rois[2].x = roi_rect[2].x;
+    img.rois[2].y = roi_rect[2].y;
+
+    zjd_get_snapshots(&zjd, work, sizeof(work), &img);
+
+    for (i = 0; i < sizeof(img.rois) / sizeof(img.rois[0]); i++) {
+        if (img.rois[i].snapshot.offset == 0) {
+            printf("Failed to get snapshot %d\n", i);
+            free(img.ifile.data);
+            free(img.ofile.data);
+            return 1;
+        }
+        printf("Snapshot %d at (%u,%u) saved at mcu (%u,%u)\n", i, img.rois[i].x, img.rois[i].y, img.rois[i].snapshot.mcu_x, img.rois[i].snapshot.mcu_y);
+        printf("Snapshot dimensions: (%u,%u) to (%u,%u)\n", roi_rect[i].x, roi_rect[i].y, roi_rect[i].x + roi_rect[i].w, roi_rect[i].y + roi_rect[i].h);
+    }
+
+    /* common roi test init, below roi test function won't call zjd_init again */
+    zjd_roi_test_init(&zjd, work, sizeof(work), &img);
+
+    for (j = 0; j < sizeof(img.rois) / sizeof(img.rois[0]); j++) {
+        us = micros();
+        for (i = 0; i < rounds; i++) {
+            img.ifile.offset = 0;
+            img.ofile.offset = 0;
+            img.ofile.pixels = 0;
+            memset(img.ofile.data, 0, img.ofile.size);
+            ret = zjd_roi_1_4_test(&zjd, work, sizeof(work), &img, &img.rois[j].snapshot, &roi_rect[j]);
+            if (ret != 0) {
+                printf("zjd_roi_1_4_test %d failed with error code %d\n", j, ret);
+                free(img.ifile.data);
+                free(img.ofile.data);
+                return 1;
+            }
+        }
+        zjd_roi_1_4_cost_us[j] = (micros() - us) / rounds;
+        printf("zjpgd_roi_1_4 %d (%u,%u,%u,%u) decode time: %u us, %u pixels processed\n", j, roi_rect[j].x, roi_rect[j].y, roi_rect[j].w, roi_rect[j].h, zjd_roi_1_4_cost_us[j], (uint32_t)img.ofile.pixels);
+        char filename[64];
+        snprintf(filename, sizeof(filename), "output_zjpgd_roi_1_4_%d.bmp", j);
+        save_bmp(filename, &img, zjd.width, zjd.height);
+    }
+
+    printf("file %s,%u,%u,%u,%u,%u,%u,%u\n", argv[1], rounds,
+        tjd_cost_us,
+        zjd_cost_us,
+        zjd_roi_cost_us,
+        zjd_roi_1_4_cost_us[0],
+        zjd_roi_1_4_cost_us[1],
+        zjd_roi_1_4_cost_us[2]
+    );
 
     free(img.ifile.data);
     free(img.ofile.data);

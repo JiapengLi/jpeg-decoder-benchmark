@@ -1,1006 +1,3031 @@
 Darwin jps-MacBook-Pro.local 24.3.0 Darwin Kernel Version 24.3.0: Thu Jan  2 20:22:00 PST 2025; root:xnu-11215.81.4~3/RELEASE_X86_64 x86_64
+
+Decoding samples/noise_16x16_420.jpg for 100 rounds
+tjpgd 16x16 decode time: 83 us, 256 pixels processed
+zjpgd 16x16 decode time: 84 us, 256 pixels processed
+zjpgd_roi 16x16 decode time: 62 us, 256 pixels processed
+Snapshot 0 at (4,4) saved at mcu (0,0)
+Snapshot dimensions: (4,4) to (12,12)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (8,8)
+Snapshot 2 at (8,8) saved at mcu (0,0)
+Snapshot dimensions: (8,8) to (16,16)
+zjpgd_roi_1_4 0 (4,4,8,8) decode time: 57 us, 256 pixels processed
+zjpgd_roi_1_4 1 (0,0,8,8) decode time: 52 us, 64 pixels processed
+zjpgd_roi_1_4 2 (8,8,8,8) decode time: 51 us, 64 pixels processed
+file samples/noise_16x16_420.jpg,100,83,84,62,57,52,51
+
 Decoding samples/noise_320x240_420.jpg for 100 rounds
-tjpgd 320x240 decode time: 9112 us, 76800 pixels processed
-zjpgd 320x240 decode time: 7874 us, 76800 pixels processed
+tjpgd 320x240 decode time: 9480 us, 76800 pixels processed
+zjpgd 320x240 decode time: 8109 us, 76800 pixels processed
+zjpgd_roi 320x240 decode time: 8369 us, 76800 pixels processed
+Snapshot 0 at (80,60) saved at mcu (80,48)
+Snapshot dimensions: (80,60) to (240,180)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (160,120)
+Snapshot 2 at (160,120) saved at mcu (160,112)
+Snapshot dimensions: (160,120) to (320,240)
+zjpgd_roi_1_4 0 (80,60,160,120) decode time: 3901 us, 20480 pixels processed
+zjpgd_roi_1_4 1 (0,0,160,120) decode time: 3640 us, 19200 pixels processed
+zjpgd_roi_1_4 2 (160,120,160,120) decode time: 3368 us, 19200 pixels processed
+file samples/noise_320x240_420.jpg,100,9480,8109,8369,3901,3640,3368
 
-file samples/noise_320x240_420.jpg,100,9112,7874,
 Decoding samples/rgbw_105x110_400.jpg for 100 rounds
-tjpgd 105x110 decode time: 299 us, 11550 pixels processed
-zjpgd 105x110 decode time: 368 us, 11550 pixels processed
+tjpgd 105x110 decode time: 317 us, 11550 pixels processed
+zjpgd 105x110 decode time: 322 us, 11550 pixels processed
+zjpgd_roi 105x110 decode time: 405 us, 11550 pixels processed
+Snapshot 0 at (26,27) saved at mcu (24,24)
+Snapshot dimensions: (26,27) to (78,82)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (52,55)
+Snapshot 2 at (52,55) saved at mcu (48,48)
+Snapshot dimensions: (52,55) to (104,110)
+zjpgd_roi_1_4 0 (26,27,52,55) decode time: 148 us, 3584 pixels processed
+zjpgd_roi_1_4 1 (0,0,52,55) decode time: 132 us, 3136 pixels processed
+zjpgd_roi_1_4 2 (52,55,52,55) decode time: 133 us, 3472 pixels processed
+file samples/rgbw_105x110_400.jpg,100,317,322,405,148,132,133
 
-file samples/rgbw_105x110_400.jpg,100,299,368,
 Decoding samples/rgbw_105x110_420.jpg for 100 rounds
-tjpgd 105x110 decode time: 299 us, 11550 pixels processed
-zjpgd 105x110 decode time: 496 us, 11550 pixels processed
-
-file samples/rgbw_105x110_420.jpg,100,299,496,
-Decoding samples/rgbw_105x110_422.jpg for 100 rounds
-tjpgd 105x110 decode time: 314 us, 11550 pixels processed
-zjpgd 105x110 decode time: 523 us, 11550 pixels processed
-
-file samples/rgbw_105x110_422.jpg,100,314,523,
-Decoding samples/rgbw_105x110_444.jpg for 100 rounds
 tjpgd 105x110 decode time: 316 us, 11550 pixels processed
-zjpgd 105x110 decode time: 640 us, 11550 pixels processed
+zjpgd 105x110 decode time: 434 us, 11550 pixels processed
+zjpgd_roi 105x110 decode time: 505 us, 11550 pixels processed
+Snapshot 0 at (26,27) saved at mcu (16,16)
+Snapshot dimensions: (26,27) to (78,82)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (52,55)
+Snapshot 2 at (52,55) saved at mcu (48,48)
+Snapshot dimensions: (52,55) to (104,110)
+zjpgd_roi_1_4 0 (26,27,52,55) decode time: 195 us, 3584 pixels processed
+zjpgd_roi_1_4 1 (0,0,52,55) decode time: 166 us, 3136 pixels processed
+zjpgd_roi_1_4 2 (52,55,52,55) decode time: 171 us, 3472 pixels processed
+file samples/rgbw_105x110_420.jpg,100,316,434,505,195,166,171
 
-file samples/rgbw_105x110_444.jpg,100,316,640,
+Decoding samples/rgbw_105x110_422.jpg for 100 rounds
+tjpgd 105x110 decode time: 363 us, 11550 pixels processed
+zjpgd 105x110 decode time: 474 us, 11550 pixels processed
+zjpgd_roi 105x110 decode time: 538 us, 11550 pixels processed
+Snapshot 0 at (26,27) saved at mcu (16,24)
+Snapshot dimensions: (26,27) to (78,82)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (52,55)
+Snapshot 2 at (52,55) saved at mcu (48,48)
+Snapshot dimensions: (52,55) to (104,110)
+zjpgd_roi_1_4 0 (26,27,52,55) decode time: 228 us, 3584 pixels processed
+zjpgd_roi_1_4 1 (0,0,52,55) decode time: 173 us, 3136 pixels processed
+zjpgd_roi_1_4 2 (52,55,52,55) decode time: 212 us, 3472 pixels processed
+file samples/rgbw_105x110_422.jpg,100,363,474,538,228,173,212
+
+Decoding samples/rgbw_105x110_444.jpg for 100 rounds
+tjpgd 105x110 decode time: 343 us, 11550 pixels processed
+zjpgd 105x110 decode time: 461 us, 11550 pixels processed
+zjpgd_roi 105x110 decode time: 654 us, 11550 pixels processed
+Snapshot 0 at (26,27) saved at mcu (24,24)
+Snapshot dimensions: (26,27) to (78,82)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (52,55)
+Snapshot 2 at (52,55) saved at mcu (48,48)
+Snapshot dimensions: (52,55) to (104,110)
+zjpgd_roi_1_4 0 (26,27,52,55) decode time: 221 us, 3584 pixels processed
+zjpgd_roi_1_4 1 (0,0,52,55) decode time: 207 us, 3136 pixels processed
+zjpgd_roi_1_4 2 (52,55,52,55) decode time: 233 us, 3472 pixels processed
+file samples/rgbw_105x110_444.jpg,100,343,461,654,221,207,233
+
 Decoding samples/rgbw_125x120_400.jpg for 100 rounds
-tjpgd 125x120 decode time: 334 us, 15000 pixels processed
-zjpgd 125x120 decode time: 472 us, 15000 pixels processed
+tjpgd 125x120 decode time: 351 us, 15000 pixels processed
+zjpgd 125x120 decode time: 414 us, 15000 pixels processed
+zjpgd_roi 125x120 decode time: 468 us, 15000 pixels processed
+Snapshot 0 at (31,30) saved at mcu (24,24)
+Snapshot dimensions: (31,30) to (93,90)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (62,60)
+Snapshot 2 at (62,60) saved at mcu (56,56)
+Snapshot dimensions: (62,60) to (124,120)
+zjpgd_roi_1_4 0 (31,30,62,60) decode time: 189 us, 5184 pixels processed
+zjpgd_roi_1_4 1 (0,0,62,60) decode time: 155 us, 4096 pixels processed
+zjpgd_roi_1_4 2 (62,60,62,60) decode time: 171 us, 4416 pixels processed
+file samples/rgbw_125x120_400.jpg,100,351,414,468,189,155,171
 
-file samples/rgbw_125x120_400.jpg,100,334,472,
 Decoding samples/rgbw_125x120_420.jpg for 100 rounds
-tjpgd 125x120 decode time: 385 us, 15000 pixels processed
-zjpgd 125x120 decode time: 657 us, 15000 pixels processed
+tjpgd 125x120 decode time: 415 us, 15000 pixels processed
+zjpgd 125x120 decode time: 525 us, 15000 pixels processed
+zjpgd_roi 125x120 decode time: 626 us, 15000 pixels processed
+Snapshot 0 at (31,30) saved at mcu (16,16)
+Snapshot dimensions: (31,30) to (93,90)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (62,60)
+Snapshot 2 at (62,60) saved at mcu (48,48)
+Snapshot dimensions: (62,60) to (124,120)
+zjpgd_roi_1_4 0 (31,30,62,60) decode time: 254 us, 5184 pixels processed
+zjpgd_roi_1_4 1 (0,0,62,60) decode time: 193 us, 4096 pixels processed
+zjpgd_roi_1_4 2 (62,60,62,60) decode time: 260 us, 4416 pixels processed
+file samples/rgbw_125x120_420.jpg,100,415,525,626,254,193,260
 
-file samples/rgbw_125x120_420.jpg,100,385,657,
 Decoding samples/rgbw_125x120_422.jpg for 100 rounds
-tjpgd 125x120 decode time: 390 us, 15000 pixels processed
-zjpgd 125x120 decode time: 647 us, 15000 pixels processed
+tjpgd 125x120 decode time: 444 us, 15000 pixels processed
+zjpgd 125x120 decode time: 533 us, 15000 pixels processed
+zjpgd_roi 125x120 decode time: 697 us, 15000 pixels processed
+Snapshot 0 at (31,30) saved at mcu (16,24)
+Snapshot dimensions: (31,30) to (93,90)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (62,60)
+Snapshot 2 at (62,60) saved at mcu (48,56)
+Snapshot dimensions: (62,60) to (124,120)
+zjpgd_roi_1_4 0 (31,30,62,60) decode time: 297 us, 5184 pixels processed
+zjpgd_roi_1_4 1 (0,0,62,60) decode time: 227 us, 4096 pixels processed
+zjpgd_roi_1_4 2 (62,60,62,60) decode time: 253 us, 4416 pixels processed
+file samples/rgbw_125x120_422.jpg,100,444,533,697,297,227,253
 
-file samples/rgbw_125x120_422.jpg,100,390,647,
 Decoding samples/rgbw_125x120_444.jpg for 100 rounds
-tjpgd 125x120 decode time: 438 us, 15000 pixels processed
-zjpgd 125x120 decode time: 732 us, 15000 pixels processed
+tjpgd 125x120 decode time: 449 us, 15000 pixels processed
+zjpgd 125x120 decode time: 563 us, 15000 pixels processed
+zjpgd_roi 125x120 decode time: 789 us, 15000 pixels processed
+Snapshot 0 at (31,30) saved at mcu (24,24)
+Snapshot dimensions: (31,30) to (93,90)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (62,60)
+Snapshot 2 at (62,60) saved at mcu (56,56)
+Snapshot dimensions: (62,60) to (124,120)
+zjpgd_roi_1_4 0 (31,30,62,60) decode time: 304 us, 5184 pixels processed
+zjpgd_roi_1_4 1 (0,0,62,60) decode time: 266 us, 4096 pixels processed
+zjpgd_roi_1_4 2 (62,60,62,60) decode time: 287 us, 4416 pixels processed
+file samples/rgbw_125x120_444.jpg,100,449,563,789,304,266,287
 
-file samples/rgbw_125x120_444.jpg,100,438,732,
 Decoding samples/rgbw_128x165_400.jpg for 100 rounds
-tjpgd 128x165 decode time: 457 us, 21120 pixels processed
-zjpgd 128x165 decode time: 682 us, 21120 pixels processed
+tjpgd 128x165 decode time: 523 us, 21120 pixels processed
+zjpgd 128x165 decode time: 538 us, 21120 pixels processed
+zjpgd_roi 128x165 decode time: 659 us, 21120 pixels processed
+Snapshot 0 at (32,41) saved at mcu (32,40)
+Snapshot dimensions: (32,41) to (96,123)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (64,82)
+Snapshot 2 at (64,82) saved at mcu (64,80)
+Snapshot dimensions: (64,82) to (128,164)
+zjpgd_roi_1_4 0 (32,41,64,82) decode time: 215 us, 5632 pixels processed
+zjpgd_roi_1_4 1 (0,0,64,82) decode time: 211 us, 5632 pixels processed
+zjpgd_roi_1_4 2 (64,82,64,82) decode time: 199 us, 5440 pixels processed
+file samples/rgbw_128x165_400.jpg,100,523,538,659,215,211,199
 
-file samples/rgbw_128x165_400.jpg,100,457,682,
 Decoding samples/rgbw_128x165_420.jpg for 100 rounds
-tjpgd 128x165 decode time: 418 us, 21120 pixels processed
-zjpgd 128x165 decode time: 836 us, 21120 pixels processed
+tjpgd 128x165 decode time: 464 us, 21120 pixels processed
+zjpgd 128x165 decode time: 693 us, 21120 pixels processed
+zjpgd_roi 128x165 decode time: 904 us, 21120 pixels processed
+Snapshot 0 at (32,41) saved at mcu (32,32)
+Snapshot dimensions: (32,41) to (96,123)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (64,82)
+Snapshot 2 at (64,82) saved at mcu (64,80)
+Snapshot dimensions: (64,82) to (128,164)
+zjpgd_roi_1_4 0 (32,41,64,82) decode time: 250 us, 5632 pixels processed
+zjpgd_roi_1_4 1 (0,0,64,82) decode time: 224 us, 5632 pixels processed
+zjpgd_roi_1_4 2 (64,82,64,82) decode time: 229 us, 5440 pixels processed
+file samples/rgbw_128x165_420.jpg,100,464,693,904,250,224,229
 
-file samples/rgbw_128x165_420.jpg,100,418,836,
 Decoding samples/rgbw_128x165_422.jpg for 100 rounds
-tjpgd 128x165 decode time: 448 us, 21120 pixels processed
-zjpgd 128x165 decode time: 860 us, 21120 pixels processed
+tjpgd 128x165 decode time: 441 us, 21120 pixels processed
+zjpgd 128x165 decode time: 693 us, 21120 pixels processed
+zjpgd_roi 128x165 decode time: 853 us, 21120 pixels processed
+Snapshot 0 at (32,41) saved at mcu (32,40)
+Snapshot dimensions: (32,41) to (96,123)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (64,82)
+Snapshot 2 at (64,82) saved at mcu (64,80)
+Snapshot dimensions: (64,82) to (128,164)
+zjpgd_roi_1_4 0 (32,41,64,82) decode time: 265 us, 5632 pixels processed
+zjpgd_roi_1_4 1 (0,0,64,82) decode time: 254 us, 5632 pixels processed
+zjpgd_roi_1_4 2 (64,82,64,82) decode time: 257 us, 5440 pixels processed
+file samples/rgbw_128x165_422.jpg,100,441,693,853,265,254,257
 
-file samples/rgbw_128x165_422.jpg,100,448,860,
 Decoding samples/rgbw_128x165_444.jpg for 100 rounds
-tjpgd 128x165 decode time: 421 us, 21120 pixels processed
-zjpgd 128x165 decode time: 1029 us, 21120 pixels processed
+tjpgd 128x165 decode time: 461 us, 21120 pixels processed
+zjpgd 128x165 decode time: 709 us, 21120 pixels processed
+zjpgd_roi 128x165 decode time: 1049 us, 21120 pixels processed
+Snapshot 0 at (32,41) saved at mcu (32,40)
+Snapshot dimensions: (32,41) to (96,123)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (64,82)
+Snapshot 2 at (64,82) saved at mcu (64,80)
+Snapshot dimensions: (64,82) to (128,164)
+zjpgd_roi_1_4 0 (32,41,64,82) decode time: 356 us, 5632 pixels processed
+zjpgd_roi_1_4 1 (0,0,64,82) decode time: 323 us, 5632 pixels processed
+zjpgd_roi_1_4 2 (64,82,64,82) decode time: 347 us, 5440 pixels processed
+file samples/rgbw_128x165_444.jpg,100,461,709,1049,356,323,347
 
-file samples/rgbw_128x165_444.jpg,100,421,1029,
 Decoding samples/rgbw_129x139_400.jpg for 100 rounds
-tjpgd 129x139 decode time: 400 us, 17931 pixels processed
-zjpgd 129x139 decode time: 546 us, 17931 pixels processed
+tjpgd 129x139 decode time: 498 us, 17931 pixels processed
+zjpgd 129x139 decode time: 534 us, 17931 pixels processed
+zjpgd_roi 129x139 decode time: 616 us, 17931 pixels processed
+Snapshot 0 at (32,34) saved at mcu (32,32)
+Snapshot dimensions: (32,34) to (96,103)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (64,69)
+Snapshot 2 at (64,69) saved at mcu (64,64)
+Snapshot dimensions: (64,69) to (128,138)
+zjpgd_roi_1_4 0 (32,34,64,69) decode time: 169 us, 4608 pixels processed
+zjpgd_roi_1_4 1 (0,0,64,69) decode time: 161 us, 4608 pixels processed
+zjpgd_roi_1_4 2 (64,69,64,69) decode time: 172 us, 4800 pixels processed
+file samples/rgbw_129x139_400.jpg,100,498,534,616,169,161,172
 
-file samples/rgbw_129x139_400.jpg,100,400,546,
 Decoding samples/rgbw_129x139_420.jpg for 100 rounds
-tjpgd 129x139 decode time: 404 us, 17931 pixels processed
-zjpgd 129x139 decode time: 784 us, 17931 pixels processed
+tjpgd 129x139 decode time: 428 us, 17931 pixels processed
+zjpgd 129x139 decode time: 631 us, 17931 pixels processed
+zjpgd_roi 129x139 decode time: 802 us, 17931 pixels processed
+Snapshot 0 at (32,34) saved at mcu (32,32)
+Snapshot dimensions: (32,34) to (96,103)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (64,69)
+Snapshot 2 at (64,69) saved at mcu (64,64)
+Snapshot dimensions: (64,69) to (128,138)
+zjpgd_roi_1_4 0 (32,34,64,69) decode time: 212 us, 4608 pixels processed
+zjpgd_roi_1_4 1 (0,0,64,69) decode time: 213 us, 4608 pixels processed
+zjpgd_roi_1_4 2 (64,69,64,69) decode time: 217 us, 4800 pixels processed
+file samples/rgbw_129x139_420.jpg,100,428,631,802,212,213,217
 
-file samples/rgbw_129x139_420.jpg,100,404,784,
 Decoding samples/rgbw_129x139_422.jpg for 100 rounds
-tjpgd 129x139 decode time: 390 us, 17931 pixels processed
-zjpgd 129x139 decode time: 855 us, 17931 pixels processed
+tjpgd 129x139 decode time: 441 us, 17931 pixels processed
+zjpgd 129x139 decode time: 675 us, 17931 pixels processed
+zjpgd_roi 129x139 decode time: 827 us, 17931 pixels processed
+Snapshot 0 at (32,34) saved at mcu (32,32)
+Snapshot dimensions: (32,34) to (96,103)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (64,69)
+Snapshot 2 at (64,69) saved at mcu (64,64)
+Snapshot dimensions: (64,69) to (128,138)
+zjpgd_roi_1_4 0 (32,34,64,69) decode time: 233 us, 4608 pixels processed
+zjpgd_roi_1_4 1 (0,0,64,69) decode time: 220 us, 4608 pixels processed
+zjpgd_roi_1_4 2 (64,69,64,69) decode time: 250 us, 4800 pixels processed
+file samples/rgbw_129x139_422.jpg,100,441,675,827,233,220,250
 
-file samples/rgbw_129x139_422.jpg,100,390,855,
 Decoding samples/rgbw_129x139_444.jpg for 100 rounds
-tjpgd 129x139 decode time: 404 us, 17931 pixels processed
-zjpgd 129x139 decode time: 906 us, 17931 pixels processed
+tjpgd 129x139 decode time: 428 us, 17931 pixels processed
+zjpgd 129x139 decode time: 632 us, 17931 pixels processed
+zjpgd_roi 129x139 decode time: 927 us, 17931 pixels processed
+Snapshot 0 at (32,34) saved at mcu (32,32)
+Snapshot dimensions: (32,34) to (96,103)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (64,69)
+Snapshot 2 at (64,69) saved at mcu (64,64)
+Snapshot dimensions: (64,69) to (128,138)
+zjpgd_roi_1_4 0 (32,34,64,69) decode time: 277 us, 4608 pixels processed
+zjpgd_roi_1_4 1 (0,0,64,69) decode time: 245 us, 4608 pixels processed
+zjpgd_roi_1_4 2 (64,69,64,69) decode time: 267 us, 4800 pixels processed
+file samples/rgbw_129x139_444.jpg,100,428,632,927,277,245,267
 
-file samples/rgbw_129x139_444.jpg,100,404,906,
 Decoding samples/rgbw_132x72_400.jpg for 100 rounds
-tjpgd 132x72 decode time: 231 us, 9504 pixels processed
-zjpgd 132x72 decode time: 321 us, 9504 pixels processed
+tjpgd 132x72 decode time: 251 us, 9504 pixels processed
+zjpgd 132x72 decode time: 264 us, 9504 pixels processed
+zjpgd_roi 132x72 decode time: 309 us, 9504 pixels processed
+Snapshot 0 at (33,18) saved at mcu (32,16)
+Snapshot dimensions: (33,18) to (99,54)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (66,36)
+Snapshot 2 at (66,36) saved at mcu (64,32)
+Snapshot dimensions: (66,36) to (132,72)
+zjpgd_roi_1_4 0 (33,18,66,36) decode time: 119 us, 2880 pixels processed
+zjpgd_roi_1_4 1 (0,0,66,36) decode time: 118 us, 2880 pixels processed
+zjpgd_roi_1_4 2 (66,36,66,36) decode time: 108 us, 2720 pixels processed
+file samples/rgbw_132x72_400.jpg,100,251,264,309,119,118,108
 
-file samples/rgbw_132x72_400.jpg,100,231,321,
 Decoding samples/rgbw_132x72_420.jpg for 100 rounds
-tjpgd 132x72 decode time: 268 us, 9504 pixels processed
-zjpgd 132x72 decode time: 457 us, 9504 pixels processed
+tjpgd 132x72 decode time: 280 us, 9504 pixels processed
+zjpgd 132x72 decode time: 415 us, 9504 pixels processed
+zjpgd_roi 132x72 decode time: 450 us, 9504 pixels processed
+Snapshot 0 at (33,18) saved at mcu (32,16)
+Snapshot dimensions: (33,18) to (99,54)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (66,36)
+Snapshot 2 at (66,36) saved at mcu (64,32)
+Snapshot dimensions: (66,36) to (132,72)
+zjpgd_roi_1_4 0 (33,18,66,36) decode time: 163 us, 2880 pixels processed
+zjpgd_roi_1_4 1 (0,0,66,36) decode time: 146 us, 2880 pixels processed
+zjpgd_roi_1_4 2 (66,36,66,36) decode time: 165 us, 2720 pixels processed
+file samples/rgbw_132x72_420.jpg,100,280,415,450,163,146,165
 
-file samples/rgbw_132x72_420.jpg,100,268,457,
 Decoding samples/rgbw_132x72_422.jpg for 100 rounds
-tjpgd 132x72 decode time: 262 us, 9504 pixels processed
-zjpgd 132x72 decode time: 463 us, 9504 pixels processed
+tjpgd 132x72 decode time: 294 us, 9504 pixels processed
+zjpgd 132x72 decode time: 377 us, 9504 pixels processed
+zjpgd_roi 132x72 decode time: 480 us, 9504 pixels processed
+Snapshot 0 at (33,18) saved at mcu (32,16)
+Snapshot dimensions: (33,18) to (99,54)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (66,36)
+Snapshot 2 at (66,36) saved at mcu (64,32)
+Snapshot dimensions: (66,36) to (132,72)
+zjpgd_roi_1_4 0 (33,18,66,36) decode time: 187 us, 2880 pixels processed
+zjpgd_roi_1_4 1 (0,0,66,36) decode time: 178 us, 2880 pixels processed
+zjpgd_roi_1_4 2 (66,36,66,36) decode time: 179 us, 2720 pixels processed
+file samples/rgbw_132x72_422.jpg,100,294,377,480,187,178,179
 
-file samples/rgbw_132x72_422.jpg,100,262,463,
 Decoding samples/rgbw_132x72_444.jpg for 100 rounds
-tjpgd 132x72 decode time: 260 us, 9504 pixels processed
-zjpgd 132x72 decode time: 499 us, 9504 pixels processed
+tjpgd 132x72 decode time: 316 us, 9504 pixels processed
+zjpgd 132x72 decode time: 360 us, 9504 pixels processed
+zjpgd_roi 132x72 decode time: 524 us, 9504 pixels processed
+Snapshot 0 at (33,18) saved at mcu (32,16)
+Snapshot dimensions: (33,18) to (99,54)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (66,36)
+Snapshot 2 at (66,36) saved at mcu (64,32)
+Snapshot dimensions: (66,36) to (132,72)
+zjpgd_roi_1_4 0 (33,18,66,36) decode time: 197 us, 2880 pixels processed
+zjpgd_roi_1_4 1 (0,0,66,36) decode time: 193 us, 2880 pixels processed
+zjpgd_roi_1_4 2 (66,36,66,36) decode time: 191 us, 2720 pixels processed
+file samples/rgbw_132x72_444.jpg,100,316,360,524,197,193,191
 
-file samples/rgbw_132x72_444.jpg,100,260,499,
 Decoding samples/rgbw_137x237_400.jpg for 100 rounds
-tjpgd 137x237 decode time: 732 us, 32469 pixels processed
-zjpgd 137x237 decode time: 1013 us, 32469 pixels processed
+tjpgd 137x237 decode time: 790 us, 32469 pixels processed
+zjpgd 137x237 decode time: 887 us, 32469 pixels processed
+zjpgd_roi 137x237 decode time: 1021 us, 32469 pixels processed
+Snapshot 0 at (34,59) saved at mcu (32,56)
+Snapshot dimensions: (34,59) to (102,177)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (68,118)
+Snapshot 2 at (68,118) saved at mcu (64,112)
+Snapshot dimensions: (68,118) to (136,236)
+zjpgd_roi_1_4 0 (34,59,68,118) decode time: 326 us, 9216 pixels processed
+zjpgd_roi_1_4 1 (0,0,68,118) decode time: 272 us, 8640 pixels processed
+zjpgd_roi_1_4 2 (68,118,68,118) decode time: 317 us, 9000 pixels processed
+file samples/rgbw_137x237_400.jpg,100,790,887,1021,326,272,317
 
-file samples/rgbw_137x237_400.jpg,100,732,1013,
 Decoding samples/rgbw_137x237_420.jpg for 100 rounds
-tjpgd 137x237 decode time: 738 us, 32469 pixels processed
-zjpgd 137x237 decode time: 1311 us, 32469 pixels processed
+tjpgd 137x237 decode time: 729 us, 32469 pixels processed
+zjpgd 137x237 decode time: 1113 us, 32469 pixels processed
+zjpgd_roi 137x237 decode time: 1284 us, 32469 pixels processed
+Snapshot 0 at (34,59) saved at mcu (32,48)
+Snapshot dimensions: (34,59) to (102,177)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (68,118)
+Snapshot 2 at (68,118) saved at mcu (64,112)
+Snapshot dimensions: (68,118) to (136,236)
+zjpgd_roi_1_4 0 (34,59,68,118) decode time: 418 us, 9216 pixels processed
+zjpgd_roi_1_4 1 (0,0,68,118) decode time: 400 us, 8640 pixels processed
+zjpgd_roi_1_4 2 (68,118,68,118) decode time: 419 us, 9000 pixels processed
+file samples/rgbw_137x237_420.jpg,100,729,1113,1284,418,400,419
 
-file samples/rgbw_137x237_420.jpg,100,738,1311,
 Decoding samples/rgbw_137x237_422.jpg for 100 rounds
-tjpgd 137x237 decode time: 702 us, 32469 pixels processed
-zjpgd 137x237 decode time: 1362 us, 32469 pixels processed
+tjpgd 137x237 decode time: 758 us, 32469 pixels processed
+zjpgd 137x237 decode time: 1124 us, 32469 pixels processed
+zjpgd_roi 137x237 decode time: 1452 us, 32469 pixels processed
+Snapshot 0 at (34,59) saved at mcu (32,56)
+Snapshot dimensions: (34,59) to (102,177)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (68,118)
+Snapshot 2 at (68,118) saved at mcu (64,112)
+Snapshot dimensions: (68,118) to (136,236)
+zjpgd_roi_1_4 0 (34,59,68,118) decode time: 441 us, 9216 pixels processed
+zjpgd_roi_1_4 1 (0,0,68,118) decode time: 420 us, 8640 pixels processed
+zjpgd_roi_1_4 2 (68,118,68,118) decode time: 486 us, 9000 pixels processed
+file samples/rgbw_137x237_422.jpg,100,758,1124,1452,441,420,486
 
-file samples/rgbw_137x237_422.jpg,100,702,1362,
 Decoding samples/rgbw_137x237_444.jpg for 100 rounds
-tjpgd 137x237 decode time: 734 us, 32469 pixels processed
-zjpgd 137x237 decode time: 1604 us, 32469 pixels processed
+tjpgd 137x237 decode time: 854 us, 32469 pixels processed
+zjpgd 137x237 decode time: 1166 us, 32469 pixels processed
+zjpgd_roi 137x237 decode time: 1702 us, 32469 pixels processed
+Snapshot 0 at (34,59) saved at mcu (32,56)
+Snapshot dimensions: (34,59) to (102,177)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (68,118)
+Snapshot 2 at (68,118) saved at mcu (64,112)
+Snapshot dimensions: (68,118) to (136,236)
+zjpgd_roi_1_4 0 (34,59,68,118) decode time: 543 us, 9216 pixels processed
+zjpgd_roi_1_4 1 (0,0,68,118) decode time: 500 us, 8640 pixels processed
+zjpgd_roi_1_4 2 (68,118,68,118) decode time: 485 us, 9000 pixels processed
+file samples/rgbw_137x237_444.jpg,100,854,1166,1702,543,500,485
 
-file samples/rgbw_137x237_444.jpg,100,734,1604,
 Decoding samples/rgbw_150x166_400.jpg for 100 rounds
-tjpgd 150x166 decode time: 556 us, 24900 pixels processed
-zjpgd 150x166 decode time: 739 us, 24900 pixels processed
+tjpgd 150x166 decode time: 577 us, 24900 pixels processed
+zjpgd 150x166 decode time: 694 us, 24900 pixels processed
+zjpgd_roi 150x166 decode time: 808 us, 24900 pixels processed
+Snapshot 0 at (37,41) saved at mcu (32,40)
+Snapshot dimensions: (37,41) to (112,124)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (75,83)
+Snapshot 2 at (75,83) saved at mcu (72,80)
+Snapshot dimensions: (75,83) to (150,166)
+zjpgd_roi_1_4 0 (37,41,75,83) decode time: 266 us, 7040 pixels processed
+zjpgd_roi_1_4 1 (0,0,75,83) decode time: 262 us, 7040 pixels processed
+zjpgd_roi_1_4 2 (75,83,75,83) decode time: 261 us, 6708 pixels processed
+file samples/rgbw_150x166_400.jpg,100,577,694,808,266,262,261
 
-file samples/rgbw_150x166_400.jpg,100,556,739,
 Decoding samples/rgbw_150x166_420.jpg for 100 rounds
-tjpgd 150x166 decode time: 574 us, 24900 pixels processed
-zjpgd 150x166 decode time: 973 us, 24900 pixels processed
+tjpgd 150x166 decode time: 613 us, 24900 pixels processed
+zjpgd 150x166 decode time: 928 us, 24900 pixels processed
+zjpgd_roi 150x166 decode time: 1045 us, 24900 pixels processed
+Snapshot 0 at (37,41) saved at mcu (32,32)
+Snapshot dimensions: (37,41) to (112,124)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (75,83)
+Snapshot 2 at (75,83) saved at mcu (64,80)
+Snapshot dimensions: (75,83) to (150,166)
+zjpgd_roi_1_4 0 (37,41,75,83) decode time: 311 us, 7040 pixels processed
+zjpgd_roi_1_4 1 (0,0,75,83) decode time: 311 us, 7040 pixels processed
+zjpgd_roi_1_4 2 (75,83,75,83) decode time: 307 us, 6708 pixels processed
+file samples/rgbw_150x166_420.jpg,100,613,928,1045,311,311,307
 
-file samples/rgbw_150x166_420.jpg,100,574,973,
 Decoding samples/rgbw_150x166_422.jpg for 100 rounds
-tjpgd 150x166 decode time: 583 us, 24900 pixels processed
-zjpgd 150x166 decode time: 1158 us, 24900 pixels processed
+tjpgd 150x166 decode time: 623 us, 24900 pixels processed
+zjpgd 150x166 decode time: 924 us, 24900 pixels processed
+zjpgd_roi 150x166 decode time: 1154 us, 24900 pixels processed
+Snapshot 0 at (37,41) saved at mcu (32,40)
+Snapshot dimensions: (37,41) to (112,124)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (75,83)
+Snapshot 2 at (75,83) saved at mcu (64,80)
+Snapshot dimensions: (75,83) to (150,166)
+zjpgd_roi_1_4 0 (37,41,75,83) decode time: 372 us, 7040 pixels processed
+zjpgd_roi_1_4 1 (0,0,75,83) decode time: 377 us, 7040 pixels processed
+zjpgd_roi_1_4 2 (75,83,75,83) decode time: 374 us, 6708 pixels processed
+file samples/rgbw_150x166_422.jpg,100,623,924,1154,372,377,374
 
-file samples/rgbw_150x166_422.jpg,100,583,1158,
 Decoding samples/rgbw_150x166_444.jpg for 100 rounds
-tjpgd 150x166 decode time: 601 us, 24900 pixels processed
-zjpgd 150x166 decode time: 1247 us, 24900 pixels processed
+tjpgd 150x166 decode time: 651 us, 24900 pixels processed
+zjpgd 150x166 decode time: 879 us, 24900 pixels processed
+zjpgd_roi 150x166 decode time: 1293 us, 24900 pixels processed
+Snapshot 0 at (37,41) saved at mcu (32,40)
+Snapshot dimensions: (37,41) to (112,124)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (75,83)
+Snapshot 2 at (75,83) saved at mcu (72,80)
+Snapshot dimensions: (75,83) to (150,166)
+zjpgd_roi_1_4 0 (37,41,75,83) decode time: 464 us, 7040 pixels processed
+zjpgd_roi_1_4 1 (0,0,75,83) decode time: 389 us, 7040 pixels processed
+zjpgd_roi_1_4 2 (75,83,75,83) decode time: 385 us, 6708 pixels processed
+file samples/rgbw_150x166_444.jpg,100,651,879,1293,464,389,385
 
-file samples/rgbw_150x166_444.jpg,100,601,1247,
 Decoding samples/rgbw_152x27_400.jpg for 100 rounds
-tjpgd 152x27 decode time: 158 us, 4104 pixels processed
-zjpgd 152x27 decode time: 170 us, 4104 pixels processed
+tjpgd 152x27 decode time: 157 us, 4104 pixels processed
+zjpgd 152x27 decode time: 159 us, 4104 pixels processed
+zjpgd_roi 152x27 decode time: 194 us, 4104 pixels processed
+Snapshot 0 at (38,6) saved at mcu (32,0)
+Snapshot dimensions: (38,6) to (114,19)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (76,13)
+Snapshot 2 at (76,13) saved at mcu (72,8)
+Snapshot dimensions: (76,13) to (152,26)
+zjpgd_roi_1_4 0 (38,6,76,13) decode time: 92 us, 2112 pixels processed
+zjpgd_roi_1_4 1 (0,0,76,13) decode time: 62 us, 1280 pixels processed
+zjpgd_roi_1_4 2 (76,13,76,13) decode time: 82 us, 1520 pixels processed
+file samples/rgbw_152x27_400.jpg,100,157,159,194,92,62,82
 
-file samples/rgbw_152x27_400.jpg,100,158,170,
 Decoding samples/rgbw_152x27_420.jpg for 100 rounds
-tjpgd 152x27 decode time: 156 us, 4104 pixels processed
-zjpgd 152x27 decode time: 247 us, 4104 pixels processed
+tjpgd 152x27 decode time: 161 us, 4104 pixels processed
+zjpgd 152x27 decode time: 218 us, 4104 pixels processed
+zjpgd_roi 152x27 decode time: 260 us, 4104 pixels processed
+Snapshot 0 at (38,6) saved at mcu (32,0)
+Snapshot dimensions: (38,6) to (114,19)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (76,13)
+Snapshot 2 at (76,13) saved at mcu (64,0)
+Snapshot dimensions: (76,13) to (152,26)
+zjpgd_roi_1_4 0 (38,6,76,13) decode time: 134 us, 2112 pixels processed
+zjpgd_roi_1_4 1 (0,0,76,13) decode time: 78 us, 1280 pixels processed
+zjpgd_roi_1_4 2 (76,13,76,13) decode time: 114 us, 1520 pixels processed
+file samples/rgbw_152x27_420.jpg,100,161,218,260,134,78,114
 
-file samples/rgbw_152x27_420.jpg,100,156,247,
 Decoding samples/rgbw_152x27_422.jpg for 100 rounds
-tjpgd 152x27 decode time: 169 us, 4104 pixels processed
-zjpgd 152x27 decode time: 250 us, 4104 pixels processed
+tjpgd 152x27 decode time: 178 us, 4104 pixels processed
+zjpgd 152x27 decode time: 221 us, 4104 pixels processed
+zjpgd_roi 152x27 decode time: 284 us, 4104 pixels processed
+Snapshot 0 at (38,6) saved at mcu (32,0)
+Snapshot dimensions: (38,6) to (114,19)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (76,13)
+Snapshot 2 at (76,13) saved at mcu (64,8)
+Snapshot dimensions: (76,13) to (152,26)
+zjpgd_roi_1_4 0 (38,6,76,13) decode time: 155 us, 2112 pixels processed
+zjpgd_roi_1_4 1 (0,0,76,13) decode time: 103 us, 1280 pixels processed
+zjpgd_roi_1_4 2 (76,13,76,13) decode time: 137 us, 1520 pixels processed
+file samples/rgbw_152x27_422.jpg,100,178,221,284,155,103,137
 
-file samples/rgbw_152x27_422.jpg,100,169,250,
 Decoding samples/rgbw_152x27_444.jpg for 100 rounds
-tjpgd 152x27 decode time: 193 us, 4104 pixels processed
-zjpgd 152x27 decode time: 298 us, 4104 pixels processed
+tjpgd 152x27 decode time: 207 us, 4104 pixels processed
+zjpgd 152x27 decode time: 238 us, 4104 pixels processed
+zjpgd_roi 152x27 decode time: 306 us, 4104 pixels processed
+Snapshot 0 at (38,6) saved at mcu (32,0)
+Snapshot dimensions: (38,6) to (114,19)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (76,13)
+Snapshot 2 at (76,13) saved at mcu (72,8)
+Snapshot dimensions: (76,13) to (152,26)
+zjpgd_roi_1_4 0 (38,6,76,13) decode time: 172 us, 2112 pixels processed
+zjpgd_roi_1_4 1 (0,0,76,13) decode time: 115 us, 1280 pixels processed
+zjpgd_roi_1_4 2 (76,13,76,13) decode time: 147 us, 1520 pixels processed
+file samples/rgbw_152x27_444.jpg,100,207,238,306,172,115,147
 
-file samples/rgbw_152x27_444.jpg,100,193,298,
 Decoding samples/rgbw_153x36_400.jpg for 100 rounds
-tjpgd 153x36 decode time: 187 us, 5508 pixels processed
-zjpgd 153x36 decode time: 233 us, 5508 pixels processed
+tjpgd 153x36 decode time: 192 us, 5508 pixels processed
+zjpgd 153x36 decode time: 205 us, 5508 pixels processed
+zjpgd_roi 153x36 decode time: 236 us, 5508 pixels processed
+Snapshot 0 at (38,9) saved at mcu (32,8)
+Snapshot dimensions: (38,9) to (114,27)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (76,18)
+Snapshot 2 at (76,18) saved at mcu (72,16)
+Snapshot dimensions: (76,18) to (152,36)
+zjpgd_roi_1_4 0 (38,9,76,18) decode time: 106 us, 2112 pixels processed
+zjpgd_roi_1_4 1 (0,0,76,18) decode time: 96 us, 1920 pixels processed
+zjpgd_roi_1_4 2 (76,18,76,18) decode time: 95 us, 1600 pixels processed
+file samples/rgbw_153x36_400.jpg,100,192,205,236,106,96,95
 
-file samples/rgbw_153x36_400.jpg,100,187,233,
 Decoding samples/rgbw_153x36_420.jpg for 100 rounds
-tjpgd 153x36 decode time: 225 us, 5508 pixels processed
-zjpgd 153x36 decode time: 310 us, 5508 pixels processed
+tjpgd 153x36 decode time: 224 us, 5508 pixels processed
+zjpgd 153x36 decode time: 295 us, 5508 pixels processed
+zjpgd_roi 153x36 decode time: 339 us, 5508 pixels processed
+Snapshot 0 at (38,9) saved at mcu (32,0)
+Snapshot dimensions: (38,9) to (114,27)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (76,18)
+Snapshot 2 at (76,18) saved at mcu (64,16)
+Snapshot dimensions: (76,18) to (152,36)
+zjpgd_roi_1_4 0 (38,9,76,18) decode time: 122 us, 2112 pixels processed
+zjpgd_roi_1_4 1 (0,0,76,18) decode time: 122 us, 1920 pixels processed
+zjpgd_roi_1_4 2 (76,18,76,18) decode time: 113 us, 1600 pixels processed
+file samples/rgbw_153x36_420.jpg,100,224,295,339,122,122,113
 
-file samples/rgbw_153x36_420.jpg,100,225,310,
 Decoding samples/rgbw_153x36_422.jpg for 100 rounds
-tjpgd 153x36 decode time: 187 us, 5508 pixels processed
-zjpgd 153x36 decode time: 301 us, 5508 pixels processed
+tjpgd 153x36 decode time: 203 us, 5508 pixels processed
+zjpgd 153x36 decode time: 246 us, 5508 pixels processed
+zjpgd_roi 153x36 decode time: 289 us, 5508 pixels processed
+Snapshot 0 at (38,9) saved at mcu (32,8)
+Snapshot dimensions: (38,9) to (114,27)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (76,18)
+Snapshot 2 at (76,18) saved at mcu (64,16)
+Snapshot dimensions: (76,18) to (152,36)
+zjpgd_roi_1_4 0 (38,9,76,18) decode time: 181 us, 2112 pixels processed
+zjpgd_roi_1_4 1 (0,0,76,18) decode time: 123 us, 1920 pixels processed
+zjpgd_roi_1_4 2 (76,18,76,18) decode time: 117 us, 1600 pixels processed
+file samples/rgbw_153x36_422.jpg,100,203,246,289,181,123,117
 
-file samples/rgbw_153x36_422.jpg,100,187,301,
 Decoding samples/rgbw_153x36_444.jpg for 100 rounds
-tjpgd 153x36 decode time: 194 us, 5508 pixels processed
-zjpgd 153x36 decode time: 316 us, 5508 pixels processed
+tjpgd 153x36 decode time: 204 us, 5508 pixels processed
+zjpgd 153x36 decode time: 257 us, 5508 pixels processed
+zjpgd_roi 153x36 decode time: 369 us, 5508 pixels processed
+Snapshot 0 at (38,9) saved at mcu (32,8)
+Snapshot dimensions: (38,9) to (114,27)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (76,18)
+Snapshot 2 at (76,18) saved at mcu (72,16)
+Snapshot dimensions: (76,18) to (152,36)
+zjpgd_roi_1_4 0 (38,9,76,18) decode time: 163 us, 2112 pixels processed
+zjpgd_roi_1_4 1 (0,0,76,18) decode time: 142 us, 1920 pixels processed
+zjpgd_roi_1_4 2 (76,18,76,18) decode time: 144 us, 1600 pixels processed
+file samples/rgbw_153x36_444.jpg,100,204,257,369,163,142,144
 
-file samples/rgbw_153x36_444.jpg,100,194,316,
 Decoding samples/rgbw_158x79_400.jpg for 100 rounds
-tjpgd 158x79 decode time: 294 us, 12482 pixels processed
-zjpgd 158x79 decode time: 365 us, 12482 pixels processed
+tjpgd 158x79 decode time: 316 us, 12482 pixels processed
+zjpgd 158x79 decode time: 336 us, 12482 pixels processed
+zjpgd_roi 158x79 decode time: 433 us, 12482 pixels processed
+Snapshot 0 at (39,19) saved at mcu (32,16)
+Snapshot dimensions: (39,19) to (118,58)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (79,39)
+Snapshot 2 at (79,39) saved at mcu (72,32)
+Snapshot dimensions: (79,39) to (158,78)
+zjpgd_roi_1_4 0 (39,19,79,39) decode time: 174 us, 4224 pixels processed
+zjpgd_roi_1_4 1 (0,0,79,39) decode time: 138 us, 3200 pixels processed
+zjpgd_roi_1_4 2 (79,39,79,39) decode time: 170 us, 4042 pixels processed
+file samples/rgbw_158x79_400.jpg,100,316,336,433,174,138,170
 
-file samples/rgbw_158x79_400.jpg,100,294,365,
 Decoding samples/rgbw_158x79_420.jpg for 100 rounds
-tjpgd 158x79 decode time: 303 us, 12482 pixels processed
-zjpgd 158x79 decode time: 527 us, 12482 pixels processed
+tjpgd 158x79 decode time: 323 us, 12482 pixels processed
+zjpgd 158x79 decode time: 402 us, 12482 pixels processed
+zjpgd_roi 158x79 decode time: 537 us, 12482 pixels processed
+Snapshot 0 at (39,19) saved at mcu (32,16)
+Snapshot dimensions: (39,19) to (118,58)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (79,39)
+Snapshot 2 at (79,39) saved at mcu (64,32)
+Snapshot dimensions: (79,39) to (158,78)
+zjpgd_roi_1_4 0 (39,19,79,39) decode time: 222 us, 4224 pixels processed
+zjpgd_roi_1_4 1 (0,0,79,39) decode time: 179 us, 3200 pixels processed
+zjpgd_roi_1_4 2 (79,39,79,39) decode time: 215 us, 4042 pixels processed
+file samples/rgbw_158x79_420.jpg,100,323,402,537,222,179,215
 
-file samples/rgbw_158x79_420.jpg,100,303,527,
 Decoding samples/rgbw_158x79_422.jpg for 100 rounds
-tjpgd 158x79 decode time: 317 us, 12482 pixels processed
-zjpgd 158x79 decode time: 585 us, 12482 pixels processed
+tjpgd 158x79 decode time: 318 us, 12482 pixels processed
+zjpgd 158x79 decode time: 440 us, 12482 pixels processed
+zjpgd_roi 158x79 decode time: 597 us, 12482 pixels processed
+Snapshot 0 at (39,19) saved at mcu (32,16)
+Snapshot dimensions: (39,19) to (118,58)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (79,39)
+Snapshot 2 at (79,39) saved at mcu (64,32)
+Snapshot dimensions: (79,39) to (158,78)
+zjpgd_roi_1_4 0 (39,19,79,39) decode time: 248 us, 4224 pixels processed
+zjpgd_roi_1_4 1 (0,0,79,39) decode time: 187 us, 3200 pixels processed
+zjpgd_roi_1_4 2 (79,39,79,39) decode time: 239 us, 4042 pixels processed
+file samples/rgbw_158x79_422.jpg,100,318,440,597,248,187,239
 
-file samples/rgbw_158x79_422.jpg,100,317,585,
 Decoding samples/rgbw_158x79_444.jpg for 100 rounds
-tjpgd 158x79 decode time: 321 us, 12482 pixels processed
-zjpgd 158x79 decode time: 616 us, 12482 pixels processed
+tjpgd 158x79 decode time: 341 us, 12482 pixels processed
+zjpgd 158x79 decode time: 495 us, 12482 pixels processed
+zjpgd_roi 158x79 decode time: 701 us, 12482 pixels processed
+Snapshot 0 at (39,19) saved at mcu (32,16)
+Snapshot dimensions: (39,19) to (118,58)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (79,39)
+Snapshot 2 at (79,39) saved at mcu (72,32)
+Snapshot dimensions: (79,39) to (158,78)
+zjpgd_roi_1_4 0 (39,19,79,39) decode time: 286 us, 4224 pixels processed
+zjpgd_roi_1_4 1 (0,0,79,39) decode time: 206 us, 3200 pixels processed
+zjpgd_roi_1_4 2 (79,39,79,39) decode time: 238 us, 4042 pixels processed
+file samples/rgbw_158x79_444.jpg,100,341,495,701,286,206,238
 
-file samples/rgbw_158x79_444.jpg,100,321,616,
 Decoding samples/rgbw_166x167_400.jpg for 100 rounds
-tjpgd 166x167 decode time: 622 us, 27722 pixels processed
-zjpgd 166x167 decode time: 807 us, 27722 pixels processed
+tjpgd 166x167 decode time: 680 us, 27722 pixels processed
+zjpgd 166x167 decode time: 736 us, 27722 pixels processed
+zjpgd_roi 166x167 decode time: 873 us, 27722 pixels processed
+Snapshot 0 at (41,41) saved at mcu (40,40)
+Snapshot dimensions: (41,41) to (124,124)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (83,83)
+Snapshot 2 at (83,83) saved at mcu (80,80)
+Snapshot dimensions: (83,83) to (166,166)
+zjpgd_roi_1_4 0 (41,41,83,83) decode time: 261 us, 7744 pixels processed
+zjpgd_roi_1_4 1 (0,0,83,83) decode time: 271 us, 7744 pixels processed
+zjpgd_roi_1_4 2 (83,83,83,83) decode time: 248 us, 7482 pixels processed
+file samples/rgbw_166x167_400.jpg,100,680,736,873,261,271,248
 
-file samples/rgbw_166x167_400.jpg,100,622,807,
 Decoding samples/rgbw_166x167_420.jpg for 100 rounds
-tjpgd 166x167 decode time: 631 us, 27722 pixels processed
-zjpgd 166x167 decode time: 1157 us, 27722 pixels processed
+tjpgd 166x167 decode time: 679 us, 27722 pixels processed
+zjpgd 166x167 decode time: 953 us, 27722 pixels processed
+zjpgd_roi 166x167 decode time: 1247 us, 27722 pixels processed
+Snapshot 0 at (41,41) saved at mcu (32,32)
+Snapshot dimensions: (41,41) to (124,124)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (83,83)
+Snapshot 2 at (83,83) saved at mcu (80,80)
+Snapshot dimensions: (83,83) to (166,166)
+zjpgd_roi_1_4 0 (41,41,83,83) decode time: 394 us, 7744 pixels processed
+zjpgd_roi_1_4 1 (0,0,83,83) decode time: 382 us, 7744 pixels processed
+zjpgd_roi_1_4 2 (83,83,83,83) decode time: 380 us, 7482 pixels processed
+file samples/rgbw_166x167_420.jpg,100,679,953,1247,394,382,380
 
-file samples/rgbw_166x167_420.jpg,100,631,1157,
 Decoding samples/rgbw_166x167_422.jpg for 100 rounds
-tjpgd 166x167 decode time: 645 us, 27722 pixels processed
-zjpgd 166x167 decode time: 1232 us, 27722 pixels processed
+tjpgd 166x167 decode time: 692 us, 27722 pixels processed
+zjpgd 166x167 decode time: 952 us, 27722 pixels processed
+zjpgd_roi 166x167 decode time: 1345 us, 27722 pixels processed
+Snapshot 0 at (41,41) saved at mcu (32,40)
+Snapshot dimensions: (41,41) to (124,124)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (83,83)
+Snapshot 2 at (83,83) saved at mcu (80,80)
+Snapshot dimensions: (83,83) to (166,166)
+zjpgd_roi_1_4 0 (41,41,83,83) decode time: 387 us, 7744 pixels processed
+zjpgd_roi_1_4 1 (0,0,83,83) decode time: 382 us, 7744 pixels processed
+zjpgd_roi_1_4 2 (83,83,83,83) decode time: 390 us, 7482 pixels processed
+file samples/rgbw_166x167_422.jpg,100,692,952,1345,387,382,390
 
-file samples/rgbw_166x167_422.jpg,100,645,1232,
 Decoding samples/rgbw_166x167_444.jpg for 100 rounds
-tjpgd 166x167 decode time: 686 us, 27722 pixels processed
-zjpgd 166x167 decode time: 1386 us, 27722 pixels processed
+tjpgd 166x167 decode time: 720 us, 27722 pixels processed
+zjpgd 166x167 decode time: 1050 us, 27722 pixels processed
+zjpgd_roi 166x167 decode time: 1489 us, 27722 pixels processed
+Snapshot 0 at (41,41) saved at mcu (40,40)
+Snapshot dimensions: (41,41) to (124,124)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (83,83)
+Snapshot 2 at (83,83) saved at mcu (80,80)
+Snapshot dimensions: (83,83) to (166,166)
+zjpgd_roi_1_4 0 (41,41,83,83) decode time: 946 us, 7744 pixels processed
+zjpgd_roi_1_4 1 (0,0,83,83) decode time: 427 us, 7744 pixels processed
+zjpgd_roi_1_4 2 (83,83,83,83) decode time: 433 us, 7482 pixels processed
+file samples/rgbw_166x167_444.jpg,100,720,1050,1489,946,427,433
 
-file samples/rgbw_166x167_444.jpg,100,686,1386,
 Decoding samples/rgbw_166x2_400.jpg for 100 rounds
-tjpgd 166x2 decode time: 66 us, 332 pixels processed
-zjpgd 166x2 decode time: 71 us, 332 pixels processed
+tjpgd 166x2 decode time: 68 us, 332 pixels processed
+zjpgd 166x2 decode time: 63 us, 332 pixels processed
+zjpgd_roi 166x2 decode time: 70 us, 332 pixels processed
+Snapshot 0 at (41,0) saved at mcu (40,0)
+Snapshot dimensions: (41,0) to (124,1)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (83,1)
+Snapshot 2 at (83,1) saved at mcu (80,0)
+Snapshot dimensions: (83,1) to (166,2)
+zjpgd_roi_1_4 0 (41,0,83,1) decode time: 52 us, 176 pixels processed
+zjpgd_roi_1_4 1 (0,0,83,1) decode time: 53 us, 176 pixels processed
+zjpgd_roi_1_4 2 (83,1,83,1) decode time: 48 us, 172 pixels processed
+file samples/rgbw_166x2_400.jpg,100,68,63,70,52,53,48
 
-file samples/rgbw_166x2_400.jpg,100,66,71,
 Decoding samples/rgbw_166x2_420.jpg for 100 rounds
-tjpgd 166x2 decode time: 78 us, 332 pixels processed
-zjpgd 166x2 decode time: 116 us, 332 pixels processed
+tjpgd 166x2 decode time: 89 us, 332 pixels processed
+zjpgd 166x2 decode time: 114 us, 332 pixels processed
+zjpgd_roi 166x2 decode time: 122 us, 332 pixels processed
+Snapshot 0 at (41,0) saved at mcu (32,0)
+Snapshot dimensions: (41,0) to (124,1)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (83,1)
+Snapshot 2 at (83,1) saved at mcu (80,0)
+Snapshot dimensions: (83,1) to (166,2)
+zjpgd_roi_1_4 0 (41,0,83,1) decode time: 64 us, 176 pixels processed
+zjpgd_roi_1_4 1 (0,0,83,1) decode time: 66 us, 176 pixels processed
+zjpgd_roi_1_4 2 (83,1,83,1) decode time: 67 us, 172 pixels processed
+file samples/rgbw_166x2_420.jpg,100,89,114,122,64,66,67
 
-file samples/rgbw_166x2_420.jpg,100,78,116,
 Decoding samples/rgbw_166x2_422.jpg for 100 rounds
-tjpgd 166x2 decode time: 83 us, 332 pixels processed
+tjpgd 166x2 decode time: 95 us, 332 pixels processed
 zjpgd 166x2 decode time: 92 us, 332 pixels processed
+zjpgd_roi 166x2 decode time: 92 us, 332 pixels processed
+Snapshot 0 at (41,0) saved at mcu (32,0)
+Snapshot dimensions: (41,0) to (124,1)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (83,1)
+Snapshot 2 at (83,1) saved at mcu (80,0)
+Snapshot dimensions: (83,1) to (166,2)
+zjpgd_roi_1_4 0 (41,0,83,1) decode time: 63 us, 176 pixels processed
+zjpgd_roi_1_4 1 (0,0,83,1) decode time: 67 us, 176 pixels processed
+zjpgd_roi_1_4 2 (83,1,83,1) decode time: 68 us, 172 pixels processed
+file samples/rgbw_166x2_422.jpg,100,95,92,92,63,67,68
 
-file samples/rgbw_166x2_422.jpg,100,83,92,
 Decoding samples/rgbw_166x2_444.jpg for 100 rounds
-tjpgd 166x2 decode time: 101 us, 332 pixels processed
-zjpgd 166x2 decode time: 108 us, 332 pixels processed
+tjpgd 166x2 decode time: 99 us, 332 pixels processed
+zjpgd 166x2 decode time: 101 us, 332 pixels processed
+zjpgd_roi 166x2 decode time: 116 us, 332 pixels processed
+Snapshot 0 at (41,0) saved at mcu (40,0)
+Snapshot dimensions: (41,0) to (124,1)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (83,1)
+Snapshot 2 at (83,1) saved at mcu (80,0)
+Snapshot dimensions: (83,1) to (166,2)
+zjpgd_roi_1_4 0 (41,0,83,1) decode time: 78 us, 176 pixels processed
+zjpgd_roi_1_4 1 (0,0,83,1) decode time: 78 us, 176 pixels processed
+zjpgd_roi_1_4 2 (83,1,83,1) decode time: 77 us, 172 pixels processed
+file samples/rgbw_166x2_444.jpg,100,99,101,116,78,78,77
 
-file samples/rgbw_166x2_444.jpg,100,101,108,
 Decoding samples/rgbw_172x224_400.jpg for 100 rounds
-tjpgd 172x224 decode time: 880 us, 38528 pixels processed
-zjpgd 172x224 decode time: 1075 us, 38528 pixels processed
+tjpgd 172x224 decode time: 895 us, 38528 pixels processed
+zjpgd 172x224 decode time: 1083 us, 38528 pixels processed
+zjpgd_roi 172x224 decode time: 1285 us, 38528 pixels processed
+Snapshot 0 at (43,56) saved at mcu (40,56)
+Snapshot dimensions: (43,56) to (129,168)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (86,112)
+Snapshot 2 at (86,112) saved at mcu (80,112)
+Snapshot dimensions: (86,112) to (172,224)
+zjpgd_roi_1_4 0 (43,56,86,112) decode time: 385 us, 10752 pixels processed
+zjpgd_roi_1_4 1 (0,0,86,112) decode time: 314 us, 9856 pixels processed
+zjpgd_roi_1_4 2 (86,112,86,112) decode time: 320 us, 10304 pixels processed
+file samples/rgbw_172x224_400.jpg,100,895,1083,1285,385,314,320
 
-file samples/rgbw_172x224_400.jpg,100,880,1075,
 Decoding samples/rgbw_172x224_420.jpg for 100 rounds
-tjpgd 172x224 decode time: 828 us, 38528 pixels processed
-zjpgd 172x224 decode time: 2463 us, 38528 pixels processed
+tjpgd 172x224 decode time: 817 us, 38528 pixels processed
+zjpgd 172x224 decode time: 1242 us, 38528 pixels processed
+zjpgd_roi 172x224 decode time: 1475 us, 38528 pixels processed
+Snapshot 0 at (43,56) saved at mcu (32,48)
+Snapshot dimensions: (43,56) to (129,168)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (86,112)
+Snapshot 2 at (86,112) saved at mcu (80,112)
+Snapshot dimensions: (86,112) to (172,224)
+zjpgd_roi_1_4 0 (43,56,86,112) decode time: 500 us, 10752 pixels processed
+zjpgd_roi_1_4 1 (0,0,86,112) decode time: 435 us, 9856 pixels processed
+zjpgd_roi_1_4 2 (86,112,86,112) decode time: 456 us, 10304 pixels processed
+file samples/rgbw_172x224_420.jpg,100,817,1242,1475,500,435,456
 
-file samples/rgbw_172x224_420.jpg,100,828,2463,
 Decoding samples/rgbw_172x224_422.jpg for 100 rounds
-tjpgd 172x224 decode time: 799 us, 38528 pixels processed
-zjpgd 172x224 decode time: 1647 us, 38528 pixels processed
+tjpgd 172x224 decode time: 834 us, 38528 pixels processed
+zjpgd 172x224 decode time: 1220 us, 38528 pixels processed
+zjpgd_roi 172x224 decode time: 1643 us, 38528 pixels processed
+Snapshot 0 at (43,56) saved at mcu (32,56)
+Snapshot dimensions: (43,56) to (129,168)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (86,112)
+Snapshot 2 at (86,112) saved at mcu (80,112)
+Snapshot dimensions: (86,112) to (172,224)
+zjpgd_roi_1_4 0 (43,56,86,112) decode time: 477 us, 10752 pixels processed
+zjpgd_roi_1_4 1 (0,0,86,112) decode time: 499 us, 9856 pixels processed
+zjpgd_roi_1_4 2 (86,112,86,112) decode time: 519 us, 10304 pixels processed
+file samples/rgbw_172x224_422.jpg,100,834,1220,1643,477,499,519
 
-file samples/rgbw_172x224_422.jpg,100,799,1647,
 Decoding samples/rgbw_172x224_444.jpg for 100 rounds
-tjpgd 172x224 decode time: 850 us, 38528 pixels processed
-zjpgd 172x224 decode time: 1875 us, 38528 pixels processed
+tjpgd 172x224 decode time: 862 us, 38528 pixels processed
+zjpgd 172x224 decode time: 1264 us, 38528 pixels processed
+zjpgd_roi 172x224 decode time: 1890 us, 38528 pixels processed
+Snapshot 0 at (43,56) saved at mcu (40,56)
+Snapshot dimensions: (43,56) to (129,168)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (86,112)
+Snapshot 2 at (86,112) saved at mcu (80,112)
+Snapshot dimensions: (86,112) to (172,224)
+zjpgd_roi_1_4 0 (43,56,86,112) decode time: 592 us, 10752 pixels processed
+zjpgd_roi_1_4 1 (0,0,86,112) decode time: 553 us, 9856 pixels processed
+zjpgd_roi_1_4 2 (86,112,86,112) decode time: 590 us, 10304 pixels processed
+file samples/rgbw_172x224_444.jpg,100,862,1264,1890,592,553,590
 
-file samples/rgbw_172x224_444.jpg,100,850,1875,
 Decoding samples/rgbw_17x132_400.jpg for 100 rounds
-tjpgd 17x132 decode time: 109 us, 2244 pixels processed
-zjpgd 17x132 decode time: 129 us, 2244 pixels processed
+tjpgd 17x132 decode time: 102 us, 2244 pixels processed
+zjpgd 17x132 decode time: 93 us, 2244 pixels processed
+zjpgd_roi 17x132 decode time: 113 us, 2244 pixels processed
+Snapshot 0 at (4,33) saved at mcu (0,32)
+Snapshot dimensions: (4,33) to (12,99)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (8,66)
+Snapshot 2 at (8,66) saved at mcu (8,64)
+Snapshot dimensions: (8,66) to (16,132)
+zjpgd_roi_1_4 0 (4,33,8,66) decode time: 84 us, 1152 pixels processed
+zjpgd_roi_1_4 1 (0,0,8,66) decode time: 55 us, 576 pixels processed
+zjpgd_roi_1_4 2 (8,66,8,66) decode time: 44 us, 544 pixels processed
+file samples/rgbw_17x132_400.jpg,100,102,93,113,84,55,44
 
-file samples/rgbw_17x132_400.jpg,100,109,129,
 Decoding samples/rgbw_17x132_420.jpg for 100 rounds
-tjpgd 17x132 decode time: 130 us, 2244 pixels processed
-zjpgd 17x132 decode time: 205 us, 2244 pixels processed
+tjpgd 17x132 decode time: 120 us, 2244 pixels processed
+zjpgd 17x132 decode time: 164 us, 2244 pixels processed
+zjpgd_roi 17x132 decode time: 213 us, 2244 pixels processed
+Snapshot 0 at (4,33) saved at mcu (0,32)
+Snapshot dimensions: (4,33) to (12,99)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (8,66)
+Snapshot 2 at (8,66) saved at mcu (0,64)
+Snapshot dimensions: (8,66) to (16,132)
+zjpgd_roi_1_4 0 (4,33,8,66) decode time: 86 us, 1152 pixels processed
+zjpgd_roi_1_4 1 (0,0,8,66) decode time: 70 us, 576 pixels processed
+zjpgd_roi_1_4 2 (8,66,8,66) decode time: 70 us, 544 pixels processed
+file samples/rgbw_17x132_420.jpg,100,120,164,213,86,70,70
 
-file samples/rgbw_17x132_420.jpg,100,130,205,
 Decoding samples/rgbw_17x132_422.jpg for 100 rounds
-tjpgd 17x132 decode time: 146 us, 2244 pixels processed
-zjpgd 17x132 decode time: 223 us, 2244 pixels processed
+tjpgd 17x132 decode time: 158 us, 2244 pixels processed
+zjpgd 17x132 decode time: 192 us, 2244 pixels processed
+zjpgd_roi 17x132 decode time: 233 us, 2244 pixels processed
+Snapshot 0 at (4,33) saved at mcu (0,32)
+Snapshot dimensions: (4,33) to (12,99)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (8,66)
+Snapshot 2 at (8,66) saved at mcu (0,64)
+Snapshot dimensions: (8,66) to (16,132)
+zjpgd_roi_1_4 0 (4,33,8,66) decode time: 98 us, 1152 pixels processed
+zjpgd_roi_1_4 1 (0,0,8,66) decode time: 65 us, 576 pixels processed
+zjpgd_roi_1_4 2 (8,66,8,66) decode time: 64 us, 544 pixels processed
+file samples/rgbw_17x132_422.jpg,100,158,192,233,98,65,64
 
-file samples/rgbw_17x132_422.jpg,100,146,223,
 Decoding samples/rgbw_17x132_444.jpg for 100 rounds
-tjpgd 17x132 decode time: 105 us, 2244 pixels processed
-zjpgd 17x132 decode time: 183 us, 2244 pixels processed
+tjpgd 17x132 decode time: 103 us, 2244 pixels processed
+zjpgd 17x132 decode time: 128 us, 2244 pixels processed
+zjpgd_roi 17x132 decode time: 199 us, 2244 pixels processed
+Snapshot 0 at (4,33) saved at mcu (0,32)
+Snapshot dimensions: (4,33) to (12,99)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (8,66)
+Snapshot 2 at (8,66) saved at mcu (8,64)
+Snapshot dimensions: (8,66) to (16,132)
+zjpgd_roi_1_4 0 (4,33,8,66) decode time: 95 us, 1152 pixels processed
+zjpgd_roi_1_4 1 (0,0,8,66) decode time: 64 us, 576 pixels processed
+zjpgd_roi_1_4 2 (8,66,8,66) decode time: 64 us, 544 pixels processed
+file samples/rgbw_17x132_444.jpg,100,103,128,199,95,64,64
 
-file samples/rgbw_17x132_444.jpg,100,105,183,
 Decoding samples/rgbw_187x106_400.jpg for 100 rounds
-tjpgd 187x106 decode time: 487 us, 19822 pixels processed
-zjpgd 187x106 decode time: 676 us, 19822 pixels processed
+tjpgd 187x106 decode time: 530 us, 19822 pixels processed
+zjpgd 187x106 decode time: 597 us, 19822 pixels processed
+zjpgd_roi 187x106 decode time: 722 us, 19822 pixels processed
+Snapshot 0 at (46,26) saved at mcu (40,24)
+Snapshot dimensions: (46,26) to (139,79)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (93,53)
+Snapshot 2 at (93,53) saved at mcu (88,48)
+Snapshot dimensions: (93,53) to (186,106)
+zjpgd_roi_1_4 0 (46,26,93,53) decode time: 234 us, 5824 pixels processed
+zjpgd_roi_1_4 1 (0,0,93,53) decode time: 213 us, 5376 pixels processed
+zjpgd_roi_1_4 2 (93,53,93,53) decode time: 251 us, 5742 pixels processed
+file samples/rgbw_187x106_400.jpg,100,530,597,722,234,213,251
 
-file samples/rgbw_187x106_400.jpg,100,487,676,
 Decoding samples/rgbw_187x106_420.jpg for 100 rounds
-tjpgd 187x106 decode time: 518 us, 19822 pixels processed
-zjpgd 187x106 decode time: 908 us, 19822 pixels processed
+tjpgd 187x106 decode time: 479 us, 19822 pixels processed
+zjpgd 187x106 decode time: 718 us, 19822 pixels processed
+zjpgd_roi 187x106 decode time: 891 us, 19822 pixels processed
+Snapshot 0 at (46,26) saved at mcu (32,16)
+Snapshot dimensions: (46,26) to (139,79)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (93,53)
+Snapshot 2 at (93,53) saved at mcu (80,48)
+Snapshot dimensions: (93,53) to (186,106)
+zjpgd_roi_1_4 0 (46,26,93,53) decode time: 311 us, 5824 pixels processed
+zjpgd_roi_1_4 1 (0,0,93,53) decode time: 275 us, 5376 pixels processed
+zjpgd_roi_1_4 2 (93,53,93,53) decode time: 318 us, 5742 pixels processed
+file samples/rgbw_187x106_420.jpg,100,479,718,891,311,275,318
 
-file samples/rgbw_187x106_420.jpg,100,518,908,
 Decoding samples/rgbw_187x106_422.jpg for 100 rounds
-tjpgd 187x106 decode time: 572 us, 19822 pixels processed
-zjpgd 187x106 decode time: 966 us, 19822 pixels processed
+tjpgd 187x106 decode time: 504 us, 19822 pixels processed
+zjpgd 187x106 decode time: 689 us, 19822 pixels processed
+zjpgd_roi 187x106 decode time: 949 us, 19822 pixels processed
+Snapshot 0 at (46,26) saved at mcu (32,24)
+Snapshot dimensions: (46,26) to (139,79)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (93,53)
+Snapshot 2 at (93,53) saved at mcu (80,48)
+Snapshot dimensions: (93,53) to (186,106)
+zjpgd_roi_1_4 0 (46,26,93,53) decode time: 322 us, 5824 pixels processed
+zjpgd_roi_1_4 1 (0,0,93,53) decode time: 262 us, 5376 pixels processed
+zjpgd_roi_1_4 2 (93,53,93,53) decode time: 330 us, 5742 pixels processed
+file samples/rgbw_187x106_422.jpg,100,504,689,949,322,262,330
 
-file samples/rgbw_187x106_422.jpg,100,572,966,
 Decoding samples/rgbw_187x106_444.jpg for 100 rounds
-tjpgd 187x106 decode time: 548 us, 19822 pixels processed
-zjpgd 187x106 decode time: 1037 us, 19822 pixels processed
+tjpgd 187x106 decode time: 589 us, 19822 pixels processed
+zjpgd 187x106 decode time: 750 us, 19822 pixels processed
+zjpgd_roi 187x106 decode time: 1030 us, 19822 pixels processed
+Snapshot 0 at (46,26) saved at mcu (40,24)
+Snapshot dimensions: (46,26) to (139,79)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (93,53)
+Snapshot 2 at (93,53) saved at mcu (88,48)
+Snapshot dimensions: (93,53) to (186,106)
+zjpgd_roi_1_4 0 (46,26,93,53) decode time: 361 us, 5824 pixels processed
+zjpgd_roi_1_4 1 (0,0,93,53) decode time: 334 us, 5376 pixels processed
+zjpgd_roi_1_4 2 (93,53,93,53) decode time: 352 us, 5742 pixels processed
+file samples/rgbw_187x106_444.jpg,100,589,750,1030,361,334,352
 
-file samples/rgbw_187x106_444.jpg,100,548,1037,
 Decoding samples/rgbw_196x237_400.jpg for 100 rounds
-tjpgd 196x237 decode time: 1039 us, 46452 pixels processed
-zjpgd 196x237 decode time: 1412 us, 46452 pixels processed
+tjpgd 196x237 decode time: 1086 us, 46452 pixels processed
+zjpgd 196x237 decode time: 1233 us, 46452 pixels processed
+zjpgd_roi 196x237 decode time: 1450 us, 46452 pixels processed
+Snapshot 0 at (49,59) saved at mcu (48,56)
+Snapshot dimensions: (49,59) to (147,177)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (98,118)
+Snapshot 2 at (98,118) saved at mcu (96,112)
+Snapshot dimensions: (98,118) to (196,236)
+zjpgd_roi_1_4 0 (49,59,98,118) decode time: 480 us, 13312 pixels processed
+zjpgd_roi_1_4 1 (0,0,98,118) decode time: 393 us, 12480 pixels processed
+zjpgd_roi_1_4 2 (98,118,98,118) decode time: 438 us, 12500 pixels processed
+file samples/rgbw_196x237_400.jpg,100,1086,1233,1450,480,393,438
 
-file samples/rgbw_196x237_400.jpg,100,1039,1412,
 Decoding samples/rgbw_196x237_420.jpg for 100 rounds
-tjpgd 196x237 decode time: 1027 us, 46452 pixels processed
-zjpgd 196x237 decode time: 1879 us, 46452 pixels processed
+tjpgd 196x237 decode time: 1056 us, 46452 pixels processed
+zjpgd 196x237 decode time: 1558 us, 46452 pixels processed
+zjpgd_roi 196x237 decode time: 1936 us, 46452 pixels processed
+Snapshot 0 at (49,59) saved at mcu (48,48)
+Snapshot dimensions: (49,59) to (147,177)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (98,118)
+Snapshot 2 at (98,118) saved at mcu (96,112)
+Snapshot dimensions: (98,118) to (196,236)
+zjpgd_roi_1_4 0 (49,59,98,118) decode time: 616 us, 13312 pixels processed
+zjpgd_roi_1_4 1 (0,0,98,118) decode time: 552 us, 12480 pixels processed
+zjpgd_roi_1_4 2 (98,118,98,118) decode time: 595 us, 12500 pixels processed
+file samples/rgbw_196x237_420.jpg,100,1056,1558,1936,616,552,595
 
-file samples/rgbw_196x237_420.jpg,100,1027,1879,
 Decoding samples/rgbw_196x237_422.jpg for 100 rounds
-tjpgd 196x237 decode time: 1125 us, 46452 pixels processed
-zjpgd 196x237 decode time: 2139 us, 46452 pixels processed
+tjpgd 196x237 decode time: 1151 us, 46452 pixels processed
+zjpgd 196x237 decode time: 1539 us, 46452 pixels processed
+zjpgd_roi 196x237 decode time: 2041 us, 46452 pixels processed
+Snapshot 0 at (49,59) saved at mcu (48,56)
+Snapshot dimensions: (49,59) to (147,177)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (98,118)
+Snapshot 2 at (98,118) saved at mcu (96,112)
+Snapshot dimensions: (98,118) to (196,236)
+zjpgd_roi_1_4 0 (49,59,98,118) decode time: 637 us, 13312 pixels processed
+zjpgd_roi_1_4 1 (0,0,98,118) decode time: 624 us, 12480 pixels processed
+zjpgd_roi_1_4 2 (98,118,98,118) decode time: 604 us, 12500 pixels processed
+file samples/rgbw_196x237_422.jpg,100,1151,1539,2041,637,624,604
 
-file samples/rgbw_196x237_422.jpg,100,1125,2139,
 Decoding samples/rgbw_196x237_444.jpg for 100 rounds
-tjpgd 196x237 decode time: 1101 us, 46452 pixels processed
-zjpgd 196x237 decode time: 2302 us, 46452 pixels processed
+tjpgd 196x237 decode time: 1176 us, 46452 pixels processed
+zjpgd 196x237 decode time: 1655 us, 46452 pixels processed
+zjpgd_roi 196x237 decode time: 2327 us, 46452 pixels processed
+Snapshot 0 at (49,59) saved at mcu (48,56)
+Snapshot dimensions: (49,59) to (147,177)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (98,118)
+Snapshot 2 at (98,118) saved at mcu (96,112)
+Snapshot dimensions: (98,118) to (196,236)
+zjpgd_roi_1_4 0 (49,59,98,118) decode time: 761 us, 13312 pixels processed
+zjpgd_roi_1_4 1 (0,0,98,118) decode time: 677 us, 12480 pixels processed
+zjpgd_roi_1_4 2 (98,118,98,118) decode time: 690 us, 12500 pixels processed
+file samples/rgbw_196x237_444.jpg,100,1176,1655,2327,761,677,690
 
-file samples/rgbw_196x237_444.jpg,100,1101,2302,
 Decoding samples/rgbw_19x11_400.jpg for 100 rounds
-tjpgd 19x11 decode time: 41 us, 209 pixels processed
-zjpgd 19x11 decode time: 42 us, 209 pixels processed
+tjpgd 19x11 decode time: 45 us, 209 pixels processed
+zjpgd 19x11 decode time: 49 us, 209 pixels processed
+zjpgd_roi 19x11 decode time: 44 us, 209 pixels processed
+Snapshot 0 at (4,2) saved at mcu (0,0)
+Snapshot dimensions: (4,2) to (13,7)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (9,5)
+Snapshot 2 at (9,5) saved at mcu (8,0)
+Snapshot dimensions: (9,5) to (18,10)
+zjpgd_roi_1_4 0 (4,2,9,5) decode time: 37 us, 128 pixels processed
+zjpgd_roi_1_4 1 (0,0,9,5) decode time: 38 us, 128 pixels processed
+zjpgd_roi_1_4 2 (9,5,9,5) decode time: 42 us, 121 pixels processed
+file samples/rgbw_19x11_400.jpg,100,45,49,44,37,38,42
 
-file samples/rgbw_19x11_400.jpg,100,41,42,
 Decoding samples/rgbw_19x11_420.jpg for 100 rounds
-tjpgd 19x11 decode time: 52 us, 209 pixels processed
-zjpgd 19x11 decode time: 48 us, 209 pixels processed
+tjpgd 19x11 decode time: 57 us, 209 pixels processed
+zjpgd 19x11 decode time: 56 us, 209 pixels processed
+zjpgd_roi 19x11 decode time: 58 us, 209 pixels processed
+Snapshot 0 at (4,2) saved at mcu (0,0)
+Snapshot dimensions: (4,2) to (13,7)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (9,5)
+Snapshot 2 at (9,5) saved at mcu (0,0)
+Snapshot dimensions: (9,5) to (18,10)
+zjpgd_roi_1_4 0 (4,2,9,5) decode time: 41 us, 128 pixels processed
+zjpgd_roi_1_4 1 (0,0,9,5) decode time: 43 us, 128 pixels processed
+zjpgd_roi_1_4 2 (9,5,9,5) decode time: 46 us, 121 pixels processed
+file samples/rgbw_19x11_420.jpg,100,57,56,58,41,43,46
 
-file samples/rgbw_19x11_420.jpg,100,52,48,
 Decoding samples/rgbw_19x11_422.jpg for 100 rounds
-tjpgd 19x11 decode time: 52 us, 209 pixels processed
-zjpgd 19x11 decode time: 54 us, 209 pixels processed
+tjpgd 19x11 decode time: 53 us, 209 pixels processed
+zjpgd 19x11 decode time: 61 us, 209 pixels processed
+zjpgd_roi 19x11 decode time: 56 us, 209 pixels processed
+Snapshot 0 at (4,2) saved at mcu (0,0)
+Snapshot dimensions: (4,2) to (13,7)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (9,5)
+Snapshot 2 at (9,5) saved at mcu (0,0)
+Snapshot dimensions: (9,5) to (18,10)
+zjpgd_roi_1_4 0 (4,2,9,5) decode time: 38 us, 128 pixels processed
+zjpgd_roi_1_4 1 (0,0,9,5) decode time: 38 us, 128 pixels processed
+zjpgd_roi_1_4 2 (9,5,9,5) decode time: 47 us, 121 pixels processed
+file samples/rgbw_19x11_422.jpg,100,53,61,56,38,38,47
 
-file samples/rgbw_19x11_422.jpg,100,52,54,
 Decoding samples/rgbw_19x11_444.jpg for 100 rounds
-tjpgd 19x11 decode time: 52 us, 209 pixels processed
-zjpgd 19x11 decode time: 67 us, 209 pixels processed
+tjpgd 19x11 decode time: 57 us, 209 pixels processed
+zjpgd 19x11 decode time: 56 us, 209 pixels processed
+zjpgd_roi 19x11 decode time: 58 us, 209 pixels processed
+Snapshot 0 at (4,2) saved at mcu (0,0)
+Snapshot dimensions: (4,2) to (13,7)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (9,5)
+Snapshot 2 at (9,5) saved at mcu (8,0)
+Snapshot dimensions: (9,5) to (18,10)
+zjpgd_roi_1_4 0 (4,2,9,5) decode time: 39 us, 128 pixels processed
+zjpgd_roi_1_4 1 (0,0,9,5) decode time: 37 us, 128 pixels processed
+zjpgd_roi_1_4 2 (9,5,9,5) decode time: 48 us, 121 pixels processed
+file samples/rgbw_19x11_444.jpg,100,57,56,58,39,37,48
 
-file samples/rgbw_19x11_444.jpg,100,52,67,
 Decoding samples/rgbw_211x238_400.jpg for 100 rounds
-tjpgd 211x238 decode time: 1138 us, 50218 pixels processed
-zjpgd 211x238 decode time: 1632 us, 50218 pixels processed
+tjpgd 211x238 decode time: 1325 us, 50218 pixels processed
+zjpgd 211x238 decode time: 1269 us, 50218 pixels processed
+zjpgd_roi 211x238 decode time: 1577 us, 50218 pixels processed
+Snapshot 0 at (52,59) saved at mcu (48,56)
+Snapshot dimensions: (52,59) to (157,178)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (105,119)
+Snapshot 2 at (105,119) saved at mcu (104,112)
+Snapshot dimensions: (105,119) to (210,238)
+zjpgd_roi_1_4 0 (52,59,105,119) decode time: 511 us, 14336 pixels processed
+zjpgd_roi_1_4 1 (0,0,105,119) decode time: 485 us, 13440 pixels processed
+zjpgd_roi_1_4 2 (105,119,105,119) decode time: 533 us, 13482 pixels processed
+file samples/rgbw_211x238_400.jpg,100,1325,1269,1577,511,485,533
 
-file samples/rgbw_211x238_400.jpg,100,1138,1632,
 Decoding samples/rgbw_211x238_420.jpg for 100 rounds
-tjpgd 211x238 decode time: 1067 us, 50218 pixels processed
-zjpgd 211x238 decode time: 1953 us, 50218 pixels processed
+tjpgd 211x238 decode time: 1095 us, 50218 pixels processed
+zjpgd 211x238 decode time: 1752 us, 50218 pixels processed
+zjpgd_roi 211x238 decode time: 2153 us, 50218 pixels processed
+Snapshot 0 at (52,59) saved at mcu (48,48)
+Snapshot dimensions: (52,59) to (157,178)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (105,119)
+Snapshot 2 at (105,119) saved at mcu (96,112)
+Snapshot dimensions: (105,119) to (210,238)
+zjpgd_roi_1_4 0 (52,59,105,119) decode time: 640 us, 14336 pixels processed
+zjpgd_roi_1_4 1 (0,0,105,119) decode time: 558 us, 13440 pixels processed
+zjpgd_roi_1_4 2 (105,119,105,119) decode time: 587 us, 13482 pixels processed
+file samples/rgbw_211x238_420.jpg,100,1095,1752,2153,640,558,587
 
-file samples/rgbw_211x238_420.jpg,100,1067,1953,
 Decoding samples/rgbw_211x238_422.jpg for 100 rounds
-tjpgd 211x238 decode time: 1140 us, 50218 pixels processed
-zjpgd 211x238 decode time: 2207 us, 50218 pixels processed
+tjpgd 211x238 decode time: 1163 us, 50218 pixels processed
+zjpgd 211x238 decode time: 1742 us, 50218 pixels processed
+zjpgd_roi 211x238 decode time: 2321 us, 50218 pixels processed
+Snapshot 0 at (52,59) saved at mcu (48,56)
+Snapshot dimensions: (52,59) to (157,178)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (105,119)
+Snapshot 2 at (105,119) saved at mcu (96,112)
+Snapshot dimensions: (105,119) to (210,238)
+zjpgd_roi_1_4 0 (52,59,105,119) decode time: 718 us, 14336 pixels processed
+zjpgd_roi_1_4 1 (0,0,105,119) decode time: 619 us, 13440 pixels processed
+zjpgd_roi_1_4 2 (105,119,105,119) decode time: 725 us, 13482 pixels processed
+file samples/rgbw_211x238_422.jpg,100,1163,1742,2321,718,619,725
 
-file samples/rgbw_211x238_422.jpg,100,1140,2207,
 Decoding samples/rgbw_211x238_444.jpg for 100 rounds
-tjpgd 211x238 decode time: 1248 us, 50218 pixels processed
-zjpgd 211x238 decode time: 2399 us, 50218 pixels processed
+tjpgd 211x238 decode time: 1247 us, 50218 pixels processed
+zjpgd 211x238 decode time: 1719 us, 50218 pixels processed
+zjpgd_roi 211x238 decode time: 2583 us, 50218 pixels processed
+Snapshot 0 at (52,59) saved at mcu (48,56)
+Snapshot dimensions: (52,59) to (157,178)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (105,119)
+Snapshot 2 at (105,119) saved at mcu (104,112)
+Snapshot dimensions: (105,119) to (210,238)
+zjpgd_roi_1_4 0 (52,59,105,119) decode time: 822 us, 14336 pixels processed
+zjpgd_roi_1_4 1 (0,0,105,119) decode time: 811 us, 13440 pixels processed
+zjpgd_roi_1_4 2 (105,119,105,119) decode time: 768 us, 13482 pixels processed
+file samples/rgbw_211x238_444.jpg,100,1247,1719,2583,822,811,768
 
-file samples/rgbw_211x238_444.jpg,100,1248,2399,
 Decoding samples/rgbw_214x33_400.jpg for 100 rounds
-tjpgd 214x33 decode time: 201 us, 7062 pixels processed
-zjpgd 214x33 decode time: 262 us, 7062 pixels processed
+tjpgd 214x33 decode time: 216 us, 7062 pixels processed
+zjpgd 214x33 decode time: 226 us, 7062 pixels processed
+zjpgd_roi 214x33 decode time: 303 us, 7062 pixels processed
+Snapshot 0 at (53,8) saved at mcu (48,8)
+Snapshot dimensions: (53,8) to (160,24)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (107,16)
+Snapshot 2 at (107,16) saved at mcu (104,16)
+Snapshot dimensions: (107,16) to (214,32)
+zjpgd_roi_1_4 0 (53,8,107,16) decode time: 88 us, 1792 pixels processed
+zjpgd_roi_1_4 1 (0,0,107,16) decode time: 85 us, 1792 pixels processed
+zjpgd_roi_1_4 2 (107,16,107,16) decode time: 86 us, 1760 pixels processed
+file samples/rgbw_214x33_400.jpg,100,216,226,303,88,85,86
 
-file samples/rgbw_214x33_400.jpg,100,201,262,
 Decoding samples/rgbw_214x33_420.jpg for 100 rounds
-tjpgd 214x33 decode time: 221 us, 7062 pixels processed
-zjpgd 214x33 decode time: 410 us, 7062 pixels processed
+tjpgd 214x33 decode time: 235 us, 7062 pixels processed
+zjpgd 214x33 decode time: 338 us, 7062 pixels processed
+zjpgd_roi 214x33 decode time: 417 us, 7062 pixels processed
+Snapshot 0 at (53,8) saved at mcu (48,0)
+Snapshot dimensions: (53,8) to (160,24)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (107,16)
+Snapshot 2 at (107,16) saved at mcu (96,16)
+Snapshot dimensions: (107,16) to (214,32)
+zjpgd_roi_1_4 0 (53,8,107,16) decode time: 131 us, 1792 pixels processed
+zjpgd_roi_1_4 1 (0,0,107,16) decode time: 104 us, 1792 pixels processed
+zjpgd_roi_1_4 2 (107,16,107,16) decode time: 98 us, 1760 pixels processed
+file samples/rgbw_214x33_420.jpg,100,235,338,417,131,104,98
 
-file samples/rgbw_214x33_420.jpg,100,221,410,
 Decoding samples/rgbw_214x33_422.jpg for 100 rounds
-tjpgd 214x33 decode time: 179 us, 7062 pixels processed
-zjpgd 214x33 decode time: 387 us, 7062 pixels processed
+tjpgd 214x33 decode time: 214 us, 7062 pixels processed
+zjpgd 214x33 decode time: 304 us, 7062 pixels processed
+zjpgd_roi 214x33 decode time: 404 us, 7062 pixels processed
+Snapshot 0 at (53,8) saved at mcu (48,8)
+Snapshot dimensions: (53,8) to (160,24)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (107,16)
+Snapshot 2 at (107,16) saved at mcu (96,16)
+Snapshot dimensions: (107,16) to (214,32)
+zjpgd_roi_1_4 0 (53,8,107,16) decode time: 108 us, 1792 pixels processed
+zjpgd_roi_1_4 1 (0,0,107,16) decode time: 111 us, 1792 pixels processed
+zjpgd_roi_1_4 2 (107,16,107,16) decode time: 116 us, 1760 pixels processed
+file samples/rgbw_214x33_422.jpg,100,214,304,404,108,111,116
 
-file samples/rgbw_214x33_422.jpg,100,179,387,
 Decoding samples/rgbw_214x33_444.jpg for 100 rounds
-tjpgd 214x33 decode time: 198 us, 7062 pixels processed
-zjpgd 214x33 decode time: 442 us, 7062 pixels processed
+tjpgd 214x33 decode time: 209 us, 7062 pixels processed
+zjpgd 214x33 decode time: 281 us, 7062 pixels processed
+zjpgd_roi 214x33 decode time: 423 us, 7062 pixels processed
+Snapshot 0 at (53,8) saved at mcu (48,8)
+Snapshot dimensions: (53,8) to (160,24)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (107,16)
+Snapshot 2 at (107,16) saved at mcu (104,16)
+Snapshot dimensions: (107,16) to (214,32)
+zjpgd_roi_1_4 0 (53,8,107,16) decode time: 120 us, 1792 pixels processed
+zjpgd_roi_1_4 1 (0,0,107,16) decode time: 103 us, 1792 pixels processed
+zjpgd_roi_1_4 2 (107,16,107,16) decode time: 114 us, 1760 pixels processed
+file samples/rgbw_214x33_444.jpg,100,209,281,423,120,103,114
 
-file samples/rgbw_214x33_444.jpg,100,198,442,
 Decoding samples/rgbw_22x3_400.jpg for 100 rounds
-tjpgd 22x3 decode time: 37 us, 66 pixels processed
-zjpgd 22x3 decode time: 31 us, 66 pixels processed
+tjpgd 22x3 decode time: 44 us, 66 pixels processed
+zjpgd 22x3 decode time: 39 us, 66 pixels processed
+zjpgd_roi 22x3 decode time: 38 us, 66 pixels processed
+Snapshot 0 at (5,0) saved at mcu (0,0)
+Snapshot dimensions: (5,0) to (16,1)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (11,1)
+Snapshot 2 at (11,1) saved at mcu (8,0)
+Snapshot dimensions: (11,1) to (22,2)
+zjpgd_roi_1_4 0 (5,0,11,1) decode time: 30 us, 48 pixels processed
+zjpgd_roi_1_4 1 (0,0,11,1) decode time: 31 us, 48 pixels processed
+zjpgd_roi_1_4 2 (11,1,11,1) decode time: 29 us, 42 pixels processed
+file samples/rgbw_22x3_400.jpg,100,44,39,38,30,31,29
 
-file samples/rgbw_22x3_400.jpg,100,37,31,
 Decoding samples/rgbw_22x3_420.jpg for 100 rounds
-tjpgd 22x3 decode time: 45 us, 66 pixels processed
-zjpgd 22x3 decode time: 47 us, 66 pixels processed
+tjpgd 22x3 decode time: 51 us, 66 pixels processed
+zjpgd 22x3 decode time: 54 us, 66 pixels processed
+zjpgd_roi 22x3 decode time: 51 us, 66 pixels processed
+Snapshot 0 at (5,0) saved at mcu (0,0)
+Snapshot dimensions: (5,0) to (16,1)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (11,1)
+Snapshot 2 at (11,1) saved at mcu (0,0)
+Snapshot dimensions: (11,1) to (22,2)
+zjpgd_roi_1_4 0 (5,0,11,1) decode time: 37 us, 48 pixels processed
+zjpgd_roi_1_4 1 (0,0,11,1) decode time: 41 us, 48 pixels processed
+zjpgd_roi_1_4 2 (11,1,11,1) decode time: 45 us, 42 pixels processed
+file samples/rgbw_22x3_420.jpg,100,51,54,51,37,41,45
 
-file samples/rgbw_22x3_420.jpg,100,45,47,
 Decoding samples/rgbw_22x3_422.jpg for 100 rounds
-tjpgd 22x3 decode time: 44 us, 66 pixels processed
-zjpgd 22x3 decode time: 43 us, 66 pixels processed
+tjpgd 22x3 decode time: 47 us, 66 pixels processed
+zjpgd 22x3 decode time: 48 us, 66 pixels processed
+zjpgd_roi 22x3 decode time: 49 us, 66 pixels processed
+Snapshot 0 at (5,0) saved at mcu (0,0)
+Snapshot dimensions: (5,0) to (16,1)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (11,1)
+Snapshot 2 at (11,1) saved at mcu (0,0)
+Snapshot dimensions: (11,1) to (22,2)
+zjpgd_roi_1_4 0 (5,0,11,1) decode time: 41 us, 48 pixels processed
+zjpgd_roi_1_4 1 (0,0,11,1) decode time: 42 us, 48 pixels processed
+zjpgd_roi_1_4 2 (11,1,11,1) decode time: 46 us, 42 pixels processed
+file samples/rgbw_22x3_422.jpg,100,47,48,49,41,42,46
 
-file samples/rgbw_22x3_422.jpg,100,44,43,
 Decoding samples/rgbw_22x3_444.jpg for 100 rounds
-tjpgd 22x3 decode time: 44 us, 66 pixels processed
-zjpgd 22x3 decode time: 43 us, 66 pixels processed
+tjpgd 22x3 decode time: 54 us, 66 pixels processed
+zjpgd 22x3 decode time: 51 us, 66 pixels processed
+zjpgd_roi 22x3 decode time: 52 us, 66 pixels processed
+Snapshot 0 at (5,0) saved at mcu (0,0)
+Snapshot dimensions: (5,0) to (16,1)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (11,1)
+Snapshot 2 at (11,1) saved at mcu (8,0)
+Snapshot dimensions: (11,1) to (22,2)
+zjpgd_roi_1_4 0 (5,0,11,1) decode time: 47 us, 48 pixels processed
+zjpgd_roi_1_4 1 (0,0,11,1) decode time: 41 us, 48 pixels processed
+zjpgd_roi_1_4 2 (11,1,11,1) decode time: 36 us, 42 pixels processed
+file samples/rgbw_22x3_444.jpg,100,54,51,52,47,41,36
 
-file samples/rgbw_22x3_444.jpg,100,44,43,
 Decoding samples/rgbw_233x16_400.jpg for 100 rounds
-tjpgd 233x16 decode time: 103 us, 3728 pixels processed
-zjpgd 233x16 decode time: 131 us, 3728 pixels processed
+tjpgd 233x16 decode time: 119 us, 3728 pixels processed
+zjpgd 233x16 decode time: 112 us, 3728 pixels processed
+zjpgd_roi 233x16 decode time: 136 us, 3728 pixels processed
+Snapshot 0 at (58,4) saved at mcu (56,0)
+Snapshot dimensions: (58,4) to (174,12)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (116,8)
+Snapshot 2 at (116,8) saved at mcu (112,8)
+Snapshot dimensions: (116,8) to (232,16)
+zjpgd_roi_1_4 0 (58,4,116,8) decode time: 84 us, 1920 pixels processed
+zjpgd_roi_1_4 1 (0,0,116,8) decode time: 56 us, 960 pixels processed
+zjpgd_roi_1_4 2 (116,8,116,8) decode time: 58 us, 960 pixels processed
+file samples/rgbw_233x16_400.jpg,100,119,112,136,84,56,58
 
-file samples/rgbw_233x16_400.jpg,100,103,131,
 Decoding samples/rgbw_233x16_420.jpg for 100 rounds
-tjpgd 233x16 decode time: 109 us, 3728 pixels processed
-zjpgd 233x16 decode time: 163 us, 3728 pixels processed
+tjpgd 233x16 decode time: 118 us, 3728 pixels processed
+zjpgd 233x16 decode time: 167 us, 3728 pixels processed
+zjpgd_roi 233x16 decode time: 197 us, 3728 pixels processed
+Snapshot 0 at (58,4) saved at mcu (48,0)
+Snapshot dimensions: (58,4) to (174,12)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (116,8)
+Snapshot 2 at (116,8) saved at mcu (112,0)
+Snapshot dimensions: (116,8) to (232,16)
+zjpgd_roi_1_4 0 (58,4,116,8) decode time: 98 us, 1920 pixels processed
+zjpgd_roi_1_4 1 (0,0,116,8) decode time: 82 us, 960 pixels processed
+zjpgd_roi_1_4 2 (116,8,116,8) decode time: 84 us, 960 pixels processed
+file samples/rgbw_233x16_420.jpg,100,118,167,197,98,82,84
 
-file samples/rgbw_233x16_420.jpg,100,109,163,
 Decoding samples/rgbw_233x16_422.jpg for 100 rounds
-tjpgd 233x16 decode time: 106 us, 3728 pixels processed
-zjpgd 233x16 decode time: 188 us, 3728 pixels processed
+tjpgd 233x16 decode time: 110 us, 3728 pixels processed
+zjpgd 233x16 decode time: 145 us, 3728 pixels processed
+zjpgd_roi 233x16 decode time: 186 us, 3728 pixels processed
+Snapshot 0 at (58,4) saved at mcu (48,0)
+Snapshot dimensions: (58,4) to (174,12)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (116,8)
+Snapshot 2 at (116,8) saved at mcu (112,8)
+Snapshot dimensions: (116,8) to (232,16)
+zjpgd_roi_1_4 0 (58,4,116,8) decode time: 112 us, 1920 pixels processed
+zjpgd_roi_1_4 1 (0,0,116,8) decode time: 73 us, 960 pixels processed
+zjpgd_roi_1_4 2 (116,8,116,8) decode time: 69 us, 960 pixels processed
+file samples/rgbw_233x16_422.jpg,100,110,145,186,112,73,69
 
-file samples/rgbw_233x16_422.jpg,100,106,188,
 Decoding samples/rgbw_233x16_444.jpg for 100 rounds
-tjpgd 233x16 decode time: 108 us, 3728 pixels processed
-zjpgd 233x16 decode time: 212 us, 3728 pixels processed
+tjpgd 233x16 decode time: 115 us, 3728 pixels processed
+zjpgd 233x16 decode time: 156 us, 3728 pixels processed
+zjpgd_roi 233x16 decode time: 220 us, 3728 pixels processed
+Snapshot 0 at (58,4) saved at mcu (56,0)
+Snapshot dimensions: (58,4) to (174,12)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (116,8)
+Snapshot 2 at (116,8) saved at mcu (112,8)
+Snapshot dimensions: (116,8) to (232,16)
+zjpgd_roi_1_4 0 (58,4,116,8) decode time: 126 us, 1920 pixels processed
+zjpgd_roi_1_4 1 (0,0,116,8) decode time: 76 us, 960 pixels processed
+zjpgd_roi_1_4 2 (116,8,116,8) decode time: 76 us, 960 pixels processed
+file samples/rgbw_233x16_444.jpg,100,115,156,220,126,76,76
 
-file samples/rgbw_233x16_444.jpg,100,108,212,
 Decoding samples/rgbw_236x166_400.jpg for 100 rounds
-tjpgd 236x166 decode time: 969 us, 39176 pixels processed
-zjpgd 236x166 decode time: 1249 us, 39176 pixels processed
+tjpgd 236x166 decode time: 924 us, 39176 pixels processed
+zjpgd 236x166 decode time: 1004 us, 39176 pixels processed
+zjpgd_roi 236x166 decode time: 1213 us, 39176 pixels processed
+Snapshot 0 at (59,41) saved at mcu (56,40)
+Snapshot dimensions: (59,41) to (177,124)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (118,83)
+Snapshot 2 at (118,83) saved at mcu (112,80)
+Snapshot dimensions: (118,83) to (236,166)
+zjpgd_roi_1_4 0 (59,41,118,83) decode time: 371 us, 11264 pixels processed
+zjpgd_roi_1_4 1 (0,0,118,83) decode time: 338 us, 10560 pixels processed
+zjpgd_roi_1_4 2 (118,83,118,83) decode time: 367 us, 10664 pixels processed
+file samples/rgbw_236x166_400.jpg,100,924,1004,1213,371,338,367
 
-file samples/rgbw_236x166_400.jpg,100,969,1249,
 Decoding samples/rgbw_236x166_420.jpg for 100 rounds
-tjpgd 236x166 decode time: 868 us, 39176 pixels processed
-zjpgd 236x166 decode time: 1629 us, 39176 pixels processed
+tjpgd 236x166 decode time: 915 us, 39176 pixels processed
+zjpgd 236x166 decode time: 1268 us, 39176 pixels processed
+zjpgd_roi 236x166 decode time: 1627 us, 39176 pixels processed
+Snapshot 0 at (59,41) saved at mcu (48,32)
+Snapshot dimensions: (59,41) to (177,124)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (118,83)
+Snapshot 2 at (118,83) saved at mcu (112,80)
+Snapshot dimensions: (118,83) to (236,166)
+zjpgd_roi_1_4 0 (59,41,118,83) decode time: 512 us, 11264 pixels processed
+zjpgd_roi_1_4 1 (0,0,118,83) decode time: 509 us, 10560 pixels processed
+zjpgd_roi_1_4 2 (118,83,118,83) decode time: 489 us, 10664 pixels processed
+file samples/rgbw_236x166_420.jpg,100,915,1268,1627,512,509,489
 
-file samples/rgbw_236x166_420.jpg,100,868,1629,
 Decoding samples/rgbw_236x166_422.jpg for 100 rounds
-tjpgd 236x166 decode time: 835 us, 39176 pixels processed
-zjpgd 236x166 decode time: 1644 us, 39176 pixels processed
+tjpgd 236x166 decode time: 964 us, 39176 pixels processed
+zjpgd 236x166 decode time: 1371 us, 39176 pixels processed
+zjpgd_roi 236x166 decode time: 1800 us, 39176 pixels processed
+Snapshot 0 at (59,41) saved at mcu (48,40)
+Snapshot dimensions: (59,41) to (177,124)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (118,83)
+Snapshot 2 at (118,83) saved at mcu (112,80)
+Snapshot dimensions: (118,83) to (236,166)
+zjpgd_roi_1_4 0 (59,41,118,83) decode time: 580 us, 11264 pixels processed
+zjpgd_roi_1_4 1 (0,0,118,83) decode time: 538 us, 10560 pixels processed
+zjpgd_roi_1_4 2 (118,83,118,83) decode time: 554 us, 10664 pixels processed
+file samples/rgbw_236x166_422.jpg,100,964,1371,1800,580,538,554
 
-file samples/rgbw_236x166_422.jpg,100,835,1644,
 Decoding samples/rgbw_236x166_444.jpg for 100 rounds
-tjpgd 236x166 decode time: 923 us, 39176 pixels processed
-zjpgd 236x166 decode time: 1924 us, 39176 pixels processed
+tjpgd 236x166 decode time: 943 us, 39176 pixels processed
+zjpgd 236x166 decode time: 1339 us, 39176 pixels processed
+zjpgd_roi 236x166 decode time: 1980 us, 39176 pixels processed
+Snapshot 0 at (59,41) saved at mcu (56,40)
+Snapshot dimensions: (59,41) to (177,124)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (118,83)
+Snapshot 2 at (118,83) saved at mcu (112,80)
+Snapshot dimensions: (118,83) to (236,166)
+zjpgd_roi_1_4 0 (59,41,118,83) decode time: 592 us, 11264 pixels processed
+zjpgd_roi_1_4 1 (0,0,118,83) decode time: 541 us, 10560 pixels processed
+zjpgd_roi_1_4 2 (118,83,118,83) decode time: 614 us, 10664 pixels processed
+file samples/rgbw_236x166_444.jpg,100,943,1339,1980,592,541,614
 
-file samples/rgbw_236x166_444.jpg,100,923,1924,
 Decoding samples/rgbw_247x117_400.jpg for 100 rounds
-tjpgd 247x117 decode time: 667 us, 28899 pixels processed
-zjpgd 247x117 decode time: 930 us, 28899 pixels processed
+tjpgd 247x117 decode time: 752 us, 28899 pixels processed
+zjpgd 247x117 decode time: 841 us, 28899 pixels processed
+zjpgd_roi 247x117 decode time: 956 us, 28899 pixels processed
+Snapshot 0 at (61,29) saved at mcu (56,24)
+Snapshot dimensions: (61,29) to (184,87)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (123,58)
+Snapshot 2 at (123,58) saved at mcu (120,56)
+Snapshot dimensions: (123,58) to (246,116)
+zjpgd_roi_1_4 0 (61,29,123,58) decode time: 298 us, 8192 pixels processed
+zjpgd_roi_1_4 1 (0,0,123,58) decode time: 283 us, 8192 pixels processed
+zjpgd_roi_1_4 2 (123,58,123,58) decode time: 285 us, 7747 pixels processed
+file samples/rgbw_247x117_400.jpg,100,752,841,956,298,283,285
 
-file samples/rgbw_247x117_400.jpg,100,667,930,
 Decoding samples/rgbw_247x117_420.jpg for 100 rounds
-tjpgd 247x117 decode time: 668 us, 28899 pixels processed
-zjpgd 247x117 decode time: 1247 us, 28899 pixels processed
+tjpgd 247x117 decode time: 748 us, 28899 pixels processed
+zjpgd 247x117 decode time: 988 us, 28899 pixels processed
+zjpgd_roi 247x117 decode time: 1254 us, 28899 pixels processed
+Snapshot 0 at (61,29) saved at mcu (48,16)
+Snapshot dimensions: (61,29) to (184,87)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (123,58)
+Snapshot 2 at (123,58) saved at mcu (112,48)
+Snapshot dimensions: (123,58) to (246,116)
+zjpgd_roi_1_4 0 (61,29,123,58) decode time: 439 us, 8192 pixels processed
+zjpgd_roi_1_4 1 (0,0,123,58) decode time: 367 us, 8192 pixels processed
+zjpgd_roi_1_4 2 (123,58,123,58) decode time: 433 us, 7747 pixels processed
+file samples/rgbw_247x117_420.jpg,100,748,988,1254,439,367,433
 
-file samples/rgbw_247x117_420.jpg,100,668,1247,
 Decoding samples/rgbw_247x117_422.jpg for 100 rounds
-tjpgd 247x117 decode time: 631 us, 28899 pixels processed
-zjpgd 247x117 decode time: 1309 us, 28899 pixels processed
+tjpgd 247x117 decode time: 722 us, 28899 pixels processed
+zjpgd 247x117 decode time: 996 us, 28899 pixels processed
+zjpgd_roi 247x117 decode time: 1358 us, 28899 pixels processed
+Snapshot 0 at (61,29) saved at mcu (48,24)
+Snapshot dimensions: (61,29) to (184,87)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (123,58)
+Snapshot 2 at (123,58) saved at mcu (112,56)
+Snapshot dimensions: (123,58) to (246,116)
+zjpgd_roi_1_4 0 (61,29,123,58) decode time: 417 us, 8192 pixels processed
+zjpgd_roi_1_4 1 (0,0,123,58) decode time: 424 us, 8192 pixels processed
+zjpgd_roi_1_4 2 (123,58,123,58) decode time: 476 us, 7747 pixels processed
+file samples/rgbw_247x117_422.jpg,100,722,996,1358,417,424,476
 
-file samples/rgbw_247x117_422.jpg,100,631,1309,
 Decoding samples/rgbw_247x117_444.jpg for 100 rounds
-tjpgd 247x117 decode time: 690 us, 28899 pixels processed
-zjpgd 247x117 decode time: 1432 us, 28899 pixels processed
+tjpgd 247x117 decode time: 722 us, 28899 pixels processed
+zjpgd 247x117 decode time: 1013 us, 28899 pixels processed
+zjpgd_roi 247x117 decode time: 1448 us, 28899 pixels processed
+Snapshot 0 at (61,29) saved at mcu (56,24)
+Snapshot dimensions: (61,29) to (184,87)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (123,58)
+Snapshot 2 at (123,58) saved at mcu (120,56)
+Snapshot dimensions: (123,58) to (246,116)
+zjpgd_roi_1_4 0 (61,29,123,58) decode time: 453 us, 8192 pixels processed
+zjpgd_roi_1_4 1 (0,0,123,58) decode time: 442 us, 8192 pixels processed
+zjpgd_roi_1_4 2 (123,58,123,58) decode time: 490 us, 7747 pixels processed
+file samples/rgbw_247x117_444.jpg,100,722,1013,1448,453,442,490
 
-file samples/rgbw_247x117_444.jpg,100,690,1432,
 Decoding samples/rgbw_255x104_400.jpg for 100 rounds
-tjpgd 255x104 decode time: 607 us, 26520 pixels processed
-zjpgd 255x104 decode time: 795 us, 26520 pixels processed
+tjpgd 255x104 decode time: 678 us, 26520 pixels processed
+zjpgd 255x104 decode time: 685 us, 26520 pixels processed
+zjpgd_roi 255x104 decode time: 808 us, 26520 pixels processed
+Snapshot 0 at (63,26) saved at mcu (56,24)
+Snapshot dimensions: (63,26) to (190,78)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (127,52)
+Snapshot 2 at (127,52) saved at mcu (120,48)
+Snapshot dimensions: (127,52) to (254,104)
+zjpgd_roi_1_4 0 (63,26,127,52) decode time: 259 us, 7616 pixels processed
+zjpgd_roi_1_4 1 (0,0,127,52) decode time: 247 us, 7168 pixels processed
+zjpgd_roi_1_4 2 (127,52,127,52) decode time: 277 us, 7560 pixels processed
+file samples/rgbw_255x104_400.jpg,100,678,685,808,259,247,277
 
-file samples/rgbw_255x104_400.jpg,100,607,795,
 Decoding samples/rgbw_255x104_420.jpg for 100 rounds
-tjpgd 255x104 decode time: 626 us, 26520 pixels processed
-zjpgd 255x104 decode time: 1014 us, 26520 pixels processed
+tjpgd 255x104 decode time: 636 us, 26520 pixels processed
+zjpgd 255x104 decode time: 864 us, 26520 pixels processed
+zjpgd_roi 255x104 decode time: 1111 us, 26520 pixels processed
+Snapshot 0 at (63,26) saved at mcu (48,16)
+Snapshot dimensions: (63,26) to (190,78)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (127,52)
+Snapshot 2 at (127,52) saved at mcu (112,48)
+Snapshot dimensions: (127,52) to (254,104)
+zjpgd_roi_1_4 0 (63,26,127,52) decode time: 408 us, 7616 pixels processed
+zjpgd_roi_1_4 1 (0,0,127,52) decode time: 372 us, 7168 pixels processed
+zjpgd_roi_1_4 2 (127,52,127,52) decode time: 358 us, 7560 pixels processed
+file samples/rgbw_255x104_420.jpg,100,636,864,1111,408,372,358
 
-file samples/rgbw_255x104_420.jpg,100,626,1014,
 Decoding samples/rgbw_255x104_422.jpg for 100 rounds
-tjpgd 255x104 decode time: 595 us, 26520 pixels processed
-zjpgd 255x104 decode time: 1124 us, 26520 pixels processed
+tjpgd 255x104 decode time: 594 us, 26520 pixels processed
+zjpgd 255x104 decode time: 853 us, 26520 pixels processed
+zjpgd_roi 255x104 decode time: 1154 us, 26520 pixels processed
+Snapshot 0 at (63,26) saved at mcu (48,24)
+Snapshot dimensions: (63,26) to (190,78)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (127,52)
+Snapshot 2 at (127,52) saved at mcu (112,48)
+Snapshot dimensions: (127,52) to (254,104)
+zjpgd_roi_1_4 0 (63,26,127,52) decode time: 368 us, 7616 pixels processed
+zjpgd_roi_1_4 1 (0,0,127,52) decode time: 356 us, 7168 pixels processed
+zjpgd_roi_1_4 2 (127,52,127,52) decode time: 400 us, 7560 pixels processed
+file samples/rgbw_255x104_422.jpg,100,594,853,1154,368,356,400
 
-file samples/rgbw_255x104_422.jpg,100,595,1124,
 Decoding samples/rgbw_255x104_444.jpg for 100 rounds
-tjpgd 255x104 decode time: 608 us, 26520 pixels processed
-zjpgd 255x104 decode time: 1315 us, 26520 pixels processed
+tjpgd 255x104 decode time: 678 us, 26520 pixels processed
+zjpgd 255x104 decode time: 942 us, 26520 pixels processed
+zjpgd_roi 255x104 decode time: 1307 us, 26520 pixels processed
+Snapshot 0 at (63,26) saved at mcu (56,24)
+Snapshot dimensions: (63,26) to (190,78)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (127,52)
+Snapshot 2 at (127,52) saved at mcu (120,48)
+Snapshot dimensions: (127,52) to (254,104)
+zjpgd_roi_1_4 0 (63,26,127,52) decode time: 430 us, 7616 pixels processed
+zjpgd_roi_1_4 1 (0,0,127,52) decode time: 413 us, 7168 pixels processed
+zjpgd_roi_1_4 2 (127,52,127,52) decode time: 409 us, 7560 pixels processed
+file samples/rgbw_255x104_444.jpg,100,678,942,1307,430,413,409
 
-file samples/rgbw_255x104_444.jpg,100,608,1315,
 Decoding samples/rgbw_265x130_400.jpg for 100 rounds
-tjpgd 265x130 decode time: 824 us, 34450 pixels processed
-zjpgd 265x130 decode time: 1105 us, 34450 pixels processed
+tjpgd 265x130 decode time: 904 us, 34450 pixels processed
+zjpgd 265x130 decode time: 913 us, 34450 pixels processed
+zjpgd_roi 265x130 decode time: 1145 us, 34450 pixels processed
+Snapshot 0 at (66,32) saved at mcu (64,32)
+Snapshot dimensions: (66,32) to (198,97)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (132,65)
+Snapshot 2 at (132,65) saved at mcu (128,64)
+Snapshot dimensions: (132,65) to (264,130)
+zjpgd_roi_1_4 0 (66,32,132,65) decode time: 326 us, 9792 pixels processed
+zjpgd_roi_1_4 1 (0,0,132,65) decode time: 322 us, 9792 pixels processed
+zjpgd_roi_1_4 2 (132,65,132,65) decode time: 313 us, 8976 pixels processed
+file samples/rgbw_265x130_400.jpg,100,904,913,1145,326,322,313
 
-file samples/rgbw_265x130_400.jpg,100,824,1105,
 Decoding samples/rgbw_265x130_420.jpg for 100 rounds
-tjpgd 265x130 decode time: 789 us, 34450 pixels processed
-zjpgd 265x130 decode time: 1477 us, 34450 pixels processed
+tjpgd 265x130 decode time: 871 us, 34450 pixels processed
+zjpgd 265x130 decode time: 1228 us, 34450 pixels processed
+zjpgd_roi 265x130 decode time: 1466 us, 34450 pixels processed
+Snapshot 0 at (66,32) saved at mcu (64,32)
+Snapshot dimensions: (66,32) to (198,97)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (132,65)
+Snapshot 2 at (132,65) saved at mcu (128,64)
+Snapshot dimensions: (132,65) to (264,130)
+zjpgd_roi_1_4 0 (66,32,132,65) decode time: 443 us, 9792 pixels processed
+zjpgd_roi_1_4 1 (0,0,132,65) decode time: 438 us, 9792 pixels processed
+zjpgd_roi_1_4 2 (132,65,132,65) decode time: 451 us, 8976 pixels processed
+file samples/rgbw_265x130_420.jpg,100,871,1228,1466,443,438,451
 
-file samples/rgbw_265x130_420.jpg,100,789,1477,
 Decoding samples/rgbw_265x130_422.jpg for 100 rounds
-tjpgd 265x130 decode time: 760 us, 34450 pixels processed
-zjpgd 265x130 decode time: 1594 us, 34450 pixels processed
+tjpgd 265x130 decode time: 876 us, 34450 pixels processed
+zjpgd 265x130 decode time: 1246 us, 34450 pixels processed
+zjpgd_roi 265x130 decode time: 1623 us, 34450 pixels processed
+Snapshot 0 at (66,32) saved at mcu (64,32)
+Snapshot dimensions: (66,32) to (198,97)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (132,65)
+Snapshot 2 at (132,65) saved at mcu (128,64)
+Snapshot dimensions: (132,65) to (264,130)
+zjpgd_roi_1_4 0 (66,32,132,65) decode time: 529 us, 9792 pixels processed
+zjpgd_roi_1_4 1 (0,0,132,65) decode time: 480 us, 9792 pixels processed
+zjpgd_roi_1_4 2 (132,65,132,65) decode time: 492 us, 8976 pixels processed
+file samples/rgbw_265x130_422.jpg,100,876,1246,1623,529,480,492
 
-file samples/rgbw_265x130_422.jpg,100,760,1594,
 Decoding samples/rgbw_265x130_444.jpg for 100 rounds
-tjpgd 265x130 decode time: 909 us, 34450 pixels processed
-zjpgd 265x130 decode time: 2017 us, 34450 pixels processed
+tjpgd 265x130 decode time: 855 us, 34450 pixels processed
+zjpgd 265x130 decode time: 1290 us, 34450 pixels processed
+zjpgd_roi 265x130 decode time: 1865 us, 34450 pixels processed
+Snapshot 0 at (66,32) saved at mcu (64,32)
+Snapshot dimensions: (66,32) to (198,97)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (132,65)
+Snapshot 2 at (132,65) saved at mcu (128,64)
+Snapshot dimensions: (132,65) to (264,130)
+zjpgd_roi_1_4 0 (66,32,132,65) decode time: 568 us, 9792 pixels processed
+zjpgd_roi_1_4 1 (0,0,132,65) decode time: 535 us, 9792 pixels processed
+zjpgd_roi_1_4 2 (132,65,132,65) decode time: 506 us, 8976 pixels processed
+file samples/rgbw_265x130_444.jpg,100,855,1290,1865,568,535,506
 
-file samples/rgbw_265x130_444.jpg,100,909,2017,
 Decoding samples/rgbw_278x12_400.jpg for 100 rounds
-tjpgd 278x12 decode time: 138 us, 3336 pixels processed
-zjpgd 278x12 decode time: 148 us, 3336 pixels processed
+tjpgd 278x12 decode time: 147 us, 3336 pixels processed
+zjpgd 278x12 decode time: 142 us, 3336 pixels processed
+zjpgd_roi 278x12 decode time: 161 us, 3336 pixels processed
+Snapshot 0 at (69,3) saved at mcu (64,0)
+Snapshot dimensions: (69,3) to (208,9)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (139,6)
+Snapshot 2 at (139,6) saved at mcu (136,0)
+Snapshot dimensions: (139,6) to (278,12)
+zjpgd_roi_1_4 0 (69,3,139,6) decode time: 106 us, 1728 pixels processed
+zjpgd_roi_1_4 1 (0,0,139,6) decode time: 68 us, 1152 pixels processed
+zjpgd_roi_1_4 2 (139,6,139,6) decode time: 105 us, 1704 pixels processed
+file samples/rgbw_278x12_400.jpg,100,147,142,161,106,68,105
 
-file samples/rgbw_278x12_400.jpg,100,138,148,
 Decoding samples/rgbw_278x12_420.jpg for 100 rounds
-tjpgd 278x12 decode time: 157 us, 3336 pixels processed
-zjpgd 278x12 decode time: 222 us, 3336 pixels processed
+tjpgd 278x12 decode time: 165 us, 3336 pixels processed
+zjpgd 278x12 decode time: 206 us, 3336 pixels processed
+zjpgd_roi 278x12 decode time: 221 us, 3336 pixels processed
+Snapshot 0 at (69,3) saved at mcu (64,0)
+Snapshot dimensions: (69,3) to (208,9)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (139,6)
+Snapshot 2 at (139,6) saved at mcu (128,0)
+Snapshot dimensions: (139,6) to (278,12)
+zjpgd_roi_1_4 0 (69,3,139,6) decode time: 141 us, 1728 pixels processed
+zjpgd_roi_1_4 1 (0,0,139,6) decode time: 102 us, 1152 pixels processed
+zjpgd_roi_1_4 2 (139,6,139,6) decode time: 138 us, 1704 pixels processed
+file samples/rgbw_278x12_420.jpg,100,165,206,221,141,102,138
 
-file samples/rgbw_278x12_420.jpg,100,157,222,
 Decoding samples/rgbw_278x12_422.jpg for 100 rounds
-tjpgd 278x12 decode time: 149 us, 3336 pixels processed
-zjpgd 278x12 decode time: 234 us, 3336 pixels processed
+tjpgd 278x12 decode time: 171 us, 3336 pixels processed
+zjpgd 278x12 decode time: 211 us, 3336 pixels processed
+zjpgd_roi 278x12 decode time: 242 us, 3336 pixels processed
+Snapshot 0 at (69,3) saved at mcu (64,0)
+Snapshot dimensions: (69,3) to (208,9)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (139,6)
+Snapshot 2 at (139,6) saved at mcu (128,0)
+Snapshot dimensions: (139,6) to (278,12)
+zjpgd_roi_1_4 0 (69,3,139,6) decode time: 156 us, 1728 pixels processed
+zjpgd_roi_1_4 1 (0,0,139,6) decode time: 100 us, 1152 pixels processed
+zjpgd_roi_1_4 2 (139,6,139,6) decode time: 161 us, 1704 pixels processed
+file samples/rgbw_278x12_422.jpg,100,171,211,242,156,100,161
 
-file samples/rgbw_278x12_422.jpg,100,149,234,
 Decoding samples/rgbw_278x12_444.jpg for 100 rounds
-tjpgd 278x12 decode time: 202 us, 3336 pixels processed
-zjpgd 278x12 decode time: 285 us, 3336 pixels processed
+tjpgd 278x12 decode time: 197 us, 3336 pixels processed
+zjpgd 278x12 decode time: 238 us, 3336 pixels processed
+zjpgd_roi 278x12 decode time: 279 us, 3336 pixels processed
+Snapshot 0 at (69,3) saved at mcu (64,0)
+Snapshot dimensions: (69,3) to (208,9)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (139,6)
+Snapshot 2 at (139,6) saved at mcu (136,0)
+Snapshot dimensions: (139,6) to (278,12)
+zjpgd_roi_1_4 0 (69,3,139,6) decode time: 215 us, 1728 pixels processed
+zjpgd_roi_1_4 1 (0,0,139,6) decode time: 99 us, 1152 pixels processed
+zjpgd_roi_1_4 2 (139,6,139,6) decode time: 160 us, 1704 pixels processed
+file samples/rgbw_278x12_444.jpg,100,197,238,279,215,99,160
 
-file samples/rgbw_278x12_444.jpg,100,202,285,
 Decoding samples/rgbw_278x49_400.jpg for 100 rounds
-tjpgd 278x49 decode time: 332 us, 13622 pixels processed
-zjpgd 278x49 decode time: 468 us, 13622 pixels processed
+tjpgd 278x49 decode time: 367 us, 13622 pixels processed
+zjpgd 278x49 decode time: 427 us, 13622 pixels processed
+zjpgd_roi 278x49 decode time: 515 us, 13622 pixels processed
+Snapshot 0 at (69,12) saved at mcu (64,8)
+Snapshot dimensions: (69,12) to (208,36)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (139,24)
+Snapshot 2 at (139,24) saved at mcu (136,24)
+Snapshot dimensions: (139,24) to (278,48)
+zjpgd_roi_1_4 0 (69,12,139,24) decode time: 183 us, 4608 pixels processed
+zjpgd_roi_1_4 1 (0,0,139,24) decode time: 150 us, 3456 pixels processed
+zjpgd_roi_1_4 2 (139,24,139,24) decode time: 148 us, 3408 pixels processed
+file samples/rgbw_278x49_400.jpg,100,367,427,515,183,150,148
 
-file samples/rgbw_278x49_400.jpg,100,332,468,
 Decoding samples/rgbw_278x49_420.jpg for 100 rounds
-tjpgd 278x49 decode time: 373 us, 13622 pixels processed
-zjpgd 278x49 decode time: 728 us, 13622 pixels processed
+tjpgd 278x49 decode time: 417 us, 13622 pixels processed
+zjpgd 278x49 decode time: 603 us, 13622 pixels processed
+zjpgd_roi 278x49 decode time: 2699 us, 13622 pixels processed
+Snapshot 0 at (69,12) saved at mcu (64,0)
+Snapshot dimensions: (69,12) to (208,36)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (139,24)
+Snapshot 2 at (139,24) saved at mcu (128,16)
+Snapshot dimensions: (139,24) to (278,48)
+zjpgd_roi_1_4 0 (69,12,139,24) decode time: 316 us, 4608 pixels processed
+zjpgd_roi_1_4 1 (0,0,139,24) decode time: 235 us, 3456 pixels processed
+zjpgd_roi_1_4 2 (139,24,139,24) decode time: 254 us, 3408 pixels processed
+file samples/rgbw_278x49_420.jpg,100,417,603,2699,316,235,254
 
-file samples/rgbw_278x49_420.jpg,100,373,728,
 Decoding samples/rgbw_278x49_422.jpg for 100 rounds
-tjpgd 278x49 decode time: 351 us, 13622 pixels processed
-zjpgd 278x49 decode time: 709 us, 13622 pixels processed
+tjpgd 278x49 decode time: 400 us, 13622 pixels processed
+zjpgd 278x49 decode time: 572 us, 13622 pixels processed
+zjpgd_roi 278x49 decode time: 807 us, 13622 pixels processed
+Snapshot 0 at (69,12) saved at mcu (64,8)
+Snapshot dimensions: (69,12) to (208,36)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (139,24)
+Snapshot 2 at (139,24) saved at mcu (128,24)
+Snapshot dimensions: (139,24) to (278,48)
+zjpgd_roi_1_4 0 (69,12,139,24) decode time: 257 us, 4608 pixels processed
+zjpgd_roi_1_4 1 (0,0,139,24) decode time: 195 us, 3456 pixels processed
+zjpgd_roi_1_4 2 (139,24,139,24) decode time: 205 us, 3408 pixels processed
+file samples/rgbw_278x49_422.jpg,100,400,572,807,257,195,205
 
-file samples/rgbw_278x49_422.jpg,100,351,709,
 Decoding samples/rgbw_278x49_444.jpg for 100 rounds
-tjpgd 278x49 decode time: 347 us, 13622 pixels processed
-zjpgd 278x49 decode time: 784 us, 13622 pixels processed
+tjpgd 278x49 decode time: 417 us, 13622 pixels processed
+zjpgd 278x49 decode time: 572 us, 13622 pixels processed
+zjpgd_roi 278x49 decode time: 878 us, 13622 pixels processed
+Snapshot 0 at (69,12) saved at mcu (64,8)
+Snapshot dimensions: (69,12) to (208,36)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (139,24)
+Snapshot 2 at (139,24) saved at mcu (136,24)
+Snapshot dimensions: (139,24) to (278,48)
+zjpgd_roi_1_4 0 (69,12,139,24) decode time: 276 us, 4608 pixels processed
+zjpgd_roi_1_4 1 (0,0,139,24) decode time: 245 us, 3456 pixels processed
+zjpgd_roi_1_4 2 (139,24,139,24) decode time: 220 us, 3408 pixels processed
+file samples/rgbw_278x49_444.jpg,100,417,572,878,276,245,220
 
-file samples/rgbw_278x49_444.jpg,100,347,784,
 Decoding samples/rgbw_285x223_400.jpg for 100 rounds
-tjpgd 285x223 decode time: 1440 us, 63555 pixels processed
-zjpgd 285x223 decode time: 1893 us, 63555 pixels processed
+tjpgd 285x223 decode time: 1830 us, 63555 pixels processed
+zjpgd 285x223 decode time: 1849 us, 63555 pixels processed
+zjpgd_roi 285x223 decode time: 2175 us, 63555 pixels processed
+Snapshot 0 at (71,55) saved at mcu (64,48)
+Snapshot dimensions: (71,55) to (213,166)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (142,111)
+Snapshot 2 at (142,111) saved at mcu (136,104)
+Snapshot dimensions: (142,111) to (284,222)
+zjpgd_roi_1_4 0 (71,55,142,111) decode time: 678 us, 18240 pixels processed
+zjpgd_roi_1_4 1 (0,0,142,111) decode time: 559 us, 16128 pixels processed
+zjpgd_roi_1_4 2 (142,111,142,111) decode time: 713 us, 17731 pixels processed
+file samples/rgbw_285x223_400.jpg,100,1830,1849,2175,678,559,713
 
-file samples/rgbw_285x223_400.jpg,100,1440,1893,
 Decoding samples/rgbw_285x223_420.jpg for 100 rounds
-tjpgd 285x223 decode time: 1307 us, 63555 pixels processed
-zjpgd 285x223 decode time: 2569 us, 63555 pixels processed
+tjpgd 285x223 decode time: 1478 us, 63555 pixels processed
+zjpgd 285x223 decode time: 2072 us, 63555 pixels processed
+zjpgd_roi 285x223 decode time: 2616 us, 63555 pixels processed
+Snapshot 0 at (71,55) saved at mcu (64,48)
+Snapshot dimensions: (71,55) to (213,166)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (142,111)
+Snapshot 2 at (142,111) saved at mcu (128,96)
+Snapshot dimensions: (142,111) to (284,222)
+zjpgd_roi_1_4 0 (71,55,142,111) decode time: 858 us, 18240 pixels processed
+zjpgd_roi_1_4 1 (0,0,142,111) decode time: 748 us, 16128 pixels processed
+zjpgd_roi_1_4 2 (142,111,142,111) decode time: 832 us, 17731 pixels processed
+file samples/rgbw_285x223_420.jpg,100,1478,2072,2616,858,748,832
 
-file samples/rgbw_285x223_420.jpg,100,1307,2569,
 Decoding samples/rgbw_285x223_422.jpg for 100 rounds
-tjpgd 285x223 decode time: 1369 us, 63555 pixels processed
-zjpgd 285x223 decode time: 2610 us, 63555 pixels processed
+tjpgd 285x223 decode time: 1596 us, 63555 pixels processed
+zjpgd 285x223 decode time: 2100 us, 63555 pixels processed
+zjpgd_roi 285x223 decode time: 3223 us, 63555 pixels processed
+Snapshot 0 at (71,55) saved at mcu (64,48)
+Snapshot dimensions: (71,55) to (213,166)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (142,111)
+Snapshot 2 at (142,111) saved at mcu (128,104)
+Snapshot dimensions: (142,111) to (284,222)
+zjpgd_roi_1_4 0 (71,55,142,111) decode time: 986 us, 18240 pixels processed
+zjpgd_roi_1_4 1 (0,0,142,111) decode time: 880 us, 16128 pixels processed
+zjpgd_roi_1_4 2 (142,111,142,111) decode time: 935 us, 17731 pixels processed
+file samples/rgbw_285x223_422.jpg,100,1596,2100,3223,986,880,935
 
-file samples/rgbw_285x223_422.jpg,100,1369,2610,
 Decoding samples/rgbw_285x223_444.jpg for 100 rounds
-tjpgd 285x223 decode time: 1338 us, 63555 pixels processed
-zjpgd 285x223 decode time: 3004 us, 63555 pixels processed
+tjpgd 285x223 decode time: 1524 us, 63555 pixels processed
+zjpgd 285x223 decode time: 2231 us, 63555 pixels processed
+zjpgd_roi 285x223 decode time: 3482 us, 63555 pixels processed
+Snapshot 0 at (71,55) saved at mcu (64,48)
+Snapshot dimensions: (71,55) to (213,166)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (142,111)
+Snapshot 2 at (142,111) saved at mcu (136,104)
+Snapshot dimensions: (142,111) to (284,222)
+zjpgd_roi_1_4 0 (71,55,142,111) decode time: 988 us, 18240 pixels processed
+zjpgd_roi_1_4 1 (0,0,142,111) decode time: 877 us, 16128 pixels processed
+zjpgd_roi_1_4 2 (142,111,142,111) decode time: 1023 us, 17731 pixels processed
+file samples/rgbw_285x223_444.jpg,100,1524,2231,3482,988,877,1023
 
-file samples/rgbw_285x223_444.jpg,100,1338,3004,
 Decoding samples/rgbw_285x73_400.jpg for 100 rounds
-tjpgd 285x73 decode time: 524 us, 20805 pixels processed
-zjpgd 285x73 decode time: 727 us, 20805 pixels processed
+tjpgd 285x73 decode time: 529 us, 20805 pixels processed
+zjpgd 285x73 decode time: 620 us, 20805 pixels processed
+zjpgd_roi 285x73 decode time: 744 us, 20805 pixels processed
+Snapshot 0 at (71,18) saved at mcu (64,16)
+Snapshot dimensions: (71,18) to (213,54)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (142,36)
+Snapshot 2 at (142,36) saved at mcu (136,32)
+Snapshot dimensions: (142,36) to (284,72)
+zjpgd_roi_1_4 0 (71,18,142,36) decode time: 227 us, 6080 pixels processed
+zjpgd_roi_1_4 1 (0,0,142,36) decode time: 205 us, 5760 pixels processed
+zjpgd_roi_1_4 2 (142,36,142,36) decode time: 198 us, 5960 pixels processed
+file samples/rgbw_285x73_400.jpg,100,529,620,744,227,205,198
 
-file samples/rgbw_285x73_400.jpg,100,524,727,
 Decoding samples/rgbw_285x73_420.jpg for 100 rounds
-tjpgd 285x73 decode time: 563 us, 20805 pixels processed
-zjpgd 285x73 decode time: 898 us, 20805 pixels processed
+tjpgd 285x73 decode time: 583 us, 20805 pixels processed
+zjpgd 285x73 decode time: 813 us, 20805 pixels processed
+zjpgd_roi 285x73 decode time: 1045 us, 20805 pixels processed
+Snapshot 0 at (71,18) saved at mcu (64,16)
+Snapshot dimensions: (71,18) to (213,54)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (142,36)
+Snapshot 2 at (142,36) saved at mcu (128,32)
+Snapshot dimensions: (142,36) to (284,72)
+zjpgd_roi_1_4 0 (71,18,142,36) decode time: 387 us, 6080 pixels processed
+zjpgd_roi_1_4 1 (0,0,142,36) decode time: 323 us, 5760 pixels processed
+zjpgd_roi_1_4 2 (142,36,142,36) decode time: 328 us, 5960 pixels processed
+file samples/rgbw_285x73_420.jpg,100,583,813,1045,387,323,328
 
-file samples/rgbw_285x73_420.jpg,100,563,898,
 Decoding samples/rgbw_285x73_422.jpg for 100 rounds
-tjpgd 285x73 decode time: 485 us, 20805 pixels processed
-zjpgd 285x73 decode time: 984 us, 20805 pixels processed
+tjpgd 285x73 decode time: 665 us, 20805 pixels processed
+zjpgd 285x73 decode time: 908 us, 20805 pixels processed
+zjpgd_roi 285x73 decode time: 1166 us, 20805 pixels processed
+Snapshot 0 at (71,18) saved at mcu (64,16)
+Snapshot dimensions: (71,18) to (213,54)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (142,36)
+Snapshot 2 at (142,36) saved at mcu (128,32)
+Snapshot dimensions: (142,36) to (284,72)
+zjpgd_roi_1_4 0 (71,18,142,36) decode time: 378 us, 6080 pixels processed
+zjpgd_roi_1_4 1 (0,0,142,36) decode time: 312 us, 5760 pixels processed
+zjpgd_roi_1_4 2 (142,36,142,36) decode time: 329 us, 5960 pixels processed
+file samples/rgbw_285x73_422.jpg,100,665,908,1166,378,312,329
 
-file samples/rgbw_285x73_422.jpg,100,485,984,
 Decoding samples/rgbw_285x73_444.jpg for 100 rounds
-tjpgd 285x73 decode time: 540 us, 20805 pixels processed
-zjpgd 285x73 decode time: 1115 us, 20805 pixels processed
+tjpgd 285x73 decode time: 730 us, 20805 pixels processed
+zjpgd 285x73 decode time: 940 us, 20805 pixels processed
+zjpgd_roi 285x73 decode time: 1435 us, 20805 pixels processed
+Snapshot 0 at (71,18) saved at mcu (64,16)
+Snapshot dimensions: (71,18) to (213,54)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (142,36)
+Snapshot 2 at (142,36) saved at mcu (136,32)
+Snapshot dimensions: (142,36) to (284,72)
+zjpgd_roi_1_4 0 (71,18,142,36) decode time: 383 us, 6080 pixels processed
+zjpgd_roi_1_4 1 (0,0,142,36) decode time: 401 us, 5760 pixels processed
+zjpgd_roi_1_4 2 (142,36,142,36) decode time: 413 us, 5960 pixels processed
+file samples/rgbw_285x73_444.jpg,100,730,940,1435,383,401,413
 
-file samples/rgbw_285x73_444.jpg,100,540,1115,
 Decoding samples/rgbw_2x78_400.jpg for 100 rounds
-tjpgd 2x78 decode time: 49 us, 156 pixels processed
-zjpgd 2x78 decode time: 48 us, 156 pixels processed
+tjpgd 2x78 decode time: 73 us, 156 pixels processed
+zjpgd 2x78 decode time: 57 us, 156 pixels processed
+zjpgd_roi 2x78 decode time: 63 us, 156 pixels processed
+Snapshot 0 at (0,19) saved at mcu (0,16)
+Snapshot dimensions: (0,19) to (1,58)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (1,39)
+Snapshot 2 at (1,39) saved at mcu (0,32)
+Snapshot dimensions: (1,39) to (2,78)
+zjpgd_roi_1_4 0 (0,19,1,39) decode time: 50 us, 96 pixels processed
+zjpgd_roi_1_4 1 (0,0,1,39) decode time: 46 us, 80 pixels processed
+zjpgd_roi_1_4 2 (1,39,1,39) decode time: 52 us, 92 pixels processed
+file samples/rgbw_2x78_400.jpg,100,73,57,63,50,46,52
 
-file samples/rgbw_2x78_400.jpg,100,49,48,
 Decoding samples/rgbw_2x78_420.jpg for 100 rounds
-tjpgd 2x78 decode time: 64 us, 156 pixels processed
-zjpgd 2x78 decode time: 80 us, 156 pixels processed
-
-file samples/rgbw_2x78_420.jpg,100,64,80,
-Decoding samples/rgbw_2x78_422.jpg for 100 rounds
-tjpgd 2x78 decode time: 79 us, 156 pixels processed
+tjpgd 2x78 decode time: 82 us, 156 pixels processed
 zjpgd 2x78 decode time: 85 us, 156 pixels processed
+zjpgd_roi 2x78 decode time: 89 us, 156 pixels processed
+Snapshot 0 at (0,19) saved at mcu (0,16)
+Snapshot dimensions: (0,19) to (1,58)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (1,39)
+Snapshot 2 at (1,39) saved at mcu (0,32)
+Snapshot dimensions: (1,39) to (2,78)
+zjpgd_roi_1_4 0 (0,19,1,39) decode time: 61 us, 96 pixels processed
+zjpgd_roi_1_4 1 (0,0,1,39) decode time: 67 us, 80 pixels processed
+zjpgd_roi_1_4 2 (1,39,1,39) decode time: 63 us, 92 pixels processed
+file samples/rgbw_2x78_420.jpg,100,82,85,89,61,67,63
 
-file samples/rgbw_2x78_422.jpg,100,79,85,
+Decoding samples/rgbw_2x78_422.jpg for 100 rounds
+tjpgd 2x78 decode time: 98 us, 156 pixels processed
+zjpgd 2x78 decode time: 101 us, 156 pixels processed
+zjpgd_roi 2x78 decode time: 113 us, 156 pixels processed
+Snapshot 0 at (0,19) saved at mcu (0,16)
+Snapshot dimensions: (0,19) to (1,58)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (1,39)
+Snapshot 2 at (1,39) saved at mcu (0,32)
+Snapshot dimensions: (1,39) to (2,78)
+zjpgd_roi_1_4 0 (0,19,1,39) decode time: 73 us, 96 pixels processed
+zjpgd_roi_1_4 1 (0,0,1,39) decode time: 61 us, 80 pixels processed
+zjpgd_roi_1_4 2 (1,39,1,39) decode time: 71 us, 92 pixels processed
+file samples/rgbw_2x78_422.jpg,100,98,101,113,73,61,71
+
 Decoding samples/rgbw_2x78_444.jpg for 100 rounds
-tjpgd 2x78 decode time: 75 us, 156 pixels processed
-zjpgd 2x78 decode time: 77 us, 156 pixels processed
+tjpgd 2x78 decode time: 101 us, 156 pixels processed
+zjpgd 2x78 decode time: 96 us, 156 pixels processed
+zjpgd_roi 2x78 decode time: 104 us, 156 pixels processed
+Snapshot 0 at (0,19) saved at mcu (0,16)
+Snapshot dimensions: (0,19) to (1,58)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (1,39)
+Snapshot 2 at (1,39) saved at mcu (0,32)
+Snapshot dimensions: (1,39) to (2,78)
+zjpgd_roi_1_4 0 (0,19,1,39) decode time: 77 us, 96 pixels processed
+zjpgd_roi_1_4 1 (0,0,1,39) decode time: 60 us, 80 pixels processed
+zjpgd_roi_1_4 2 (1,39,1,39) decode time: 62 us, 92 pixels processed
+file samples/rgbw_2x78_444.jpg,100,101,96,104,77,60,62
 
-file samples/rgbw_2x78_444.jpg,100,75,77,
 Decoding samples/rgbw_300x15_400.jpg for 100 rounds
-tjpgd 300x15 decode time: 151 us, 4500 pixels processed
-zjpgd 300x15 decode time: 180 us, 4500 pixels processed
+tjpgd 300x15 decode time: 182 us, 4500 pixels processed
+zjpgd 300x15 decode time: 182 us, 4500 pixels processed
+zjpgd_roi 300x15 decode time: 197 us, 4500 pixels processed
+Snapshot 0 at (75,3) saved at mcu (72,0)
+Snapshot dimensions: (75,3) to (225,10)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (150,7)
+Snapshot 2 at (150,7) saved at mcu (144,0)
+Snapshot dimensions: (150,7) to (300,14)
+zjpgd_roi_1_4 0 (75,3,150,7) decode time: 129 us, 2400 pixels processed
+zjpgd_roi_1_4 1 (0,0,150,7) decode time: 76 us, 1216 pixels processed
+zjpgd_roi_1_4 2 (150,7,150,7) decode time: 119 us, 2340 pixels processed
+file samples/rgbw_300x15_400.jpg,100,182,182,197,129,76,119
 
-file samples/rgbw_300x15_400.jpg,100,151,180,
 Decoding samples/rgbw_300x15_420.jpg for 100 rounds
-tjpgd 300x15 decode time: 175 us, 4500 pixels processed
-zjpgd 300x15 decode time: 224 us, 4500 pixels processed
+tjpgd 300x15 decode time: 197 us, 4500 pixels processed
+zjpgd 300x15 decode time: 223 us, 4500 pixels processed
+zjpgd_roi 300x15 decode time: 247 us, 4500 pixels processed
+Snapshot 0 at (75,3) saved at mcu (64,0)
+Snapshot dimensions: (75,3) to (225,10)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (150,7)
+Snapshot 2 at (150,7) saved at mcu (144,0)
+Snapshot dimensions: (150,7) to (300,14)
+zjpgd_roi_1_4 0 (75,3,150,7) decode time: 146 us, 2400 pixels processed
+zjpgd_roi_1_4 1 (0,0,150,7) decode time: 124 us, 1216 pixels processed
+zjpgd_roi_1_4 2 (150,7,150,7) decode time: 173 us, 2340 pixels processed
+file samples/rgbw_300x15_420.jpg,100,197,223,247,146,124,173
 
-file samples/rgbw_300x15_420.jpg,100,175,224,
 Decoding samples/rgbw_300x15_422.jpg for 100 rounds
-tjpgd 300x15 decode time: 221 us, 4500 pixels processed
-zjpgd 300x15 decode time: 266 us, 4500 pixels processed
+tjpgd 300x15 decode time: 222 us, 4500 pixels processed
+zjpgd 300x15 decode time: 260 us, 4500 pixels processed
+zjpgd_roi 300x15 decode time: 276 us, 4500 pixels processed
+Snapshot 0 at (75,3) saved at mcu (64,0)
+Snapshot dimensions: (75,3) to (225,10)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (150,7)
+Snapshot 2 at (150,7) saved at mcu (144,0)
+Snapshot dimensions: (150,7) to (300,14)
+zjpgd_roi_1_4 0 (75,3,150,7) decode time: 176 us, 2400 pixels processed
+zjpgd_roi_1_4 1 (0,0,150,7) decode time: 105 us, 1216 pixels processed
+zjpgd_roi_1_4 2 (150,7,150,7) decode time: 165 us, 2340 pixels processed
+file samples/rgbw_300x15_422.jpg,100,222,260,276,176,105,165
 
-file samples/rgbw_300x15_422.jpg,100,221,266,
 Decoding samples/rgbw_300x15_444.jpg for 100 rounds
 tjpgd 300x15 decode time: 257 us, 4500 pixels processed
-zjpgd 300x15 decode time: 305 us, 4500 pixels processed
+zjpgd 300x15 decode time: 272 us, 4500 pixels processed
+zjpgd_roi 300x15 decode time: 340 us, 4500 pixels processed
+Snapshot 0 at (75,3) saved at mcu (72,0)
+Snapshot dimensions: (75,3) to (225,10)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (150,7)
+Snapshot 2 at (150,7) saved at mcu (144,0)
+Snapshot dimensions: (150,7) to (300,14)
+zjpgd_roi_1_4 0 (75,3,150,7) decode time: 208 us, 2400 pixels processed
+zjpgd_roi_1_4 1 (0,0,150,7) decode time: 140 us, 1216 pixels processed
+zjpgd_roi_1_4 2 (150,7,150,7) decode time: 232 us, 2340 pixels processed
+file samples/rgbw_300x15_444.jpg,100,257,272,340,208,140,232
 
-file samples/rgbw_300x15_444.jpg,100,257,305,
 Decoding samples/rgbw_306x143_400.jpg for 100 rounds
-tjpgd 306x143 decode time: 1015 us, 43758 pixels processed
-zjpgd 306x143 decode time: 1415 us, 43758 pixels processed
+tjpgd 306x143 decode time: 2006 us, 43758 pixels processed
+zjpgd 306x143 decode time: 1426 us, 43758 pixels processed
+zjpgd_roi 306x143 decode time: 1563 us, 43758 pixels processed
+Snapshot 0 at (76,35) saved at mcu (72,32)
+Snapshot dimensions: (76,35) to (229,106)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (153,71)
+Snapshot 2 at (153,71) saved at mcu (152,64)
+Snapshot dimensions: (153,71) to (306,142)
+zjpgd_roi_1_4 0 (76,35,153,71) decode time: 479 us, 12800 pixels processed
+zjpgd_roi_1_4 1 (0,0,153,71) decode time: 441 us, 11520 pixels processed
+zjpgd_roi_1_4 2 (153,71,153,71) decode time: 508 us, 12166 pixels processed
+file samples/rgbw_306x143_400.jpg,100,2006,1426,1563,479,441,508
 
-file samples/rgbw_306x143_400.jpg,100,1015,1415,
 Decoding samples/rgbw_306x143_420.jpg for 100 rounds
-tjpgd 306x143 decode time: 943 us, 43758 pixels processed
-zjpgd 306x143 decode time: 1793 us, 43758 pixels processed
+tjpgd 306x143 decode time: 1118 us, 43758 pixels processed
+zjpgd 306x143 decode time: 1449 us, 43758 pixels processed
+zjpgd_roi 306x143 decode time: 1968 us, 43758 pixels processed
+Snapshot 0 at (76,35) saved at mcu (64,32)
+Snapshot dimensions: (76,35) to (229,106)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (153,71)
+Snapshot 2 at (153,71) saved at mcu (144,64)
+Snapshot dimensions: (153,71) to (306,142)
+zjpgd_roi_1_4 0 (76,35,153,71) decode time: 647 us, 12800 pixels processed
+zjpgd_roi_1_4 1 (0,0,153,71) decode time: 592 us, 11520 pixels processed
+zjpgd_roi_1_4 2 (153,71,153,71) decode time: 649 us, 12166 pixels processed
+file samples/rgbw_306x143_420.jpg,100,1118,1449,1968,647,592,649
 
-file samples/rgbw_306x143_420.jpg,100,943,1793,
 Decoding samples/rgbw_306x143_422.jpg for 100 rounds
-tjpgd 306x143 decode time: 1028 us, 43758 pixels processed
-zjpgd 306x143 decode time: 1849 us, 43758 pixels processed
+tjpgd 306x143 decode time: 1217 us, 43758 pixels processed
+zjpgd 306x143 decode time: 1701 us, 43758 pixels processed
+zjpgd_roi 306x143 decode time: 2340 us, 43758 pixels processed
+Snapshot 0 at (76,35) saved at mcu (64,32)
+Snapshot dimensions: (76,35) to (229,106)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (153,71)
+Snapshot 2 at (153,71) saved at mcu (144,64)
+Snapshot dimensions: (153,71) to (306,142)
+zjpgd_roi_1_4 0 (76,35,153,71) decode time: 782 us, 12800 pixels processed
+zjpgd_roi_1_4 1 (0,0,153,71) decode time: 642 us, 11520 pixels processed
+zjpgd_roi_1_4 2 (153,71,153,71) decode time: 690 us, 12166 pixels processed
+file samples/rgbw_306x143_422.jpg,100,1217,1701,2340,782,642,690
 
-file samples/rgbw_306x143_422.jpg,100,1028,1849,
 Decoding samples/rgbw_306x143_444.jpg for 100 rounds
-tjpgd 306x143 decode time: 1018 us, 43758 pixels processed
-zjpgd 306x143 decode time: 2154 us, 43758 pixels processed
+tjpgd 306x143 decode time: 1118 us, 43758 pixels processed
+zjpgd 306x143 decode time: 1587 us, 43758 pixels processed
+zjpgd_roi 306x143 decode time: 2764 us, 43758 pixels processed
+Snapshot 0 at (76,35) saved at mcu (72,32)
+Snapshot dimensions: (76,35) to (229,106)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (153,71)
+Snapshot 2 at (153,71) saved at mcu (152,64)
+Snapshot dimensions: (153,71) to (306,142)
+zjpgd_roi_1_4 0 (76,35,153,71) decode time: 973 us, 12800 pixels processed
+zjpgd_roi_1_4 1 (0,0,153,71) decode time: 745 us, 11520 pixels processed
+zjpgd_roi_1_4 2 (153,71,153,71) decode time: 781 us, 12166 pixels processed
+file samples/rgbw_306x143_444.jpg,100,1118,1587,2764,973,745,781
 
-file samples/rgbw_306x143_444.jpg,100,1018,2154,
 Decoding samples/rgbw_312x36_400.jpg for 100 rounds
-tjpgd 312x36 decode time: 279 us, 11232 pixels processed
-zjpgd 312x36 decode time: 361 us, 11232 pixels processed
+tjpgd 312x36 decode time: 351 us, 11232 pixels processed
+zjpgd 312x36 decode time: 1623 us, 11232 pixels processed
+zjpgd_roi 312x36 decode time: 683 us, 11232 pixels processed
+Snapshot 0 at (78,9) saved at mcu (72,8)
+Snapshot dimensions: (78,9) to (234,27)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (156,18)
+Snapshot 2 at (156,18) saved at mcu (152,16)
+Snapshot dimensions: (156,18) to (312,36)
+zjpgd_roi_1_4 0 (78,9,156,18) decode time: 227 us, 4032 pixels processed
+zjpgd_roi_1_4 1 (0,0,156,18) decode time: 196 us, 3840 pixels processed
+zjpgd_roi_1_4 2 (156,18,156,18) decode time: 169 us, 3200 pixels processed
+file samples/rgbw_312x36_400.jpg,100,351,1623,683,227,196,169
 
-file samples/rgbw_312x36_400.jpg,100,279,361,
 Decoding samples/rgbw_312x36_420.jpg for 100 rounds
-tjpgd 312x36 decode time: 348 us, 11232 pixels processed
-zjpgd 312x36 decode time: 618 us, 11232 pixels processed
+tjpgd 312x36 decode time: 408 us, 11232 pixels processed
+zjpgd 312x36 decode time: 651 us, 11232 pixels processed
+zjpgd_roi 312x36 decode time: 747 us, 11232 pixels processed
+Snapshot 0 at (78,9) saved at mcu (64,0)
+Snapshot dimensions: (78,9) to (234,27)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (156,18)
+Snapshot 2 at (156,18) saved at mcu (144,16)
+Snapshot dimensions: (156,18) to (312,36)
+zjpgd_roi_1_4 0 (78,9,156,18) decode time: 267 us, 4032 pixels processed
+zjpgd_roi_1_4 1 (0,0,156,18) decode time: 261 us, 3840 pixels processed
+zjpgd_roi_1_4 2 (156,18,156,18) decode time: 262 us, 3200 pixels processed
+file samples/rgbw_312x36_420.jpg,100,408,651,747,267,261,262
 
-file samples/rgbw_312x36_420.jpg,100,348,618,
 Decoding samples/rgbw_312x36_422.jpg for 100 rounds
-tjpgd 312x36 decode time: 321 us, 11232 pixels processed
-zjpgd 312x36 decode time: 587 us, 11232 pixels processed
+tjpgd 312x36 decode time: 445 us, 11232 pixels processed
+zjpgd 312x36 decode time: 614 us, 11232 pixels processed
+zjpgd_roi 312x36 decode time: 729 us, 11232 pixels processed
+Snapshot 0 at (78,9) saved at mcu (64,8)
+Snapshot dimensions: (78,9) to (234,27)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (156,18)
+Snapshot 2 at (156,18) saved at mcu (144,16)
+Snapshot dimensions: (156,18) to (312,36)
+zjpgd_roi_1_4 0 (78,9,156,18) decode time: 272 us, 4032 pixels processed
+zjpgd_roi_1_4 1 (0,0,156,18) decode time: 275 us, 3840 pixels processed
+zjpgd_roi_1_4 2 (156,18,156,18) decode time: 286 us, 3200 pixels processed
+file samples/rgbw_312x36_422.jpg,100,445,614,729,272,275,286
 
-file samples/rgbw_312x36_422.jpg,100,321,587,
 Decoding samples/rgbw_312x36_444.jpg for 100 rounds
-tjpgd 312x36 decode time: 338 us, 11232 pixels processed
-zjpgd 312x36 decode time: 663 us, 11232 pixels processed
+tjpgd 312x36 decode time: 481 us, 11232 pixels processed
+zjpgd 312x36 decode time: 585 us, 11232 pixels processed
+zjpgd_roi 312x36 decode time: 810 us, 11232 pixels processed
+Snapshot 0 at (78,9) saved at mcu (72,8)
+Snapshot dimensions: (78,9) to (234,27)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (156,18)
+Snapshot 2 at (156,18) saved at mcu (152,16)
+Snapshot dimensions: (156,18) to (312,36)
+zjpgd_roi_1_4 0 (78,9,156,18) decode time: 360 us, 4032 pixels processed
+zjpgd_roi_1_4 1 (0,0,156,18) decode time: 305 us, 3840 pixels processed
+zjpgd_roi_1_4 2 (156,18,156,18) decode time: 280 us, 3200 pixels processed
+file samples/rgbw_312x36_444.jpg,100,481,585,810,360,305,280
 
-file samples/rgbw_312x36_444.jpg,100,338,663,
 Decoding samples/rgbw_314x209_400.jpg for 100 rounds
-tjpgd 314x209 decode time: 1405 us, 65626 pixels processed
-zjpgd 314x209 decode time: 2090 us, 65626 pixels processed
+tjpgd 314x209 decode time: 1779 us, 65626 pixels processed
+zjpgd 314x209 decode time: 1928 us, 65626 pixels processed
+zjpgd_roi 314x209 decode time: 2390 us, 65626 pixels processed
+Snapshot 0 at (78,52) saved at mcu (72,48)
+Snapshot dimensions: (78,52) to (235,156)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (157,104)
+Snapshot 2 at (157,104) saved at mcu (152,104)
+Snapshot dimensions: (157,104) to (314,208)
+zjpgd_roi_1_4 0 (78,52,157,104) decode time: 726 us, 18816 pixels processed
+zjpgd_roi_1_4 1 (0,0,157,104) decode time: 597 us, 16640 pixels processed
+zjpgd_roi_1_4 2 (157,104,157,104) decode time: 669 us, 16848 pixels processed
+file samples/rgbw_314x209_400.jpg,100,1779,1928,2390,726,597,669
 
-file samples/rgbw_314x209_400.jpg,100,1405,2090,
 Decoding samples/rgbw_314x209_420.jpg for 100 rounds
-tjpgd 314x209 decode time: 1339 us, 65626 pixels processed
-zjpgd 314x209 decode time: 2665 us, 65626 pixels processed
+tjpgd 314x209 decode time: 1571 us, 65626 pixels processed
+zjpgd 314x209 decode time: 5299 us, 65626 pixels processed
+zjpgd_roi 314x209 decode time: 2985 us, 65626 pixels processed
+Snapshot 0 at (78,52) saved at mcu (64,48)
+Snapshot dimensions: (78,52) to (235,156)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (157,104)
+Snapshot 2 at (157,104) saved at mcu (144,96)
+Snapshot dimensions: (157,104) to (314,208)
+zjpgd_roi_1_4 0 (78,52,157,104) decode time: 849 us, 18816 pixels processed
+zjpgd_roi_1_4 1 (0,0,157,104) decode time: 743 us, 16640 pixels processed
+zjpgd_roi_1_4 2 (157,104,157,104) decode time: 779 us, 16848 pixels processed
+file samples/rgbw_314x209_420.jpg,100,1571,5299,2985,849,743,779
 
-file samples/rgbw_314x209_420.jpg,100,1339,2665,
 Decoding samples/rgbw_314x209_422.jpg for 100 rounds
-tjpgd 314x209 decode time: 1396 us, 65626 pixels processed
-zjpgd 314x209 decode time: 2699 us, 65626 pixels processed
+tjpgd 314x209 decode time: 1637 us, 65626 pixels processed
+zjpgd 314x209 decode time: 2443 us, 65626 pixels processed
+zjpgd_roi 314x209 decode time: 3006 us, 65626 pixels processed
+Snapshot 0 at (78,52) saved at mcu (64,48)
+Snapshot dimensions: (78,52) to (235,156)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (157,104)
+Snapshot 2 at (157,104) saved at mcu (144,104)
+Snapshot dimensions: (157,104) to (314,208)
+zjpgd_roi_1_4 0 (78,52,157,104) decode time: 883 us, 18816 pixels processed
+zjpgd_roi_1_4 1 (0,0,157,104) decode time: 738 us, 16640 pixels processed
+zjpgd_roi_1_4 2 (157,104,157,104) decode time: 857 us, 16848 pixels processed
+file samples/rgbw_314x209_422.jpg,100,1637,2443,3006,883,738,857
 
-file samples/rgbw_314x209_422.jpg,100,1396,2699,
 Decoding samples/rgbw_314x209_444.jpg for 100 rounds
-tjpgd 314x209 decode time: 1385 us, 65626 pixels processed
-zjpgd 314x209 decode time: 3159 us, 65626 pixels processed
+tjpgd 314x209 decode time: 1421 us, 65626 pixels processed
+zjpgd 314x209 decode time: 2247 us, 65626 pixels processed
+zjpgd_roi 314x209 decode time: 3327 us, 65626 pixels processed
+Snapshot 0 at (78,52) saved at mcu (72,48)
+Snapshot dimensions: (78,52) to (235,156)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (157,104)
+Snapshot 2 at (157,104) saved at mcu (152,104)
+Snapshot dimensions: (157,104) to (314,208)
+zjpgd_roi_1_4 0 (78,52,157,104) decode time: 1023 us, 18816 pixels processed
+zjpgd_roi_1_4 1 (0,0,157,104) decode time: 862 us, 16640 pixels processed
+zjpgd_roi_1_4 2 (157,104,157,104) decode time: 899 us, 16848 pixels processed
+file samples/rgbw_314x209_444.jpg,100,1421,2247,3327,1023,862,899
 
-file samples/rgbw_314x209_444.jpg,100,1385,3159,
 Decoding samples/rgbw_32x32_400.jpg for 100 rounds
-tjpgd 32x32 decode time: 56 us, 1024 pixels processed
-zjpgd 32x32 decode time: 51 us, 1024 pixels processed
+tjpgd 32x32 decode time: 54 us, 1024 pixels processed
+zjpgd 32x32 decode time: 50 us, 1024 pixels processed
+zjpgd_roi 32x32 decode time: 60 us, 1024 pixels processed
+Snapshot 0 at (8,8) saved at mcu (8,8)
+Snapshot dimensions: (8,8) to (24,24)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (16,16)
+Snapshot 2 at (16,16) saved at mcu (16,16)
+Snapshot dimensions: (16,16) to (32,32)
+zjpgd_roi_1_4 0 (8,8,16,16) decode time: 34 us, 256 pixels processed
+zjpgd_roi_1_4 1 (0,0,16,16) decode time: 34 us, 256 pixels processed
+zjpgd_roi_1_4 2 (16,16,16,16) decode time: 33 us, 256 pixels processed
+file samples/rgbw_32x32_400.jpg,100,54,50,60,34,34,33
 
-file samples/rgbw_32x32_400.jpg,100,56,51,
 Decoding samples/rgbw_32x32_420.jpg for 100 rounds
-tjpgd 32x32 decode time: 49 us, 1024 pixels processed
-zjpgd 32x32 decode time: 60 us, 1024 pixels processed
+tjpgd 32x32 decode time: 55 us, 1024 pixels processed
+zjpgd 32x32 decode time: 57 us, 1024 pixels processed
+zjpgd_roi 32x32 decode time: 69 us, 1024 pixels processed
+Snapshot 0 at (8,8) saved at mcu (0,0)
+Snapshot dimensions: (8,8) to (24,24)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (16,16)
+Snapshot 2 at (16,16) saved at mcu (16,16)
+Snapshot dimensions: (16,16) to (32,32)
+zjpgd_roi_1_4 0 (8,8,16,16) decode time: 44 us, 256 pixels processed
+zjpgd_roi_1_4 1 (0,0,16,16) decode time: 36 us, 256 pixels processed
+zjpgd_roi_1_4 2 (16,16,16,16) decode time: 37 us, 256 pixels processed
+file samples/rgbw_32x32_420.jpg,100,55,57,69,44,36,37
 
-file samples/rgbw_32x32_420.jpg,100,49,60,
 Decoding samples/rgbw_32x32_422.jpg for 100 rounds
-tjpgd 32x32 decode time: 49 us, 1024 pixels processed
-zjpgd 32x32 decode time: 75 us, 1024 pixels processed
+tjpgd 32x32 decode time: 56 us, 1024 pixels processed
+zjpgd 32x32 decode time: 56 us, 1024 pixels processed
+zjpgd_roi 32x32 decode time: 72 us, 1024 pixels processed
+Snapshot 0 at (8,8) saved at mcu (0,8)
+Snapshot dimensions: (8,8) to (24,24)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (16,16)
+Snapshot 2 at (16,16) saved at mcu (16,16)
+Snapshot dimensions: (16,16) to (32,32)
+zjpgd_roi_1_4 0 (8,8,16,16) decode time: 43 us, 256 pixels processed
+zjpgd_roi_1_4 1 (0,0,16,16) decode time: 35 us, 256 pixels processed
+zjpgd_roi_1_4 2 (16,16,16,16) decode time: 43 us, 256 pixels processed
+file samples/rgbw_32x32_422.jpg,100,56,56,72,43,35,43
 
-file samples/rgbw_32x32_422.jpg,100,49,75,
 Decoding samples/rgbw_32x32_444.jpg for 100 rounds
-tjpgd 32x32 decode time: 61 us, 1024 pixels processed
-zjpgd 32x32 decode time: 87 us, 1024 pixels processed
+tjpgd 32x32 decode time: 58 us, 1024 pixels processed
+zjpgd 32x32 decode time: 65 us, 1024 pixels processed
+zjpgd_roi 32x32 decode time: 76 us, 1024 pixels processed
+Snapshot 0 at (8,8) saved at mcu (8,8)
+Snapshot dimensions: (8,8) to (24,24)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (16,16)
+Snapshot 2 at (16,16) saved at mcu (16,16)
+Snapshot dimensions: (16,16) to (32,32)
+zjpgd_roi_1_4 0 (8,8,16,16) decode time: 36 us, 256 pixels processed
+zjpgd_roi_1_4 1 (0,0,16,16) decode time: 39 us, 256 pixels processed
+zjpgd_roi_1_4 2 (16,16,16,16) decode time: 41 us, 256 pixels processed
+file samples/rgbw_32x32_444.jpg,100,58,65,76,36,39,41
 
-file samples/rgbw_32x32_444.jpg,100,61,87,
 Decoding samples/rgbw_33x32_400.jpg for 100 rounds
-tjpgd 33x32 decode time: 64 us, 1056 pixels processed
-zjpgd 33x32 decode time: 67 us, 1056 pixels processed
+tjpgd 33x32 decode time: 59 us, 1056 pixels processed
+zjpgd 33x32 decode time: 60 us, 1056 pixels processed
+zjpgd_roi 33x32 decode time: 72 us, 1056 pixels processed
+Snapshot 0 at (8,8) saved at mcu (8,8)
+Snapshot dimensions: (8,8) to (24,24)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (16,16)
+Snapshot 2 at (16,16) saved at mcu (16,16)
+Snapshot dimensions: (16,16) to (32,32)
+zjpgd_roi_1_4 0 (8,8,16,16) decode time: 42 us, 256 pixels processed
+zjpgd_roi_1_4 1 (0,0,16,16) decode time: 40 us, 256 pixels processed
+zjpgd_roi_1_4 2 (16,16,16,16) decode time: 41 us, 256 pixels processed
+file samples/rgbw_33x32_400.jpg,100,59,60,72,42,40,41
 
-file samples/rgbw_33x32_400.jpg,100,64,67,
 Decoding samples/rgbw_33x32_420.jpg for 100 rounds
-tjpgd 33x32 decode time: 63 us, 1056 pixels processed
-zjpgd 33x32 decode time: 85 us, 1056 pixels processed
+tjpgd 33x32 decode time: 69 us, 1056 pixels processed
+zjpgd 33x32 decode time: 76 us, 1056 pixels processed
+zjpgd_roi 33x32 decode time: 89 us, 1056 pixels processed
+Snapshot 0 at (8,8) saved at mcu (0,0)
+Snapshot dimensions: (8,8) to (24,24)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (16,16)
+Snapshot 2 at (16,16) saved at mcu (16,16)
+Snapshot dimensions: (16,16) to (32,32)
+zjpgd_roi_1_4 0 (8,8,16,16) decode time: 49 us, 256 pixels processed
+zjpgd_roi_1_4 1 (0,0,16,16) decode time: 38 us, 256 pixels processed
+zjpgd_roi_1_4 2 (16,16,16,16) decode time: 38 us, 256 pixels processed
+file samples/rgbw_33x32_420.jpg,100,69,76,89,49,38,38
 
-file samples/rgbw_33x32_420.jpg,100,63,85,
 Decoding samples/rgbw_33x32_422.jpg for 100 rounds
-tjpgd 33x32 decode time: 65 us, 1056 pixels processed
-zjpgd 33x32 decode time: 92 us, 1056 pixels processed
+tjpgd 33x32 decode time: 64 us, 1056 pixels processed
+zjpgd 33x32 decode time: 77 us, 1056 pixels processed
+zjpgd_roi 33x32 decode time: 81 us, 1056 pixels processed
+Snapshot 0 at (8,8) saved at mcu (0,8)
+Snapshot dimensions: (8,8) to (24,24)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (16,16)
+Snapshot 2 at (16,16) saved at mcu (16,16)
+Snapshot dimensions: (16,16) to (32,32)
+zjpgd_roi_1_4 0 (8,8,16,16) decode time: 41 us, 256 pixels processed
+zjpgd_roi_1_4 1 (0,0,16,16) decode time: 38 us, 256 pixels processed
+zjpgd_roi_1_4 2 (16,16,16,16) decode time: 39 us, 256 pixels processed
+file samples/rgbw_33x32_422.jpg,100,64,77,81,41,38,39
 
-file samples/rgbw_33x32_422.jpg,100,65,92,
 Decoding samples/rgbw_33x32_444.jpg for 100 rounds
-tjpgd 33x32 decode time: 53 us, 1056 pixels processed
-zjpgd 33x32 decode time: 79 us, 1056 pixels processed
+tjpgd 33x32 decode time: 55 us, 1056 pixels processed
+zjpgd 33x32 decode time: 71 us, 1056 pixels processed
+zjpgd_roi 33x32 decode time: 96 us, 1056 pixels processed
+Snapshot 0 at (8,8) saved at mcu (8,8)
+Snapshot dimensions: (8,8) to (24,24)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (16,16)
+Snapshot 2 at (16,16) saved at mcu (16,16)
+Snapshot dimensions: (16,16) to (32,32)
+zjpgd_roi_1_4 0 (8,8,16,16) decode time: 48 us, 256 pixels processed
+zjpgd_roi_1_4 1 (0,0,16,16) decode time: 48 us, 256 pixels processed
+zjpgd_roi_1_4 2 (16,16,16,16) decode time: 48 us, 256 pixels processed
+file samples/rgbw_33x32_444.jpg,100,55,71,96,48,48,48
 
-file samples/rgbw_33x32_444.jpg,100,53,79,
 Decoding samples/rgbw_39x32_400.jpg for 100 rounds
-tjpgd 39x32 decode time: 73 us, 1248 pixels processed
-zjpgd 39x32 decode time: 80 us, 1248 pixels processed
+tjpgd 39x32 decode time: 76 us, 1248 pixels processed
+zjpgd 39x32 decode time: 66 us, 1248 pixels processed
+zjpgd_roi 39x32 decode time: 71 us, 1248 pixels processed
+Snapshot 0 at (9,8) saved at mcu (8,8)
+Snapshot dimensions: (9,8) to (28,24)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (19,16)
+Snapshot 2 at (19,16) saved at mcu (16,16)
+Snapshot dimensions: (19,16) to (38,32)
+zjpgd_roi_1_4 0 (9,8,19,16) decode time: 38 us, 384 pixels processed
+zjpgd_roi_1_4 1 (0,0,19,16) decode time: 41 us, 384 pixels processed
+zjpgd_roi_1_4 2 (19,16,19,16) decode time: 51 us, 368 pixels processed
+file samples/rgbw_39x32_400.jpg,100,76,66,71,38,41,51
 
-file samples/rgbw_39x32_400.jpg,100,73,80,
 Decoding samples/rgbw_39x32_420.jpg for 100 rounds
 tjpgd 39x32 decode time: 72 us, 1248 pixels processed
-zjpgd 39x32 decode time: 87 us, 1248 pixels processed
+zjpgd 39x32 decode time: 80 us, 1248 pixels processed
+zjpgd_roi 39x32 decode time: 81 us, 1248 pixels processed
+Snapshot 0 at (9,8) saved at mcu (0,0)
+Snapshot dimensions: (9,8) to (28,24)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (19,16)
+Snapshot 2 at (19,16) saved at mcu (16,16)
+Snapshot dimensions: (19,16) to (38,32)
+zjpgd_roi_1_4 0 (9,8,19,16) decode time: 52 us, 384 pixels processed
+zjpgd_roi_1_4 1 (0,0,19,16) decode time: 46 us, 384 pixels processed
+zjpgd_roi_1_4 2 (19,16,19,16) decode time: 41 us, 368 pixels processed
+file samples/rgbw_39x32_420.jpg,100,72,80,81,52,46,41
 
-file samples/rgbw_39x32_420.jpg,100,72,87,
 Decoding samples/rgbw_39x32_422.jpg for 100 rounds
-tjpgd 39x32 decode time: 69 us, 1248 pixels processed
-zjpgd 39x32 decode time: 94 us, 1248 pixels processed
+tjpgd 39x32 decode time: 68 us, 1248 pixels processed
+zjpgd 39x32 decode time: 71 us, 1248 pixels processed
+zjpgd_roi 39x32 decode time: 91 us, 1248 pixels processed
+Snapshot 0 at (9,8) saved at mcu (0,8)
+Snapshot dimensions: (9,8) to (28,24)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (19,16)
+Snapshot 2 at (19,16) saved at mcu (16,16)
+Snapshot dimensions: (19,16) to (38,32)
+zjpgd_roi_1_4 0 (9,8,19,16) decode time: 49 us, 384 pixels processed
+zjpgd_roi_1_4 1 (0,0,19,16) decode time: 50 us, 384 pixels processed
+zjpgd_roi_1_4 2 (19,16,19,16) decode time: 44 us, 368 pixels processed
+file samples/rgbw_39x32_422.jpg,100,68,71,91,49,50,44
 
-file samples/rgbw_39x32_422.jpg,100,69,94,
 Decoding samples/rgbw_39x32_444.jpg for 100 rounds
-tjpgd 39x32 decode time: 75 us, 1248 pixels processed
-zjpgd 39x32 decode time: 95 us, 1248 pixels processed
+tjpgd 39x32 decode time: 74 us, 1248 pixels processed
+zjpgd 39x32 decode time: 77 us, 1248 pixels processed
+zjpgd_roi 39x32 decode time: 92 us, 1248 pixels processed
+Snapshot 0 at (9,8) saved at mcu (8,8)
+Snapshot dimensions: (9,8) to (28,24)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (19,16)
+Snapshot 2 at (19,16) saved at mcu (16,16)
+Snapshot dimensions: (19,16) to (38,32)
+zjpgd_roi_1_4 0 (9,8,19,16) decode time: 52 us, 384 pixels processed
+zjpgd_roi_1_4 1 (0,0,19,16) decode time: 54 us, 384 pixels processed
+zjpgd_roi_1_4 2 (19,16,19,16) decode time: 54 us, 368 pixels processed
+file samples/rgbw_39x32_444.jpg,100,74,77,92,52,54,54
 
-file samples/rgbw_39x32_444.jpg,100,75,95,
 Decoding samples/rgbw_40x32_400.jpg for 100 rounds
-tjpgd 40x32 decode time: 57 us, 1280 pixels processed
-zjpgd 40x32 decode time: 60 us, 1280 pixels processed
+tjpgd 40x32 decode time: 71 us, 1280 pixels processed
+zjpgd 40x32 decode time: 68 us, 1280 pixels processed
+zjpgd_roi 40x32 decode time: 64 us, 1280 pixels processed
+Snapshot 0 at (10,8) saved at mcu (8,8)
+Snapshot dimensions: (10,8) to (30,24)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (20,16)
+Snapshot 2 at (20,16) saved at mcu (16,16)
+Snapshot dimensions: (20,16) to (40,32)
+zjpgd_roi_1_4 0 (10,8,20,16) decode time: 39 us, 384 pixels processed
+zjpgd_roi_1_4 1 (0,0,20,16) decode time: 40 us, 384 pixels processed
+zjpgd_roi_1_4 2 (20,16,20,16) decode time: 38 us, 384 pixels processed
+file samples/rgbw_40x32_400.jpg,100,71,68,64,39,40,38
 
-file samples/rgbw_40x32_400.jpg,100,57,60,
 Decoding samples/rgbw_40x32_420.jpg for 100 rounds
-tjpgd 40x32 decode time: 64 us, 1280 pixels processed
-zjpgd 40x32 decode time: 80 us, 1280 pixels processed
+tjpgd 40x32 decode time: 71 us, 1280 pixels processed
+zjpgd 40x32 decode time: 76 us, 1280 pixels processed
+zjpgd_roi 40x32 decode time: 82 us, 1280 pixels processed
+Snapshot 0 at (10,8) saved at mcu (0,0)
+Snapshot dimensions: (10,8) to (30,24)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (20,16)
+Snapshot 2 at (20,16) saved at mcu (16,16)
+Snapshot dimensions: (20,16) to (40,32)
+zjpgd_roi_1_4 0 (10,8,20,16) decode time: 53 us, 384 pixels processed
+zjpgd_roi_1_4 1 (0,0,20,16) decode time: 47 us, 384 pixels processed
+zjpgd_roi_1_4 2 (20,16,20,16) decode time: 49 us, 384 pixels processed
+file samples/rgbw_40x32_420.jpg,100,71,76,82,53,47,49
 
-file samples/rgbw_40x32_420.jpg,100,64,80,
 Decoding samples/rgbw_40x32_422.jpg for 100 rounds
-tjpgd 40x32 decode time: 67 us, 1280 pixels processed
-zjpgd 40x32 decode time: 81 us, 1280 pixels processed
+tjpgd 40x32 decode time: 75 us, 1280 pixels processed
+zjpgd 40x32 decode time: 92 us, 1280 pixels processed
+zjpgd_roi 40x32 decode time: 109 us, 1280 pixels processed
+Snapshot 0 at (10,8) saved at mcu (0,8)
+Snapshot dimensions: (10,8) to (30,24)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (20,16)
+Snapshot 2 at (20,16) saved at mcu (16,16)
+Snapshot dimensions: (20,16) to (40,32)
+zjpgd_roi_1_4 0 (10,8,20,16) decode time: 62 us, 384 pixels processed
+zjpgd_roi_1_4 1 (0,0,20,16) decode time: 50 us, 384 pixels processed
+zjpgd_roi_1_4 2 (20,16,20,16) decode time: 49 us, 384 pixels processed
+file samples/rgbw_40x32_422.jpg,100,75,92,109,62,50,49
 
-file samples/rgbw_40x32_422.jpg,100,67,81,
 Decoding samples/rgbw_40x32_444.jpg for 100 rounds
-tjpgd 40x32 decode time: 60 us, 1280 pixels processed
-zjpgd 40x32 decode time: 87 us, 1280 pixels processed
+tjpgd 40x32 decode time: 70 us, 1280 pixels processed
+zjpgd 40x32 decode time: 77 us, 1280 pixels processed
+zjpgd_roi 40x32 decode time: 97 us, 1280 pixels processed
+Snapshot 0 at (10,8) saved at mcu (8,8)
+Snapshot dimensions: (10,8) to (30,24)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (20,16)
+Snapshot 2 at (20,16) saved at mcu (16,16)
+Snapshot dimensions: (20,16) to (40,32)
+zjpgd_roi_1_4 0 (10,8,20,16) decode time: 54 us, 384 pixels processed
+zjpgd_roi_1_4 1 (0,0,20,16) decode time: 51 us, 384 pixels processed
+zjpgd_roi_1_4 2 (20,16,20,16) decode time: 50 us, 384 pixels processed
+file samples/rgbw_40x32_444.jpg,100,70,77,97,54,51,50
 
-file samples/rgbw_40x32_444.jpg,100,60,87,
 Decoding samples/rgbw_40x79_400.jpg for 100 rounds
-tjpgd 40x79 decode time: 121 us, 3160 pixels processed
-zjpgd 40x79 decode time: 148 us, 3160 pixels processed
+tjpgd 40x79 decode time: 124 us, 3160 pixels processed
+zjpgd 40x79 decode time: 120 us, 3160 pixels processed
+zjpgd_roi 40x79 decode time: 169 us, 3160 pixels processed
+Snapshot 0 at (10,19) saved at mcu (8,16)
+Snapshot dimensions: (10,19) to (30,58)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (20,39)
+Snapshot 2 at (20,39) saved at mcu (16,32)
+Snapshot dimensions: (20,39) to (40,78)
+zjpgd_roi_1_4 0 (10,19,20,39) decode time: 74 us, 1152 pixels processed
+zjpgd_roi_1_4 1 (0,0,20,39) decode time: 65 us, 960 pixels processed
+zjpgd_roi_1_4 2 (20,39,20,39) decode time: 70 us, 1128 pixels processed
+file samples/rgbw_40x79_400.jpg,100,124,120,169,74,65,70
 
-file samples/rgbw_40x79_400.jpg,100,121,148,
 Decoding samples/rgbw_40x79_420.jpg for 100 rounds
-tjpgd 40x79 decode time: 144 us, 3160 pixels processed
-zjpgd 40x79 decode time: 173 us, 3160 pixels processed
+tjpgd 40x79 decode time: 170 us, 3160 pixels processed
+zjpgd 40x79 decode time: 186 us, 3160 pixels processed
+zjpgd_roi 40x79 decode time: 213 us, 3160 pixels processed
+Snapshot 0 at (10,19) saved at mcu (0,16)
+Snapshot dimensions: (10,19) to (30,58)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (20,39)
+Snapshot 2 at (20,39) saved at mcu (16,32)
+Snapshot dimensions: (20,39) to (40,78)
+zjpgd_roi_1_4 0 (10,19,20,39) decode time: 103 us, 1152 pixels processed
+zjpgd_roi_1_4 1 (0,0,20,39) decode time: 87 us, 960 pixels processed
+zjpgd_roi_1_4 2 (20,39,20,39) decode time: 94 us, 1128 pixels processed
+file samples/rgbw_40x79_420.jpg,100,170,186,213,103,87,94
 
-file samples/rgbw_40x79_420.jpg,100,144,173,
 Decoding samples/rgbw_40x79_422.jpg for 100 rounds
-tjpgd 40x79 decode time: 135 us, 3160 pixels processed
-zjpgd 40x79 decode time: 189 us, 3160 pixels processed
+tjpgd 40x79 decode time: 170 us, 3160 pixels processed
+zjpgd 40x79 decode time: 184 us, 3160 pixels processed
+zjpgd_roi 40x79 decode time: 238 us, 3160 pixels processed
+Snapshot 0 at (10,19) saved at mcu (0,16)
+Snapshot dimensions: (10,19) to (30,58)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (20,39)
+Snapshot 2 at (20,39) saved at mcu (16,32)
+Snapshot dimensions: (20,39) to (40,78)
+zjpgd_roi_1_4 0 (10,19,20,39) decode time: 123 us, 1152 pixels processed
+zjpgd_roi_1_4 1 (0,0,20,39) decode time: 107 us, 960 pixels processed
+zjpgd_roi_1_4 2 (20,39,20,39) decode time: 103 us, 1128 pixels processed
+file samples/rgbw_40x79_422.jpg,100,170,184,238,123,107,103
 
-file samples/rgbw_40x79_422.jpg,100,135,189,
 Decoding samples/rgbw_40x79_444.jpg for 100 rounds
-tjpgd 40x79 decode time: 141 us, 3160 pixels processed
-zjpgd 40x79 decode time: 224 us, 3160 pixels processed
+tjpgd 40x79 decode time: 146 us, 3160 pixels processed
+zjpgd 40x79 decode time: 159 us, 3160 pixels processed
+zjpgd_roi 40x79 decode time: 215 us, 3160 pixels processed
+Snapshot 0 at (10,19) saved at mcu (8,16)
+Snapshot dimensions: (10,19) to (30,58)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (20,39)
+Snapshot 2 at (20,39) saved at mcu (16,32)
+Snapshot dimensions: (20,39) to (40,78)
+zjpgd_roi_1_4 0 (10,19,20,39) decode time: 116 us, 1152 pixels processed
+zjpgd_roi_1_4 1 (0,0,20,39) decode time: 103 us, 960 pixels processed
+zjpgd_roi_1_4 2 (20,39,20,39) decode time: 99 us, 1128 pixels processed
+file samples/rgbw_40x79_444.jpg,100,146,159,215,116,103,99
 
-file samples/rgbw_40x79_444.jpg,100,141,224,
 Decoding samples/rgbw_49x26_400.jpg for 100 rounds
-tjpgd 49x26 decode time: 68 us, 1274 pixels processed
-zjpgd 49x26 decode time: 74 us, 1274 pixels processed
-
-file samples/rgbw_49x26_400.jpg,100,68,74,
-Decoding samples/rgbw_49x26_420.jpg for 100 rounds
-tjpgd 49x26 decode time: 76 us, 1274 pixels processed
-zjpgd 49x26 decode time: 106 us, 1274 pixels processed
-
-file samples/rgbw_49x26_420.jpg,100,76,106,
-Decoding samples/rgbw_49x26_422.jpg for 100 rounds
 tjpgd 49x26 decode time: 78 us, 1274 pixels processed
-zjpgd 49x26 decode time: 119 us, 1274 pixels processed
+zjpgd 49x26 decode time: 96 us, 1274 pixels processed
+zjpgd_roi 49x26 decode time: 75 us, 1274 pixels processed
+Snapshot 0 at (12,6) saved at mcu (8,0)
+Snapshot dimensions: (12,6) to (36,19)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (24,13)
+Snapshot 2 at (24,13) saved at mcu (24,8)
+Snapshot dimensions: (24,13) to (48,26)
+zjpgd_roi_1_4 0 (12,6,24,13) decode time: 58 us, 768 pixels processed
+zjpgd_roi_1_4 1 (0,0,24,13) decode time: 45 us, 384 pixels processed
+zjpgd_roi_1_4 2 (24,13,24,13) decode time: 47 us, 432 pixels processed
+file samples/rgbw_49x26_400.jpg,100,78,96,75,58,45,47
 
-file samples/rgbw_49x26_422.jpg,100,78,119,
+Decoding samples/rgbw_49x26_420.jpg for 100 rounds
+tjpgd 49x26 decode time: 89 us, 1274 pixels processed
+zjpgd 49x26 decode time: 103 us, 1274 pixels processed
+zjpgd_roi 49x26 decode time: 120 us, 1274 pixels processed
+Snapshot 0 at (12,6) saved at mcu (0,0)
+Snapshot dimensions: (12,6) to (36,19)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (24,13)
+Snapshot 2 at (24,13) saved at mcu (16,0)
+Snapshot dimensions: (24,13) to (48,26)
+zjpgd_roi_1_4 0 (12,6,24,13) decode time: 89 us, 768 pixels processed
+zjpgd_roi_1_4 1 (0,0,24,13) decode time: 59 us, 384 pixels processed
+zjpgd_roi_1_4 2 (24,13,24,13) decode time: 68 us, 432 pixels processed
+file samples/rgbw_49x26_420.jpg,100,89,103,120,89,59,68
+
+Decoding samples/rgbw_49x26_422.jpg for 100 rounds
+tjpgd 49x26 decode time: 100 us, 1274 pixels processed
+zjpgd 49x26 decode time: 109 us, 1274 pixels processed
+zjpgd_roi 49x26 decode time: 128 us, 1274 pixels processed
+Snapshot 0 at (12,6) saved at mcu (0,0)
+Snapshot dimensions: (12,6) to (36,19)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (24,13)
+Snapshot 2 at (24,13) saved at mcu (16,8)
+Snapshot dimensions: (24,13) to (48,26)
+zjpgd_roi_1_4 0 (12,6,24,13) decode time: 81 us, 768 pixels processed
+zjpgd_roi_1_4 1 (0,0,24,13) decode time: 56 us, 384 pixels processed
+zjpgd_roi_1_4 2 (24,13,24,13) decode time: 66 us, 432 pixels processed
+file samples/rgbw_49x26_422.jpg,100,100,109,128,81,56,66
+
 Decoding samples/rgbw_49x26_444.jpg for 100 rounds
-tjpgd 49x26 decode time: 70 us, 1274 pixels processed
-zjpgd 49x26 decode time: 113 us, 1274 pixels processed
+tjpgd 49x26 decode time: 85 us, 1274 pixels processed
+zjpgd 49x26 decode time: 88 us, 1274 pixels processed
+zjpgd_roi 49x26 decode time: 127 us, 1274 pixels processed
+Snapshot 0 at (12,6) saved at mcu (8,0)
+Snapshot dimensions: (12,6) to (36,19)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (24,13)
+Snapshot 2 at (24,13) saved at mcu (24,8)
+Snapshot dimensions: (24,13) to (48,26)
+zjpgd_roi_1_4 0 (12,6,24,13) decode time: 81 us, 768 pixels processed
+zjpgd_roi_1_4 1 (0,0,24,13) decode time: 50 us, 384 pixels processed
+zjpgd_roi_1_4 2 (24,13,24,13) decode time: 62 us, 432 pixels processed
+file samples/rgbw_49x26_444.jpg,100,85,88,127,81,50,62
 
-file samples/rgbw_49x26_444.jpg,100,70,113,
 Decoding samples/rgbw_51x129_400.jpg for 100 rounds
-tjpgd 51x129 decode time: 209 us, 6579 pixels processed
-zjpgd 51x129 decode time: 272 us, 6579 pixels processed
+tjpgd 51x129 decode time: 217 us, 6579 pixels processed
+zjpgd 51x129 decode time: 224 us, 6579 pixels processed
+zjpgd_roi 51x129 decode time: 284 us, 6579 pixels processed
+Snapshot 0 at (12,32) saved at mcu (8,32)
+Snapshot dimensions: (12,32) to (37,96)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (25,64)
+Snapshot 2 at (25,64) saved at mcu (24,64)
+Snapshot dimensions: (25,64) to (50,128)
+zjpgd_roi_1_4 0 (12,32,25,64) decode time: 95 us, 2048 pixels processed
+zjpgd_roi_1_4 1 (0,0,25,64) decode time: 87 us, 2048 pixels processed
+zjpgd_roi_1_4 2 (25,64,25,64) decode time: 87 us, 1728 pixels processed
+file samples/rgbw_51x129_400.jpg,100,217,224,284,95,87,87
 
-file samples/rgbw_51x129_400.jpg,100,209,272,
 Decoding samples/rgbw_51x129_420.jpg for 100 rounds
-tjpgd 51x129 decode time: 225 us, 6579 pixels processed
-zjpgd 51x129 decode time: 354 us, 6579 pixels processed
+tjpgd 51x129 decode time: 216 us, 6579 pixels processed
+zjpgd 51x129 decode time: 305 us, 6579 pixels processed
+zjpgd_roi 51x129 decode time: 425 us, 6579 pixels processed
+Snapshot 0 at (12,32) saved at mcu (0,32)
+Snapshot dimensions: (12,32) to (37,96)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (25,64)
+Snapshot 2 at (25,64) saved at mcu (16,64)
+Snapshot dimensions: (25,64) to (50,128)
+zjpgd_roi_1_4 0 (12,32,25,64) decode time: 139 us, 2048 pixels processed
+zjpgd_roi_1_4 1 (0,0,25,64) decode time: 101 us, 2048 pixels processed
+zjpgd_roi_1_4 2 (25,64,25,64) decode time: 112 us, 1728 pixels processed
+file samples/rgbw_51x129_420.jpg,100,216,305,425,139,101,112
 
-file samples/rgbw_51x129_420.jpg,100,225,354,
 Decoding samples/rgbw_51x129_422.jpg for 100 rounds
-tjpgd 51x129 decode time: 227 us, 6579 pixels processed
-zjpgd 51x129 decode time: 393 us, 6579 pixels processed
+tjpgd 51x129 decode time: 254 us, 6579 pixels processed
+zjpgd 51x129 decode time: 310 us, 6579 pixels processed
+zjpgd_roi 51x129 decode time: 416 us, 6579 pixels processed
+Snapshot 0 at (12,32) saved at mcu (0,32)
+Snapshot dimensions: (12,32) to (37,96)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (25,64)
+Snapshot 2 at (25,64) saved at mcu (16,64)
+Snapshot dimensions: (25,64) to (50,128)
+zjpgd_roi_1_4 0 (12,32,25,64) decode time: 156 us, 2048 pixels processed
+zjpgd_roi_1_4 1 (0,0,25,64) decode time: 132 us, 2048 pixels processed
+zjpgd_roi_1_4 2 (25,64,25,64) decode time: 191 us, 1728 pixels processed
+file samples/rgbw_51x129_422.jpg,100,254,310,416,156,132,191
 
-file samples/rgbw_51x129_422.jpg,100,227,393,
 Decoding samples/rgbw_51x129_444.jpg for 100 rounds
-tjpgd 51x129 decode time: 230 us, 6579 pixels processed
-zjpgd 51x129 decode time: 420 us, 6579 pixels processed
+tjpgd 51x129 decode time: 249 us, 6579 pixels processed
+zjpgd 51x129 decode time: 290 us, 6579 pixels processed
+zjpgd_roi 51x129 decode time: 409 us, 6579 pixels processed
+Snapshot 0 at (12,32) saved at mcu (8,32)
+Snapshot dimensions: (12,32) to (37,96)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (25,64)
+Snapshot 2 at (25,64) saved at mcu (24,64)
+Snapshot dimensions: (25,64) to (50,128)
+zjpgd_roi_1_4 0 (12,32,25,64) decode time: 153 us, 2048 pixels processed
+zjpgd_roi_1_4 1 (0,0,25,64) decode time: 152 us, 2048 pixels processed
+zjpgd_roi_1_4 2 (25,64,25,64) decode time: 150 us, 1728 pixels processed
+file samples/rgbw_51x129_444.jpg,100,249,290,409,153,152,150
 
-file samples/rgbw_51x129_444.jpg,100,230,420,
 Decoding samples/rgbw_51x198_400.jpg for 100 rounds
-tjpgd 51x198 decode time: 280 us, 10098 pixels processed
-zjpgd 51x198 decode time: 365 us, 10098 pixels processed
+tjpgd 51x198 decode time: 335 us, 10098 pixels processed
+zjpgd 51x198 decode time: 332 us, 10098 pixels processed
+zjpgd_roi 51x198 decode time: 379 us, 10098 pixels processed
+Snapshot 0 at (12,49) saved at mcu (8,48)
+Snapshot dimensions: (12,49) to (37,148)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (25,99)
+Snapshot 2 at (25,99) saved at mcu (24,96)
+Snapshot dimensions: (25,99) to (50,198)
+zjpgd_roi_1_4 0 (12,49,25,99) decode time: 154 us, 3328 pixels processed
+zjpgd_roi_1_4 1 (0,0,25,99) decode time: 145 us, 3328 pixels processed
+zjpgd_roi_1_4 2 (25,99,25,99) decode time: 150 us, 2754 pixels processed
+file samples/rgbw_51x198_400.jpg,100,335,332,379,154,145,150
 
-file samples/rgbw_51x198_400.jpg,100,280,365,
 Decoding samples/rgbw_51x198_420.jpg for 100 rounds
-tjpgd 51x198 decode time: 334 us, 10098 pixels processed
-zjpgd 51x198 decode time: 508 us, 10098 pixels processed
+tjpgd 51x198 decode time: 370 us, 10098 pixels processed
+zjpgd 51x198 decode time: 521 us, 10098 pixels processed
+zjpgd_roi 51x198 decode time: 546 us, 10098 pixels processed
+Snapshot 0 at (12,49) saved at mcu (0,48)
+Snapshot dimensions: (12,49) to (37,148)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (25,99)
+Snapshot 2 at (25,99) saved at mcu (16,96)
+Snapshot dimensions: (25,99) to (50,198)
+zjpgd_roi_1_4 0 (12,49,25,99) decode time: 190 us, 3328 pixels processed
+zjpgd_roi_1_4 1 (0,0,25,99) decode time: 170 us, 3328 pixels processed
+zjpgd_roi_1_4 2 (25,99,25,99) decode time: 252 us, 2754 pixels processed
+file samples/rgbw_51x198_420.jpg,100,370,521,546,190,170,252
 
-file samples/rgbw_51x198_420.jpg,100,334,508,
 Decoding samples/rgbw_51x198_422.jpg for 100 rounds
-tjpgd 51x198 decode time: 357 us, 10098 pixels processed
-zjpgd 51x198 decode time: 569 us, 10098 pixels processed
+tjpgd 51x198 decode time: 393 us, 10098 pixels processed
+zjpgd 51x198 decode time: 439 us, 10098 pixels processed
+zjpgd_roi 51x198 decode time: 561 us, 10098 pixels processed
+Snapshot 0 at (12,49) saved at mcu (0,48)
+Snapshot dimensions: (12,49) to (37,148)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (25,99)
+Snapshot 2 at (25,99) saved at mcu (16,96)
+Snapshot dimensions: (25,99) to (50,198)
+zjpgd_roi_1_4 0 (12,49,25,99) decode time: 225 us, 3328 pixels processed
+zjpgd_roi_1_4 1 (0,0,25,99) decode time: 200 us, 3328 pixels processed
+zjpgd_roi_1_4 2 (25,99,25,99) decode time: 216 us, 2754 pixels processed
+file samples/rgbw_51x198_422.jpg,100,393,439,561,225,200,216
 
-file samples/rgbw_51x198_422.jpg,100,357,569,
 Decoding samples/rgbw_51x198_444.jpg for 100 rounds
-tjpgd 51x198 decode time: 376 us, 10098 pixels processed
-zjpgd 51x198 decode time: 579 us, 10098 pixels processed
+tjpgd 51x198 decode time: 402 us, 10098 pixels processed
+zjpgd 51x198 decode time: 484 us, 10098 pixels processed
+zjpgd_roi 51x198 decode time: 616 us, 10098 pixels processed
+Snapshot 0 at (12,49) saved at mcu (8,48)
+Snapshot dimensions: (12,49) to (37,148)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (25,99)
+Snapshot 2 at (25,99) saved at mcu (24,96)
+Snapshot dimensions: (25,99) to (50,198)
+zjpgd_roi_1_4 0 (12,49,25,99) decode time: 241 us, 3328 pixels processed
+zjpgd_roi_1_4 1 (0,0,25,99) decode time: 252 us, 3328 pixels processed
+zjpgd_roi_1_4 2 (25,99,25,99) decode time: 240 us, 2754 pixels processed
+file samples/rgbw_51x198_444.jpg,100,402,484,616,241,252,240
 
-file samples/rgbw_51x198_444.jpg,100,376,579,
 Decoding samples/rgbw_55x66_400.jpg for 100 rounds
-tjpgd 55x66 decode time: 120 us, 3630 pixels processed
-zjpgd 55x66 decode time: 153 us, 3630 pixels processed
+tjpgd 55x66 decode time: 143 us, 3630 pixels processed
+zjpgd 55x66 decode time: 142 us, 3630 pixels processed
+zjpgd_roi 55x66 decode time: 152 us, 3630 pixels processed
+Snapshot 0 at (13,16) saved at mcu (8,16)
+Snapshot dimensions: (13,16) to (40,49)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (27,33)
+Snapshot 2 at (27,33) saved at mcu (24,32)
+Snapshot dimensions: (27,33) to (54,66)
+zjpgd_roi_1_4 0 (13,16,27,33) decode time: 71 us, 1280 pixels processed
+zjpgd_roi_1_4 1 (0,0,27,33) decode time: 77 us, 1280 pixels processed
+zjpgd_roi_1_4 2 (27,33,27,33) decode time: 67 us, 1054 pixels processed
+file samples/rgbw_55x66_400.jpg,100,143,142,152,71,77,67
 
-file samples/rgbw_55x66_400.jpg,100,120,153,
 Decoding samples/rgbw_55x66_420.jpg for 100 rounds
-tjpgd 55x66 decode time: 158 us, 3630 pixels processed
-zjpgd 55x66 decode time: 226 us, 3630 pixels processed
+tjpgd 55x66 decode time: 159 us, 3630 pixels processed
+zjpgd 55x66 decode time: 195 us, 3630 pixels processed
+zjpgd_roi 55x66 decode time: 234 us, 3630 pixels processed
+Snapshot 0 at (13,16) saved at mcu (0,16)
+Snapshot dimensions: (13,16) to (40,49)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (27,33)
+Snapshot 2 at (27,33) saved at mcu (16,32)
+Snapshot dimensions: (27,33) to (54,66)
+zjpgd_roi_1_4 0 (13,16,27,33) decode time: 120 us, 1280 pixels processed
+zjpgd_roi_1_4 1 (0,0,27,33) decode time: 95 us, 1280 pixels processed
+zjpgd_roi_1_4 2 (27,33,27,33) decode time: 103 us, 1054 pixels processed
+file samples/rgbw_55x66_420.jpg,100,159,195,234,120,95,103
 
-file samples/rgbw_55x66_420.jpg,100,158,226,
 Decoding samples/rgbw_55x66_422.jpg for 100 rounds
-tjpgd 55x66 decode time: 163 us, 3630 pixels processed
-zjpgd 55x66 decode time: 237 us, 3630 pixels processed
+tjpgd 55x66 decode time: 175 us, 3630 pixels processed
+zjpgd 55x66 decode time: 202 us, 3630 pixels processed
+zjpgd_roi 55x66 decode time: 228 us, 3630 pixels processed
+Snapshot 0 at (13,16) saved at mcu (0,16)
+Snapshot dimensions: (13,16) to (40,49)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (27,33)
+Snapshot 2 at (27,33) saved at mcu (16,32)
+Snapshot dimensions: (27,33) to (54,66)
+zjpgd_roi_1_4 0 (13,16,27,33) decode time: 117 us, 1280 pixels processed
+zjpgd_roi_1_4 1 (0,0,27,33) decode time: 91 us, 1280 pixels processed
+zjpgd_roi_1_4 2 (27,33,27,33) decode time: 103 us, 1054 pixels processed
+file samples/rgbw_55x66_422.jpg,100,175,202,228,117,91,103
 
-file samples/rgbw_55x66_422.jpg,100,163,237,
 Decoding samples/rgbw_55x66_444.jpg for 100 rounds
-tjpgd 55x66 decode time: 187 us, 3630 pixels processed
-zjpgd 55x66 decode time: 248 us, 3630 pixels processed
+tjpgd 55x66 decode time: 174 us, 3630 pixels processed
+zjpgd 55x66 decode time: 218 us, 3630 pixels processed
+zjpgd_roi 55x66 decode time: 295 us, 3630 pixels processed
+Snapshot 0 at (13,16) saved at mcu (8,16)
+Snapshot dimensions: (13,16) to (40,49)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (27,33)
+Snapshot 2 at (27,33) saved at mcu (24,32)
+Snapshot dimensions: (27,33) to (54,66)
+zjpgd_roi_1_4 0 (13,16,27,33) decode time: 133 us, 1280 pixels processed
+zjpgd_roi_1_4 1 (0,0,27,33) decode time: 106 us, 1280 pixels processed
+zjpgd_roi_1_4 2 (27,33,27,33) decode time: 110 us, 1054 pixels processed
+file samples/rgbw_55x66_444.jpg,100,174,218,295,133,106,110
 
-file samples/rgbw_55x66_444.jpg,100,187,248,
 Decoding samples/rgbw_57x179_400.jpg for 100 rounds
-tjpgd 57x179 decode time: 283 us, 10203 pixels processed
-zjpgd 57x179 decode time: 400 us, 10203 pixels processed
+tjpgd 57x179 decode time: 298 us, 10203 pixels processed
+zjpgd 57x179 decode time: 359 us, 10203 pixels processed
+zjpgd_roi 57x179 decode time: 440 us, 10203 pixels processed
+Snapshot 0 at (14,44) saved at mcu (8,40)
+Snapshot dimensions: (14,44) to (42,133)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (28,89)
+Snapshot 2 at (28,89) saved at mcu (24,88)
+Snapshot dimensions: (28,89) to (56,178)
+zjpgd_roi_1_4 0 (14,44,28,89) decode time: 164 us, 3840 pixels processed
+zjpgd_roi_1_4 1 (0,0,28,89) decode time: 138 us, 3072 pixels processed
+zjpgd_roi_1_4 2 (28,89,28,89) decode time: 125 us, 2912 pixels processed
+file samples/rgbw_57x179_400.jpg,100,298,359,440,164,138,125
 
-file samples/rgbw_57x179_400.jpg,100,283,400,
 Decoding samples/rgbw_57x179_420.jpg for 100 rounds
-tjpgd 57x179 decode time: 327 us, 10203 pixels processed
-zjpgd 57x179 decode time: 461 us, 10203 pixels processed
+tjpgd 57x179 decode time: 370 us, 10203 pixels processed
+zjpgd 57x179 decode time: 436 us, 10203 pixels processed
+zjpgd_roi 57x179 decode time: 480 us, 10203 pixels processed
+Snapshot 0 at (14,44) saved at mcu (0,32)
+Snapshot dimensions: (14,44) to (42,133)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (28,89)
+Snapshot 2 at (28,89) saved at mcu (16,80)
+Snapshot dimensions: (28,89) to (56,178)
+zjpgd_roi_1_4 0 (14,44,28,89) decode time: 210 us, 3840 pixels processed
+zjpgd_roi_1_4 1 (0,0,28,89) decode time: 152 us, 3072 pixels processed
+zjpgd_roi_1_4 2 (28,89,28,89) decode time: 184 us, 2912 pixels processed
+file samples/rgbw_57x179_420.jpg,100,370,436,480,210,152,184
 
-file samples/rgbw_57x179_420.jpg,100,327,461,
 Decoding samples/rgbw_57x179_422.jpg for 100 rounds
-tjpgd 57x179 decode time: 321 us, 10203 pixels processed
-zjpgd 57x179 decode time: 497 us, 10203 pixels processed
+tjpgd 57x179 decode time: 373 us, 10203 pixels processed
+zjpgd 57x179 decode time: 434 us, 10203 pixels processed
+zjpgd_roi 57x179 decode time: 552 us, 10203 pixels processed
+Snapshot 0 at (14,44) saved at mcu (0,40)
+Snapshot dimensions: (14,44) to (42,133)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (28,89)
+Snapshot 2 at (28,89) saved at mcu (16,88)
+Snapshot dimensions: (28,89) to (56,178)
+zjpgd_roi_1_4 0 (14,44,28,89) decode time: 253 us, 3840 pixels processed
+zjpgd_roi_1_4 1 (0,0,28,89) decode time: 212 us, 3072 pixels processed
+zjpgd_roi_1_4 2 (28,89,28,89) decode time: 214 us, 2912 pixels processed
+file samples/rgbw_57x179_422.jpg,100,373,434,552,253,212,214
 
-file samples/rgbw_57x179_422.jpg,100,321,497,
 Decoding samples/rgbw_57x179_444.jpg for 100 rounds
-tjpgd 57x179 decode time: 319 us, 10203 pixels processed
-zjpgd 57x179 decode time: 569 us, 10203 pixels processed
+tjpgd 57x179 decode time: 368 us, 10203 pixels processed
+zjpgd 57x179 decode time: 494 us, 10203 pixels processed
+zjpgd_roi 57x179 decode time: 660 us, 10203 pixels processed
+Snapshot 0 at (14,44) saved at mcu (8,40)
+Snapshot dimensions: (14,44) to (42,133)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (28,89)
+Snapshot 2 at (28,89) saved at mcu (24,88)
+Snapshot dimensions: (28,89) to (56,178)
+zjpgd_roi_1_4 0 (14,44,28,89) decode time: 271 us, 3840 pixels processed
+zjpgd_roi_1_4 1 (0,0,28,89) decode time: 230 us, 3072 pixels processed
+zjpgd_roi_1_4 2 (28,89,28,89) decode time: 244 us, 2912 pixels processed
+file samples/rgbw_57x179_444.jpg,100,368,494,660,271,230,244
 
-file samples/rgbw_57x179_444.jpg,100,319,569,
 Decoding samples/rgbw_63x102_400.jpg for 100 rounds
-tjpgd 63x102 decode time: 185 us, 6426 pixels processed
-zjpgd 63x102 decode time: 249 us, 6426 pixels processed
+tjpgd 63x102 decode time: 215 us, 6426 pixels processed
+zjpgd 63x102 decode time: 216 us, 6426 pixels processed
+zjpgd_roi 63x102 decode time: 228 us, 6426 pixels processed
+Snapshot 0 at (15,25) saved at mcu (8,24)
+Snapshot dimensions: (15,25) to (46,76)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (31,51)
+Snapshot 2 at (31,51) saved at mcu (24,48)
+Snapshot dimensions: (31,51) to (62,102)
+zjpgd_roi_1_4 0 (15,25,31,51) decode time: 105 us, 2240 pixels processed
+zjpgd_roi_1_4 1 (0,0,31,51) decode time: 88 us, 1792 pixels processed
+zjpgd_roi_1_4 2 (31,51,31,51) decode time: 101 us, 2106 pixels processed
+file samples/rgbw_63x102_400.jpg,100,215,216,228,105,88,101
 
-file samples/rgbw_63x102_400.jpg,100,185,249,
 Decoding samples/rgbw_63x102_420.jpg for 100 rounds
-tjpgd 63x102 decode time: 222 us, 6426 pixels processed
-zjpgd 63x102 decode time: 326 us, 6426 pixels processed
+tjpgd 63x102 decode time: 233 us, 6426 pixels processed
+zjpgd 63x102 decode time: 261 us, 6426 pixels processed
+zjpgd_roi 63x102 decode time: 342 us, 6426 pixels processed
+Snapshot 0 at (15,25) saved at mcu (0,16)
+Snapshot dimensions: (15,25) to (46,76)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (31,51)
+Snapshot 2 at (31,51) saved at mcu (16,48)
+Snapshot dimensions: (31,51) to (62,102)
+zjpgd_roi_1_4 0 (15,25,31,51) decode time: 143 us, 2240 pixels processed
+zjpgd_roi_1_4 1 (0,0,31,51) decode time: 119 us, 1792 pixels processed
+zjpgd_roi_1_4 2 (31,51,31,51) decode time: 141 us, 2106 pixels processed
+file samples/rgbw_63x102_420.jpg,100,233,261,342,143,119,141
 
-file samples/rgbw_63x102_420.jpg,100,222,326,
 Decoding samples/rgbw_63x102_422.jpg for 100 rounds
-tjpgd 63x102 decode time: 254 us, 6426 pixels processed
-zjpgd 63x102 decode time: 351 us, 6426 pixels processed
+tjpgd 63x102 decode time: 234 us, 6426 pixels processed
+zjpgd 63x102 decode time: 290 us, 6426 pixels processed
+zjpgd_roi 63x102 decode time: 370 us, 6426 pixels processed
+Snapshot 0 at (15,25) saved at mcu (0,24)
+Snapshot dimensions: (15,25) to (46,76)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (31,51)
+Snapshot 2 at (31,51) saved at mcu (16,48)
+Snapshot dimensions: (31,51) to (62,102)
+zjpgd_roi_1_4 0 (15,25,31,51) decode time: 149 us, 2240 pixels processed
+zjpgd_roi_1_4 1 (0,0,31,51) decode time: 123 us, 1792 pixels processed
+zjpgd_roi_1_4 2 (31,51,31,51) decode time: 144 us, 2106 pixels processed
+file samples/rgbw_63x102_422.jpg,100,234,290,370,149,123,144
 
-file samples/rgbw_63x102_422.jpg,100,254,351,
 Decoding samples/rgbw_63x102_444.jpg for 100 rounds
-tjpgd 63x102 decode time: 275 us, 6426 pixels processed
-zjpgd 63x102 decode time: 415 us, 6426 pixels processed
+tjpgd 63x102 decode time: 235 us, 6426 pixels processed
+zjpgd 63x102 decode time: 295 us, 6426 pixels processed
+zjpgd_roi 63x102 decode time: 431 us, 6426 pixels processed
+Snapshot 0 at (15,25) saved at mcu (8,24)
+Snapshot dimensions: (15,25) to (46,76)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (31,51)
+Snapshot 2 at (31,51) saved at mcu (24,48)
+Snapshot dimensions: (31,51) to (62,102)
+zjpgd_roi_1_4 0 (15,25,31,51) decode time: 178 us, 2240 pixels processed
+zjpgd_roi_1_4 1 (0,0,31,51) decode time: 144 us, 1792 pixels processed
+zjpgd_roi_1_4 2 (31,51,31,51) decode time: 179 us, 2106 pixels processed
+file samples/rgbw_63x102_444.jpg,100,235,295,431,178,144,179
 
-file samples/rgbw_63x102_444.jpg,100,275,415,
 Decoding samples/rgbw_64x29_400.jpg for 100 rounds
-tjpgd 64x29 decode time: 91 us, 1856 pixels processed
-zjpgd 64x29 decode time: 98 us, 1856 pixels processed
+tjpgd 64x29 decode time: 84 us, 1856 pixels processed
+zjpgd 64x29 decode time: 82 us, 1856 pixels processed
+zjpgd_roi 64x29 decode time: 98 us, 1856 pixels processed
+Snapshot 0 at (16,7) saved at mcu (16,0)
+Snapshot dimensions: (16,7) to (48,21)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (32,14)
+Snapshot 2 at (32,14) saved at mcu (32,8)
+Snapshot dimensions: (32,14) to (64,28)
+zjpgd_roi_1_4 0 (16,7,32,14) decode time: 60 us, 768 pixels processed
+zjpgd_roi_1_4 1 (0,0,32,14) decode time: 50 us, 512 pixels processed
+zjpgd_roi_1_4 2 (32,14,32,14) decode time: 57 us, 672 pixels processed
+file samples/rgbw_64x29_400.jpg,100,84,82,98,60,50,57
 
-file samples/rgbw_64x29_400.jpg,100,91,98,
 Decoding samples/rgbw_64x29_420.jpg for 100 rounds
-tjpgd 64x29 decode time: 88 us, 1856 pixels processed
-zjpgd 64x29 decode time: 119 us, 1856 pixels processed
+tjpgd 64x29 decode time: 82 us, 1856 pixels processed
+zjpgd 64x29 decode time: 93 us, 1856 pixels processed
+zjpgd_roi 64x29 decode time: 108 us, 1856 pixels processed
+Snapshot 0 at (16,7) saved at mcu (16,0)
+Snapshot dimensions: (16,7) to (48,21)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (32,14)
+Snapshot 2 at (32,14) saved at mcu (32,0)
+Snapshot dimensions: (32,14) to (64,28)
+zjpgd_roi_1_4 0 (16,7,32,14) decode time: 66 us, 768 pixels processed
+zjpgd_roi_1_4 1 (0,0,32,14) decode time: 51 us, 512 pixels processed
+zjpgd_roi_1_4 2 (32,14,32,14) decode time: 65 us, 672 pixels processed
+file samples/rgbw_64x29_420.jpg,100,82,93,108,66,51,65
 
-file samples/rgbw_64x29_420.jpg,100,88,119,
 Decoding samples/rgbw_64x29_422.jpg for 100 rounds
-tjpgd 64x29 decode time: 90 us, 1856 pixels processed
-zjpgd 64x29 decode time: 122 us, 1856 pixels processed
+tjpgd 64x29 decode time: 78 us, 1856 pixels processed
+zjpgd 64x29 decode time: 87 us, 1856 pixels processed
+zjpgd_roi 64x29 decode time: 114 us, 1856 pixels processed
+Snapshot 0 at (16,7) saved at mcu (16,0)
+Snapshot dimensions: (16,7) to (48,21)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (32,14)
+Snapshot 2 at (32,14) saved at mcu (32,8)
+Snapshot dimensions: (32,14) to (64,28)
+zjpgd_roi_1_4 0 (16,7,32,14) decode time: 67 us, 768 pixels processed
+zjpgd_roi_1_4 1 (0,0,32,14) decode time: 54 us, 512 pixels processed
+zjpgd_roi_1_4 2 (32,14,32,14) decode time: 58 us, 672 pixels processed
+file samples/rgbw_64x29_422.jpg,100,78,87,114,67,54,58
 
-file samples/rgbw_64x29_422.jpg,100,90,122,
 Decoding samples/rgbw_64x29_444.jpg for 100 rounds
-tjpgd 64x29 decode time: 92 us, 1856 pixels processed
-zjpgd 64x29 decode time: 137 us, 1856 pixels processed
+tjpgd 64x29 decode time: 83 us, 1856 pixels processed
+zjpgd 64x29 decode time: 101 us, 1856 pixels processed
+zjpgd_roi 64x29 decode time: 130 us, 1856 pixels processed
+Snapshot 0 at (16,7) saved at mcu (16,0)
+Snapshot dimensions: (16,7) to (48,21)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (32,14)
+Snapshot 2 at (32,14) saved at mcu (32,8)
+Snapshot dimensions: (32,14) to (64,28)
+zjpgd_roi_1_4 0 (16,7,32,14) decode time: 74 us, 768 pixels processed
+zjpgd_roi_1_4 1 (0,0,32,14) decode time: 59 us, 512 pixels processed
+zjpgd_roi_1_4 2 (32,14,32,14) decode time: 76 us, 672 pixels processed
+file samples/rgbw_64x29_444.jpg,100,83,101,130,74,59,76
 
-file samples/rgbw_64x29_444.jpg,100,92,137,
 Decoding samples/rgbw_64x30_400.jpg for 100 rounds
-tjpgd 64x30 decode time: 85 us, 1920 pixels processed
-zjpgd 64x30 decode time: 94 us, 1920 pixels processed
+tjpgd 64x30 decode time: 83 us, 1920 pixels processed
+zjpgd 64x30 decode time: 79 us, 1920 pixels processed
+zjpgd_roi 64x30 decode time: 89 us, 1920 pixels processed
+Snapshot 0 at (16,7) saved at mcu (16,0)
+Snapshot dimensions: (16,7) to (48,22)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (32,15)
+Snapshot 2 at (32,15) saved at mcu (32,8)
+Snapshot dimensions: (32,15) to (64,30)
+zjpgd_roi_1_4 0 (16,7,32,15) decode time: 48 us, 768 pixels processed
+zjpgd_roi_1_4 1 (0,0,32,15) decode time: 44 us, 512 pixels processed
+zjpgd_roi_1_4 2 (32,15,32,15) decode time: 52 us, 704 pixels processed
+file samples/rgbw_64x30_400.jpg,100,83,79,89,48,44,52
 
-file samples/rgbw_64x30_400.jpg,100,85,94,
 Decoding samples/rgbw_64x30_420.jpg for 100 rounds
-tjpgd 64x30 decode time: 91 us, 1920 pixels processed
-zjpgd 64x30 decode time: 118 us, 1920 pixels processed
+tjpgd 64x30 decode time: 76 us, 1920 pixels processed
+zjpgd 64x30 decode time: 90 us, 1920 pixels processed
+zjpgd_roi 64x30 decode time: 115 us, 1920 pixels processed
+Snapshot 0 at (16,7) saved at mcu (16,0)
+Snapshot dimensions: (16,7) to (48,22)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (32,15)
+Snapshot 2 at (32,15) saved at mcu (32,0)
+Snapshot dimensions: (32,15) to (64,30)
+zjpgd_roi_1_4 0 (16,7,32,15) decode time: 60 us, 768 pixels processed
+zjpgd_roi_1_4 1 (0,0,32,15) decode time: 46 us, 512 pixels processed
+zjpgd_roi_1_4 2 (32,15,32,15) decode time: 61 us, 704 pixels processed
+file samples/rgbw_64x30_420.jpg,100,76,90,115,60,46,61
 
-file samples/rgbw_64x30_420.jpg,100,91,118,
 Decoding samples/rgbw_64x30_422.jpg for 100 rounds
-tjpgd 64x30 decode time: 112 us, 1920 pixels processed
-zjpgd 64x30 decode time: 129 us, 1920 pixels processed
+tjpgd 64x30 decode time: 81 us, 1920 pixels processed
+zjpgd 64x30 decode time: 100 us, 1920 pixels processed
+zjpgd_roi 64x30 decode time: 117 us, 1920 pixels processed
+Snapshot 0 at (16,7) saved at mcu (16,0)
+Snapshot dimensions: (16,7) to (48,22)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (32,15)
+Snapshot 2 at (32,15) saved at mcu (32,8)
+Snapshot dimensions: (32,15) to (64,30)
+zjpgd_roi_1_4 0 (16,7,32,15) decode time: 79 us, 768 pixels processed
+zjpgd_roi_1_4 1 (0,0,32,15) decode time: 76 us, 512 pixels processed
+zjpgd_roi_1_4 2 (32,15,32,15) decode time: 88 us, 704 pixels processed
+file samples/rgbw_64x30_422.jpg,100,81,100,117,79,76,88
 
-file samples/rgbw_64x30_422.jpg,100,112,129,
 Decoding samples/rgbw_64x30_444.jpg for 100 rounds
-tjpgd 64x30 decode time: 106 us, 1920 pixels processed
-zjpgd 64x30 decode time: 142 us, 1920 pixels processed
+tjpgd 64x30 decode time: 98 us, 1920 pixels processed
+zjpgd 64x30 decode time: 111 us, 1920 pixels processed
+zjpgd_roi 64x30 decode time: 143 us, 1920 pixels processed
+Snapshot 0 at (16,7) saved at mcu (16,0)
+Snapshot dimensions: (16,7) to (48,22)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (32,15)
+Snapshot 2 at (32,15) saved at mcu (32,8)
+Snapshot dimensions: (32,15) to (64,30)
+zjpgd_roi_1_4 0 (16,7,32,15) decode time: 83 us, 768 pixels processed
+zjpgd_roi_1_4 1 (0,0,32,15) decode time: 61 us, 512 pixels processed
+zjpgd_roi_1_4 2 (32,15,32,15) decode time: 70 us, 704 pixels processed
+file samples/rgbw_64x30_444.jpg,100,98,111,143,83,61,70
 
-file samples/rgbw_64x30_444.jpg,100,106,142,
 Decoding samples/rgbw_72x34_400.jpg for 100 rounds
 tjpgd 72x34 decode time: 112 us, 2448 pixels processed
-zjpgd 72x34 decode time: 124 us, 2448 pixels processed
+zjpgd 72x34 decode time: 122 us, 2448 pixels processed
+zjpgd_roi 72x34 decode time: 130 us, 2448 pixels processed
+Snapshot 0 at (18,8) saved at mcu (16,8)
+Snapshot dimensions: (18,8) to (54,25)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (36,17)
+Snapshot 2 at (36,17) saved at mcu (32,16)
+Snapshot dimensions: (36,17) to (72,34)
+zjpgd_roi_1_4 0 (18,8,36,17) decode time: 71 us, 960 pixels processed
+zjpgd_roi_1_4 1 (0,0,36,17) decode time: 73 us, 960 pixels processed
+zjpgd_roi_1_4 2 (36,17,36,17) decode time: 78 us, 720 pixels processed
+file samples/rgbw_72x34_400.jpg,100,112,122,130,71,73,78
 
-file samples/rgbw_72x34_400.jpg,100,112,124,
 Decoding samples/rgbw_72x34_420.jpg for 100 rounds
-tjpgd 72x34 decode time: 140 us, 2448 pixels processed
-zjpgd 72x34 decode time: 207 us, 2448 pixels processed
-
-file samples/rgbw_72x34_420.jpg,100,140,207,
-Decoding samples/rgbw_72x34_422.jpg for 100 rounds
 tjpgd 72x34 decode time: 161 us, 2448 pixels processed
-zjpgd 72x34 decode time: 205 us, 2448 pixels processed
+zjpgd 72x34 decode time: 173 us, 2448 pixels processed
+zjpgd_roi 72x34 decode time: 198 us, 2448 pixels processed
+Snapshot 0 at (18,8) saved at mcu (16,0)
+Snapshot dimensions: (18,8) to (54,25)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (36,17)
+Snapshot 2 at (36,17) saved at mcu (32,16)
+Snapshot dimensions: (36,17) to (72,34)
+zjpgd_roi_1_4 0 (18,8,36,17) decode time: 92 us, 960 pixels processed
+zjpgd_roi_1_4 1 (0,0,36,17) decode time: 89 us, 960 pixels processed
+zjpgd_roi_1_4 2 (36,17,36,17) decode time: 85 us, 720 pixels processed
+file samples/rgbw_72x34_420.jpg,100,161,173,198,92,89,85
 
-file samples/rgbw_72x34_422.jpg,100,161,205,
+Decoding samples/rgbw_72x34_422.jpg for 100 rounds
+tjpgd 72x34 decode time: 143 us, 2448 pixels processed
+zjpgd 72x34 decode time: 154 us, 2448 pixels processed
+zjpgd_roi 72x34 decode time: 181 us, 2448 pixels processed
+Snapshot 0 at (18,8) saved at mcu (16,8)
+Snapshot dimensions: (18,8) to (54,25)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (36,17)
+Snapshot 2 at (36,17) saved at mcu (32,16)
+Snapshot dimensions: (36,17) to (72,34)
+zjpgd_roi_1_4 0 (18,8,36,17) decode time: 101 us, 960 pixels processed
+zjpgd_roi_1_4 1 (0,0,36,17) decode time: 101 us, 960 pixels processed
+zjpgd_roi_1_4 2 (36,17,36,17) decode time: 99 us, 720 pixels processed
+file samples/rgbw_72x34_422.jpg,100,143,154,181,101,101,99
+
 Decoding samples/rgbw_72x34_444.jpg for 100 rounds
-tjpgd 72x34 decode time: 130 us, 2448 pixels processed
-zjpgd 72x34 decode time: 199 us, 2448 pixels processed
+tjpgd 72x34 decode time: 131 us, 2448 pixels processed
+zjpgd 72x34 decode time: 146 us, 2448 pixels processed
+zjpgd_roi 72x34 decode time: 177 us, 2448 pixels processed
+Snapshot 0 at (18,8) saved at mcu (16,8)
+Snapshot dimensions: (18,8) to (54,25)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (36,17)
+Snapshot 2 at (36,17) saved at mcu (32,16)
+Snapshot dimensions: (36,17) to (72,34)
+zjpgd_roi_1_4 0 (18,8,36,17) decode time: 87 us, 960 pixels processed
+zjpgd_roi_1_4 1 (0,0,36,17) decode time: 85 us, 960 pixels processed
+zjpgd_roi_1_4 2 (36,17,36,17) decode time: 82 us, 720 pixels processed
+file samples/rgbw_72x34_444.jpg,100,131,146,177,87,85,82
 
-file samples/rgbw_72x34_444.jpg,100,130,199,
 Decoding samples/rgbw_89x164_400.jpg for 100 rounds
-tjpgd 89x164 decode time: 436 us, 14596 pixels processed
-zjpgd 89x164 decode time: 519 us, 14596 pixels processed
+tjpgd 89x164 decode time: 390 us, 14596 pixels processed
+zjpgd 89x164 decode time: 475 us, 14596 pixels processed
+zjpgd_roi 89x164 decode time: 582 us, 14596 pixels processed
+Snapshot 0 at (22,41) saved at mcu (16,40)
+Snapshot dimensions: (22,41) to (66,123)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (44,82)
+Snapshot 2 at (44,82) saved at mcu (40,80)
+Snapshot dimensions: (44,82) to (88,164)
+zjpgd_roi_1_4 0 (22,41,44,82) decode time: 200 us, 4928 pixels processed
+zjpgd_roi_1_4 1 (0,0,44,82) decode time: 152 us, 4224 pixels processed
+zjpgd_roi_1_4 2 (44,82,44,82) decode time: 162 us, 4032 pixels processed
+file samples/rgbw_89x164_400.jpg,100,390,475,582,200,152,162
 
-file samples/rgbw_89x164_400.jpg,100,436,519,
 Decoding samples/rgbw_89x164_420.jpg for 100 rounds
-tjpgd 89x164 decode time: 368 us, 14596 pixels processed
-zjpgd 89x164 decode time: 653 us, 14596 pixels processed
+tjpgd 89x164 decode time: 398 us, 14596 pixels processed
+zjpgd 89x164 decode time: 536 us, 14596 pixels processed
+zjpgd_roi 89x164 decode time: 679 us, 14596 pixels processed
+Snapshot 0 at (22,41) saved at mcu (16,32)
+Snapshot dimensions: (22,41) to (66,123)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (44,82)
+Snapshot 2 at (44,82) saved at mcu (32,80)
+Snapshot dimensions: (44,82) to (88,164)
+zjpgd_roi_1_4 0 (22,41,44,82) decode time: 253 us, 4928 pixels processed
+zjpgd_roi_1_4 1 (0,0,44,82) decode time: 211 us, 4224 pixels processed
+zjpgd_roi_1_4 2 (44,82,44,82) decode time: 221 us, 4032 pixels processed
+file samples/rgbw_89x164_420.jpg,100,398,536,679,253,211,221
 
-file samples/rgbw_89x164_420.jpg,100,368,653,
 Decoding samples/rgbw_89x164_422.jpg for 100 rounds
-tjpgd 89x164 decode time: 410 us, 14596 pixels processed
-zjpgd 89x164 decode time: 718 us, 14596 pixels processed
+tjpgd 89x164 decode time: 454 us, 14596 pixels processed
+zjpgd 89x164 decode time: 592 us, 14596 pixels processed
+zjpgd_roi 89x164 decode time: 772 us, 14596 pixels processed
+Snapshot 0 at (22,41) saved at mcu (16,40)
+Snapshot dimensions: (22,41) to (66,123)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (44,82)
+Snapshot 2 at (44,82) saved at mcu (32,80)
+Snapshot dimensions: (44,82) to (88,164)
+zjpgd_roi_1_4 0 (22,41,44,82) decode time: 339 us, 4928 pixels processed
+zjpgd_roi_1_4 1 (0,0,44,82) decode time: 261 us, 4224 pixels processed
+zjpgd_roi_1_4 2 (44,82,44,82) decode time: 263 us, 4032 pixels processed
+file samples/rgbw_89x164_422.jpg,100,454,592,772,339,261,263
 
-file samples/rgbw_89x164_422.jpg,100,410,718,
 Decoding samples/rgbw_89x164_444.jpg for 100 rounds
-tjpgd 89x164 decode time: 392 us, 14596 pixels processed
-zjpgd 89x164 decode time: 781 us, 14596 pixels processed
+tjpgd 89x164 decode time: 483 us, 14596 pixels processed
+zjpgd 89x164 decode time: 603 us, 14596 pixels processed
+zjpgd_roi 89x164 decode time: 852 us, 14596 pixels processed
+Snapshot 0 at (22,41) saved at mcu (16,40)
+Snapshot dimensions: (22,41) to (66,123)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (44,82)
+Snapshot 2 at (44,82) saved at mcu (40,80)
+Snapshot dimensions: (44,82) to (88,164)
+zjpgd_roi_1_4 0 (22,41,44,82) decode time: 309 us, 4928 pixels processed
+zjpgd_roi_1_4 1 (0,0,44,82) decode time: 264 us, 4224 pixels processed
+zjpgd_roi_1_4 2 (44,82,44,82) decode time: 273 us, 4032 pixels processed
+file samples/rgbw_89x164_444.jpg,100,483,603,852,309,264,273
 
-file samples/rgbw_89x164_444.jpg,100,392,781,
 Decoding samples/rgbw_98x48_400.jpg for 100 rounds
-tjpgd 98x48 decode time: 136 us, 4704 pixels processed
-zjpgd 98x48 decode time: 176 us, 4704 pixels processed
+tjpgd 98x48 decode time: 150 us, 4704 pixels processed
+zjpgd 98x48 decode time: 157 us, 4704 pixels processed
+zjpgd_roi 98x48 decode time: 185 us, 4704 pixels processed
+Snapshot 0 at (24,12) saved at mcu (24,8)
+Snapshot dimensions: (24,12) to (73,36)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (49,24)
+Snapshot 2 at (49,24) saved at mcu (48,24)
+Snapshot dimensions: (49,24) to (98,48)
+zjpgd_roi_1_4 0 (24,12,49,24) decode time: 87 us, 1792 pixels processed
+zjpgd_roi_1_4 1 (0,0,49,24) decode time: 72 us, 1344 pixels processed
+zjpgd_roi_1_4 2 (49,24,49,24) decode time: 65 us, 1200 pixels processed
+file samples/rgbw_98x48_400.jpg,100,150,157,185,87,72,65
 
-file samples/rgbw_98x48_400.jpg,100,136,176,
 Decoding samples/rgbw_98x48_420.jpg for 100 rounds
-tjpgd 98x48 decode time: 135 us, 4704 pixels processed
-zjpgd 98x48 decode time: 207 us, 4704 pixels processed
+tjpgd 98x48 decode time: 154 us, 4704 pixels processed
+zjpgd 98x48 decode time: 226 us, 4704 pixels processed
+zjpgd_roi 98x48 decode time: 234 us, 4704 pixels processed
+Snapshot 0 at (24,12) saved at mcu (16,0)
+Snapshot dimensions: (24,12) to (73,36)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (49,24)
+Snapshot 2 at (49,24) saved at mcu (48,16)
+Snapshot dimensions: (49,24) to (98,48)
+zjpgd_roi_1_4 0 (24,12,49,24) decode time: 120 us, 1792 pixels processed
+zjpgd_roi_1_4 1 (0,0,49,24) decode time: 96 us, 1344 pixels processed
+zjpgd_roi_1_4 2 (49,24,49,24) decode time: 86 us, 1200 pixels processed
+file samples/rgbw_98x48_420.jpg,100,154,226,234,120,96,86
 
-file samples/rgbw_98x48_420.jpg,100,135,207,
 Decoding samples/rgbw_98x48_422.jpg for 100 rounds
-tjpgd 98x48 decode time: 138 us, 4704 pixels processed
-zjpgd 98x48 decode time: 263 us, 4704 pixels processed
+tjpgd 98x48 decode time: 136 us, 4704 pixels processed
+zjpgd 98x48 decode time: 194 us, 4704 pixels processed
+zjpgd_roi 98x48 decode time: 301 us, 4704 pixels processed
+Snapshot 0 at (24,12) saved at mcu (16,8)
+Snapshot dimensions: (24,12) to (73,36)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (49,24)
+Snapshot 2 at (49,24) saved at mcu (48,24)
+Snapshot dimensions: (49,24) to (98,48)
+zjpgd_roi_1_4 0 (24,12,49,24) decode time: 142 us, 1792 pixels processed
+zjpgd_roi_1_4 1 (0,0,49,24) decode time: 120 us, 1344 pixels processed
+zjpgd_roi_1_4 2 (49,24,49,24) decode time: 99 us, 1200 pixels processed
+file samples/rgbw_98x48_422.jpg,100,136,194,301,142,120,99
 
-file samples/rgbw_98x48_422.jpg,100,138,263,
 Decoding samples/rgbw_98x48_444.jpg for 100 rounds
-tjpgd 98x48 decode time: 140 us, 4704 pixels processed
-zjpgd 98x48 decode time: 255 us, 4704 pixels processed
-
-file samples/rgbw_98x48_444.jpg,100,140,255,
+tjpgd 98x48 decode time: 174 us, 4704 pixels processed
+zjpgd 98x48 decode time: 211 us, 4704 pixels processed
+zjpgd_roi 98x48 decode time: 286 us, 4704 pixels processed
+Snapshot 0 at (24,12) saved at mcu (24,8)
+Snapshot dimensions: (24,12) to (73,36)
+Snapshot 1 at (0,0) saved at mcu (0,0)
+Snapshot dimensions: (0,0) to (49,24)
+Snapshot 2 at (49,24) saved at mcu (48,24)
+Snapshot dimensions: (49,24) to (98,48)
+zjpgd_roi_1_4 0 (24,12,49,24) decode time: 148 us, 1792 pixels processed
+zjpgd_roi_1_4 1 (0,0,49,24) decode time: 122 us, 1344 pixels processed
+zjpgd_roi_1_4 2 (49,24,49,24) decode time: 99 us, 1200 pixels processed
+file samples/rgbw_98x48_444.jpg,100,174,211,286,148,122,99
