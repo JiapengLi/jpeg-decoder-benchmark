@@ -228,13 +228,17 @@ int zjd_test(zjd_t *zjd, void *work, size_t worksize, image_t *img)
 {
     zjd_res_t res;
 
-    res = zjd_init(zjd, &(zjd_cfg_t){
-        .ifunc = zjd_ifunc,
-        .ofunc = zjd_ofunc,
-        .buf = work,
-        .buflen = worksize,
-        .arg = (void *)img
-    }, ZJD_RGB888);
+    res = zjd_init(
+        zjd,
+        &(zjd_cfg_t){
+            .outfmt = ZJD_RGB888,
+            .ifunc = zjd_ifunc,
+            .ofunc = zjd_ofunc,
+            .buf = work,
+            .buflen = worksize,
+            .arg = (void *)img
+        }
+    );
     if (res != ZJD_OK) {
         printf("Failed to initialize zjpgd %d\n", res);
         free(img->ifile.data);
