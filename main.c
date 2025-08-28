@@ -51,13 +51,16 @@ int load_jpeg(const char *filename, image_t *img) {
     img->ifile.offset = 0;
 
     img->ofile.pixels = 0;
-    img->ofile.size = 800 * 600 * 3;
+    img->ofile.size = 4096 * 4096 * 3;
     img->ofile.data = (uint8_t *)malloc(img->ofile.size);
     if (!img->ofile.data) {
         perror("Failed to allocate memory for output");
         free(img->ifile.data);
         return -1;
     }
+
+
+    memset(img->ofile.data, 0, img->ofile.size);
 
     return 0;
 }
@@ -213,21 +216,22 @@ int zjd_ofunc(zjd_t *zjd, zjd_rect_t *rect, void *pixels)
     uint8_t *pix = (uint8_t *)pixels;
     int x, y, index;
 
-    for (y = rect->y; y < rect->y + rect->h; y++) {
-        for (x = rect->x; x < rect->x + rect->w; x++) {
-            if (x >= zjd->width || y >= zjd->height) {
-                // Out of bounds, skip
-                pix += 3;
-                continue;
-            }
-            index = x + y * zjd->width;
-            img->ofile.data[index * 3 + 0] = *pix++;
-            img->ofile.data[index * 3 + 1] = *pix++;
-            img->ofile.data[index * 3 + 2] = *pix++;
+    printf("Decoded rect: (%d,%d)-(%d,%d)\n", rect->x, rect->y, rect->w, rect->h);
+    // for (y = rect->y; y < rect->y + rect->h; y++) {
+    //     for (x = rect->x; x < rect->x + rect->w; x++) {
+    //         if (x >= zjd->width || y >= zjd->height) {
+    //             // Out of bounds, skip
+    //             pix += 3;
+    //             continue;
+    //         }
+    //         index = x + y * zjd->width;
+    //         img->ofile.data[index * 3 + 0] = *pix++;
+    //         img->ofile.data[index * 3 + 1] = *pix++;
+    //         img->ofile.data[index * 3 + 2] = *pix++;
 
-            img->ofile.pixels++;
-        }
-    }
+    //         img->ofile.pixels++;
+    //     }
+    // }
 
     return 1;
 }
