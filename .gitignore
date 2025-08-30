@@ -1,3 +1,13 @@
 output_tjpgd.bmp
 output_zjpgd.bmp
 Arm-2D
+.DS_Store
+a.txt
+b.txt
+jpgdtest_debug
+zjdcli.txt
+jpgdtest
+output_zjpgd_roi.bmp
+output_zjpgd_roi_1_4_0.bmp
+output_zjpgd_roi_1_4_1.bmp
+output_zjpgd_roi_1_4_2.bmp
