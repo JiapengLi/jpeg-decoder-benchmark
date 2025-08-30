@@ -216,22 +216,21 @@ int zjd_ofunc(zjd_t *zjd, zjd_rect_t *rect, void *pixels)
     uint8_t *pix = (uint8_t *)pixels;
     int x, y, index;
 
-    printf("Decoded rect: (%d,%d)-(%d,%d)\n", rect->x, rect->y, rect->w, rect->h);
-    // for (y = rect->y; y < rect->y + rect->h; y++) {
-    //     for (x = rect->x; x < rect->x + rect->w; x++) {
-    //         if (x >= zjd->width || y >= zjd->height) {
-    //             // Out of bounds, skip
-    //             pix += 3;
-    //             continue;
-    //         }
-    //         index = x + y * zjd->width;
-    //         img->ofile.data[index * 3 + 0] = *pix++;
-    //         img->ofile.data[index * 3 + 1] = *pix++;
-    //         img->ofile.data[index * 3 + 2] = *pix++;
+    for (y = rect->y; y < rect->y + rect->h; y++) {
+        for (x = rect->x; x < rect->x + rect->w; x++) {
+            if (x >= zjd->width || y >= zjd->height) {
+                // Out of bounds, skip
+                pix += 3;
+                continue;
+            }
+            index = x + y * zjd->width;
+            img->ofile.data[index * 3 + 0] = *pix++;
+            img->ofile.data[index * 3 + 1] = *pix++;
+            img->ofile.data[index * 3 + 2] = *pix++;
 
-    //         img->ofile.pixels++;
-    //     }
-    // }
+            img->ofile.pixels++;
+        }
+    }
 
     return 1;
 }
@@ -472,7 +471,7 @@ int main(int argc, char **argv)
         rounds = atoi(argv[2]);
         if (rounds < 1) rounds = 1;
     } else {
-        rounds = 100;
+        rounds = 1;
     }
     printf("\nDecoding %s for %d rounds\n", argv[1], rounds);
 
