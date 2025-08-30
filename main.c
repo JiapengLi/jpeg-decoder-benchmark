@@ -443,7 +443,7 @@ int main(int argc, char **argv)
     int ret, i, j, rounds;
     uint32_t us;
 
-    uint8_t work[4096];
+    uint8_t work[1024*5];
 
     JDEC tjd;
     JRESULT tjd_res;
